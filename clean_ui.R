@@ -90,6 +90,46 @@ clean_industry_mi <- function() {
     mutate(endweek = str_sub(endweek, start = 5))
 }
 
+# New York
+clean_industry_ny <- function() {
+  read_sheet(basesheet, sheet = "ny_industry") %>% 
+    rename(industry = Industry) %>% 
+    mutate(
+      sector = case_when(
+        industry == "Agriculture, forestry, fishing, and hunting" ~ "11",
+        industry == "Mining" ~ "21",
+        industry == "Construction/utilities" ~ "22-23",
+        industry == "Manufacturing" ~ "31-33",
+        industry == "Wholesale trade" ~ "42",
+        industry == "Retail trade" ~ "44-45",
+        industry == "Transportation and warehousing" ~ "48-49",
+        industry == "Information" ~ "51",
+        industry == "Finance and insurance" ~ "52",
+        industry == "Real Estate and rental and leasing" ~ "53",
+        industry == "Professional, scientific, and technical Services" ~ "54",
+        industry == "Management of companies and enterprises" ~ "55",
+        industry == "Administrative and support services" ~ "56",
+        industry == "Educational services" ~ "61",
+        industry == "Health care and social assistance" ~ "62",
+        industry == "Arts, entertainment and recreation" ~ "71",
+        industry == "Accommodation and food Services" ~ "72",
+        industry == "Other services, except public administration" ~ "81",
+        industry == "Public administration (including government)" ~ "92",
+        industry == "Unclassified" ~ "99"
+      )
+    ) %>% 
+    filter(!is.na(sector)) %>% 
+    transmute(
+      stateabb = "NY",
+      sector = sector,
+      week0314 = `Week ending 3/14`,
+      week0321 = `Week ending 3/21`,
+      week0328 = `Week ending 3/28`
+    ) %>% 
+    pivot_longer(matches("week"), names_to = "endweek", values_to = "ic") %>% 
+    mutate(endweek = str_sub(endweek, start = 5))
+}
+
 # Washington
 clean_industry_wa <- function() {
   read_sheet(basesheet, sheet = "wa_industry", col_types = "ciiii") %>% 
@@ -155,7 +195,7 @@ clean_industry_wy <- function() {
 }
 
 # combine data from all states
-map_dfr(c("ma", "mi", "wa", "wy"), clean_industry_state)
+map_dfr(c("ma", "mi", "ny", "wa", "wy"), clean_industry_state)
 
 
   
