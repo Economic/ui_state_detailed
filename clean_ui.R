@@ -3,9 +3,9 @@ library(tidyverse)
 
 basesheet <- "https://docs.google.com/spreadsheets/d/1FAgigJSpBcmpV70rRJfzzj4EzhkvXExwVyTTiqZb2lE"
 
-# generalized cleaning code
+# call to cleaning function for given state
 clean_industry_state <- function(stateabb) {
-  # run the clean code for the state
+  # run the clean industry function for state
   eval(parse(text=paste0("clean_industry_", stateabb, "()")))
 }
 
@@ -47,6 +47,45 @@ clean_industry_ma <- function() {
     )
 }
 
+# Michigan
+clean_industry_mi <- function() {
+  read_sheet(basesheet, sheet = "mi_industry") %>% 
+    rename(industry = Industry) %>% 
+    mutate(
+      sector = case_when(
+        industry == "Agriculture, Forestry, Fishing, and Hunting" ~ "11",
+        industry == "Mining, Quarrying, and Oil and Gas Extraction" ~ "21",
+        industry == "Utilities" ~ "22",
+        industry == "Construction" ~ "23",
+        industry == "Manufacturing" ~ "31-33",
+        industry == "Wholesale Trade" ~ "42",
+        industry == "Retail Trade" ~ "44-45",
+        industry == "Transportation and Warehousing" ~ "48-49",
+        industry == "Information" ~ "51",
+        industry == "Finance and Insurance" ~ "52",
+        industry == "Real Estate and Rental and Leasing" ~ "53",
+        industry == "Professional, Scientific, and Technical Services" ~ "54",
+        industry == "Management of Companies and Enterprises" ~ "55",
+        industry == "Admin. and Support, Waste Mgmt. and Remediation Services" ~ "56",
+        industry == "Educational Services" ~ "61",
+        industry == "Health Care and Social Assistance" ~ "62",
+        industry == "Arts, Entertainment, and Recreation" ~ "71",
+        industry == "Accommodation and Food Services" ~ "72",
+        industry == "Other Services (except Public Administration)" ~ "81",
+        industry == "Public Administration" ~ "92",
+        industry == "Unclassified" ~ "99"
+      )
+    ) %>% 
+    filter(!is.na(sector)) %>% 
+    transmute(
+      stateabb = "MI",
+      sector = sector,
+      week0314 = `Week Ending March 14`,
+      week0321 = `Week Ending March 21`,
+      week0328 = `Week Ending March 28`
+    )
+}
+
 # Washington
 clean_industry_wa <- function() {
   read_sheet(basesheet, sheet = "wa_industry", col_types = "ciiii") %>% 
@@ -75,7 +114,8 @@ clean_industry_wa <- function() {
     )
 }
 
-map_dfr(c("ma", "wa"), clean_industry_state)
+# combine data from all states
+map_dfr(c("ma", "wa", "mi"), clean_industry_state)
 
 
   
