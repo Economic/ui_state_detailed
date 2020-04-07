@@ -44,7 +44,9 @@ clean_industry_ma <- function() {
       week0314 = `Week Ending 3/14`,
       week0321 = `Week Ending 3/21`,
       week0328 = `Week Ending 3/28`
-    )
+    ) %>% 
+    pivot_longer(matches("week"), names_to = "endweek", values_to = "ic") %>% 
+    mutate(endweek = str_sub(endweek, start = 5))
 }
 
 # Michigan
@@ -83,7 +85,9 @@ clean_industry_mi <- function() {
       week0314 = `Week Ending March 14`,
       week0321 = `Week Ending March 21`,
       week0328 = `Week Ending March 28`
-    )
+    ) %>% 
+    pivot_longer(matches("week"), names_to = "endweek", values_to = "ic") %>% 
+    mutate(endweek = str_sub(endweek, start = 5))
 }
 
 # Washington
@@ -111,11 +115,47 @@ clean_industry_wa <- function() {
       week0314 = `Week Ending 3/14`,
       week0321 = `Week Ending 3/21`,
       week0328 = `Week Ending 3/28`
+    ) %>% 
+    pivot_longer(matches("week"), names_to = "endweek", values_to = "ic") %>% 
+    mutate(endweek = str_sub(endweek, start = 5))
+}
+
+# Wyoming
+clean_industry_wy <- function() {
+  read_sheet(basesheet, sheet = "wy_industry") %>% 
+    rename(industry = Industry) %>% 
+    filter(industry != "Total") %>% 
+    mutate(
+      sector = case_when(
+        industry == "11-Agriculture, forestry, fishing and hunting (11)" ~ "11",
+        industry == "21-Mining, quarrying, and oil and gas extraction (21)" ~ "21",
+        industry == "22, 48, 49 - Transportation, Warehousing, and Utilities" ~ "1021",
+        industry == "23-Construction (23)" ~ "23",
+        industry == "31, 32, 33 - Manufacturing" ~ "31-33",
+        industry == "42-Wholesale trade (42)" ~ "42",
+        industry == "44, 45 - Retail Trade" ~ "44-45",
+        industry == "51-Information (51)" ~ "51",
+        industry == "52, 53 - Financial Activities" ~ "1023",
+        industry == "54, 55, 56 - Professional and Business Services" ~ "1024",
+        industry == "61-Educational services (61)" ~ "61",
+        industry == "62-Health care and social assistance (62)" ~ "62",
+        industry == "71, 72 - Leisure and Hospitality" ~ "1026",
+        industry == "81-Other services, except public administration (81)" ~ "81",
+        industry == "92-Public administration (92)" ~ "92",
+        industry == "99 - Unknown" ~ "99",
+        industry == "99-Unclassified (99)" ~ "99"
+      )
+    ) %>% 
+    transmute(
+      stateabb = "WY",
+      sector = sector,
+      ic = `Initial Claims`,
+      endweek = str_sub(`Week Ending`, start = 5)
     )
 }
 
 # combine data from all states
-map_dfr(c("ma", "wa", "mi"), clean_industry_state)
+map_dfr(c("ma", "mi", "wa", "wy"), clean_industry_state)
 
 
   
