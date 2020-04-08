@@ -149,6 +149,53 @@ clean_industry_ne <- function() {
     summarize(ic = sum(ic))
 }
 
+# Nevada
+clean_industry_nv <- function() {
+  read_sheet(basesheet, sheet = "nv_industry") %>% 
+    rename(industry = Industry) %>% 
+    mutate(
+      sector = case_when(
+        industry == "Agriculture Forestry Fishing and Hunting" ~ "11",
+        industry == "Mining" ~ "21",
+        industry == "Utilities" ~ "22",
+        industry == "Construction" ~ "23",
+        industry == "Manufacturing" ~ "31-33",
+        industry == "Wholesale Trade" ~ "42",
+        industry == "Retail Trade" ~ "44-45",
+        industry == "Transportation and Warehousing" ~ "48-49",
+        industry == "Information" ~ "51",
+        industry == "Finance and Insurance" ~ "52",
+        industry == "Real Estate and Rental and Leasing" ~ "53",
+        industry == "Professional Scientific and Technical Services" ~ "54",
+        industry == "Management of Companies and Enterprises" ~ "55",
+        industry == "Administrative and Support Waste Management" ~ "56",
+        industry == "Educational Services" ~ "61",
+        industry == "Health Care and Social Assistance" ~ "62",
+        industry == "Arts Entertainment and Recreation" ~ "71",
+        industry == "Accomodations and Food Services" ~ "72",
+        industry == "Other Services (except Public Administration)" ~ "81",
+        industry == "Public Administration" ~ "92",
+        # NV includes both "unknown" and "unclassified" industries
+        # classifying unkown + unclassified as same sector
+        industry == "Unknown Industry" ~ "99",
+        industry == "Unclassified Establishments" ~ "99"
+      )
+    ) %>% 
+    filter(!is.na(sector)) %>% 
+    transmute(
+      stateabb = "NV",
+      sector = sector,
+      week0321 = `Week ending March 21`,
+      week0328 = `Week ending March 28`
+    ) %>% 
+    pivot_longer(matches("week"), names_to = "endweek", values_to = "ic") %>% 
+    mutate(endweek = str_sub(endweek, start = 5)) %>% 
+    # NV includes both "unknown" and "unclassified" industries.
+    # going to sum them:
+    group_by(stateabb, sector, endweek) %>% 
+    summarize(ic = sum(ic))
+}
+
 # New York
 clean_industry_ny <- function() {
   read_sheet(basesheet, sheet = "ny_industry") %>% 
@@ -254,4 +301,4 @@ clean_industry_wy <- function() {
 }
 
 # example: combine data from several states
-map_dfr(c("al", "ma", "mi", "ne", "ny", "wa", "wy"), clean_industry_state)
+map_dfr(c("al", "ma", "mi", "ne", "nv", "ny", "wa", "wy"), clean_industry_state)
