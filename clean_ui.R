@@ -1,5 +1,8 @@
 library(googlesheets4)
 library(tidyverse)
+library(lubridate)
+
+sheets_deauth()
 
 basesheet <- "https://docs.google.com/spreadsheets/d/1FAgigJSpBcmpV70rRJfzzj4EzhkvXExwVyTTiqZb2lE"
 
@@ -7,6 +10,17 @@ basesheet <- "https://docs.google.com/spreadsheets/d/1FAgigJSpBcmpV70rRJfzzj4Ezh
 clean_industry_state <- function(stateabb) {
   # run the clean industry function for state
   eval(parse(text=paste0("clean_industry_", stateabb, "()")))
+}
+
+# Alabama
+clean_industry_al <- function() {
+  read_sheet(basesheet, sheet = "al_industry", col_types = "dccDi") %>% 
+    transmute(
+      stateabb = "AL",
+      sector = ifelse(Naics == "Null", 99, Naics),
+      endweek = paste0(sprintf("%02d", month(WED)), sprintf("%02d", day(WED))),
+      ic = `Initial Clms`
+    )
 }
 
 # Massachusetts
@@ -135,7 +149,6 @@ clean_industry_ne <- function() {
     summarize(ic = sum(ic))
 }
 
-
 # New York
 clean_industry_ny <- function() {
   read_sheet(basesheet, sheet = "ny_industry") %>% 
@@ -241,7 +254,4 @@ clean_industry_wy <- function() {
 }
 
 # example: combine data from several states
-map_dfr(c("ma", "mi", "ne", "ny", "wa", "wy"), clean_industry_state)
-
-
-  
+map_dfr(c("al", "ma", "mi", "ne", "ny", "wa", "wy"), clean_industry_state)
