@@ -63,6 +63,44 @@ clean_industry_ks <- function() {
     mutate(endweek = str_sub(endweek, start = 5))
 }
 
+# Maine
+clean_industry_me <- function() {
+  read_sheet(basesheet, sheet = "me_industry") %>% 
+    rename(industry = Industry) %>% 
+    mutate(
+      sector = case_when(
+        industry == "Agriculture, Forestry, Fishing & Hunting" ~ "11",
+        industry == "Construction" ~ "23",
+        industry == "Manufacturing" ~ "31-33",
+        industry == "Wholesale Trade" ~ "42",
+        industry == "Retail" ~ "44-45",
+        industry == "Transportation & Warehousing" ~ "48-49",
+        industry == "Information" ~ "51",
+        industry == "Finance & Insurance" ~ "52",
+        industry == "Real Estate & Rental & Leasing" ~ "53",
+        industry == "Professional, Scientific, & Technical Services" ~ "54",
+        industry == "Management of Companies and Enterprises; Finance and Insurance" ~ "55",
+        industry == "Administrative & Support & Waste Management & Remediation Services" ~ "56",
+        industry == "Educational Services" ~ "61",
+        industry == "Health Care & Social Assistance" ~ "62",
+        industry == "Entertainment & Recreation" ~ "71",
+        industry == "Food Services & Lodging" ~ "72",
+        industry == "Other Services (except Public Administration)" ~ "81",
+        industry == "Public Administration" ~ "92",
+        industry == "Industry Not Identified (<5 Claims)" ~ "99"
+      )
+    ) %>% 
+    filter(!is.na(sector)) %>% 
+    transmute(
+      stateabb = "ME",
+      sector = sector,
+      # Note that these values are a two-week sum
+      week0328 = `Two week period ending March 28`
+    ) %>% 
+    pivot_longer(matches("week"), names_to = "endweek", values_to = "ic") %>% 
+    mutate(endweek = str_sub(endweek, start = 5))
+}
+
 # Massachusetts
 clean_industry_ma <- function() {
   read_sheet(basesheet, sheet = "ma_industry", col_types = "ciii") %>% 
@@ -384,6 +422,7 @@ thestates <- c(
   "al",
   "ks",
   "ma",
+  "me",
   "mi",
   "ne",
   "nv",
