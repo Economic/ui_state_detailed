@@ -17,7 +17,7 @@ clean_industry_al <- function() {
   read_sheet(basesheet, sheet = "al_industry", col_types = "dccDi") %>% 
     transmute(
       stateabb = "AL",
-      sector = ifelse(Naics == "Null", 99, Naics),
+      sector = ifelse(`NAICS Title` == "INA", 99, Naics),
       endweek = paste0(sprintf("%02d", month(WED)), sprintf("%02d", day(WED))),
       ic = `Initial Clms`
     )
