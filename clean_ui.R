@@ -314,6 +314,46 @@ clean_industry_ny <- function() {
     mutate(endweek = str_sub(endweek, start = 5))
 }
 
+# North Dakota
+# used tableau to pull everything, then created sheet in basesheet with
+# filter(!is.na(Indname) & Periodtypename == "Weekly" & is.na(County) & is.na(Region) & is.na(Gender) & is.na(`Race Ethn`) & Claimtypename == "Initial Claims") %>% select(Indname, `End Date`, Claimants)
+clean_industry_nd <- function() {
+  read_sheet(basesheet, sheet = "nd_industry") %>% 
+    rename(industry = Indname) %>% 
+    mutate(
+      sector = case_when(
+        industry == "Agriculture, Forestry, Fishing and Hunting" ~ "11",
+        industry == "Mining, Quarrying, and Oil and Gas Extraction" ~ "21",
+        industry == "Utilities" ~ "22",
+        industry == "Construction" ~ "23",
+        industry == "Manufacturing" ~ "31-33",
+        industry == "Wholesale Trade" ~ "42",
+        industry == "Retail Trade" ~ "44-45",
+        industry == "Transportation and Warehousing" ~ "48-49",
+        industry == "Information" ~ "51",
+        industry == "Finance and Insurance" ~ "52",
+        industry == "Real Estate and Rental and Leasing" ~ "53",
+        industry == "Professional and Technical Services" ~ "54",
+        industry == "Management of Companies and Enterprises" ~ "55",
+        industry == "Administrative and Waste Services" ~ "56",
+        industry == "Educational Services" ~ "61",
+        industry == "Health Care and Social Assistance" ~ "62",
+        industry == "Arts, Entertainment and Recreation" ~ "71",
+        industry == "Accommodation and Food Services" ~ "72",
+        industry == "Other Services" ~ "81",
+        industry == "Public Administration" ~ "92",
+        industry == "Unclassified" ~ "99"
+      )
+    ) %>% 
+    transmute(
+      stateabb = "ND",
+      sector = sector,
+      endweek = paste0(sprintf("%02d", month(`End Date`)), sprintf("%02d", day(`End Date`))),
+      ic = Claimants
+    ) %>% 
+    filter(as.numeric(endweek) >= 307)
+}
+
 # Oregon
 clean_industry_or <- function() {
   read_sheet(basesheet, sheet = "or_industry") %>% 
@@ -424,6 +464,7 @@ thestates <- c(
   "ma",
   "me",
   "mi",
+  "nd",
   "ne",
   "nv",
   "ny",
