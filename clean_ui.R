@@ -13,6 +13,7 @@ clean_industry_state <- function(stateabb) {
 }
 
 # Alabama
+# seems to be missing some industries in 3/14, 3/28, but 3/21 has all of them
 clean_industry_al <- function() {
   read_sheet(basesheet, sheet = "al_industry", col_types = "dccDi") %>% 
     transmute(
@@ -24,6 +25,7 @@ clean_industry_al <- function() {
 }
 
 # Kansas
+# missing Utilities... not sure which industry they stick it in.
 clean_industry_ks <- function() {
   read_sheet(basesheet, sheet = "ks_industry") %>% 
     rename(industry = Industry) %>% 
@@ -64,6 +66,8 @@ clean_industry_ks <- function() {
 }
 
 # Maine
+# only 3/21 + 3/28 two-week sum
+# missing utilities & mining
 clean_industry_me <- function() {
   read_sheet(basesheet, sheet = "me_industry") %>% 
     rename(industry = Industry) %>% 
@@ -102,6 +106,7 @@ clean_industry_me <- function() {
 }
 
 # Massachusetts
+# complete
 clean_industry_ma <- function() {
   read_sheet(basesheet, sheet = "ma_industry", col_types = "ciii") %>% 
     rename(industry = Industry) %>% 
@@ -142,6 +147,7 @@ clean_industry_ma <- function() {
 }
 
 # Michigan
+# complete
 clean_industry_mi <- function() {
   read_sheet(basesheet, sheet = "mi_industry") %>% 
     rename(industry = Industry) %>% 
@@ -183,6 +189,7 @@ clean_industry_mi <- function() {
 }
 
 # Nebraska
+# only 3-21 and 3-28, but otherwise complete
 clean_industry_ne <- function() {
   read_sheet(basesheet, sheet = "ne_industry") %>% 
     rename(industry = Industry) %>% 
@@ -228,6 +235,7 @@ clean_industry_ne <- function() {
 }
 
 # Nevada
+# only 3-21 and 3-28, but otherwise complete
 clean_industry_nv <- function() {
   read_sheet(basesheet, sheet = "nv_industry") %>% 
     rename(industry = Industry) %>% 
@@ -275,6 +283,7 @@ clean_industry_nv <- function() {
 }
 
 # New York
+# lumps utilities + construction
 clean_industry_ny <- function() {
   read_sheet(basesheet, sheet = "ny_industry") %>% 
     rename(industry = Industry) %>% 
@@ -315,6 +324,7 @@ clean_industry_ny <- function() {
 }
 
 # North Dakota
+# complete
 # used tableau to pull everything, then created sheet in basesheet with
 # filter(!is.na(Indname) & Periodtypename == "Weekly" & is.na(County) & is.na(Region) & is.na(Gender) & is.na(`Race Ethn`) & Claimtypename == "Initial Claims") %>% select(Indname, `End Date`, Claimants)
 clean_industry_nd <- function() {
@@ -355,6 +365,7 @@ clean_industry_nd <- function() {
 }
 
 # Oregon
+# complete
 clean_industry_or <- function() {
   read_sheet(basesheet, sheet = "or_industry") %>% 
     rename(industry = Industry) %>% 
@@ -394,6 +405,7 @@ clean_industry_or <- function() {
 }
 
 # Washington
+# complete
 clean_industry_wa <- function() {
   read_sheet(basesheet, sheet = "wa_industry", col_types = "ciiii") %>% 
     # use combined manufacturing
@@ -424,6 +436,7 @@ clean_industry_wa <- function() {
 }
 
 # Wyoming
+# uses supersectors for trans/w/u , fin, pro/bus, lei/hosp, 
 clean_industry_wy <- function() {
   read_sheet(basesheet, sheet = "wy_industry") %>% 
     rename(industry = Industry) %>% 
