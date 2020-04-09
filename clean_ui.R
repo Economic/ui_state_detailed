@@ -23,6 +23,46 @@ clean_industry_al <- function() {
     )
 }
 
+# Kansas
+clean_industry_ks <- function() {
+  read_sheet(basesheet, sheet = "ks_industry") %>% 
+    rename(industry = Industry) %>% 
+    mutate(
+      sector = case_when(
+        industry == "Agriculture" ~ "11",
+        industry == "Mining" ~ "21",
+        industry == "Construction" ~ "23",
+        industry == "Manufacturing" ~ "31-33",
+        industry == "Wholesale trade" ~ "42",
+        industry == "Retail trade" ~ "44-45",
+        industry == "Transportation and warehousing" ~ "48-49",
+        industry == "Information" ~ "51",
+        industry == "Finance and insurance" ~ "52",
+        industry == "Real estate and rental and leasing" ~ "53",
+        industry == "Professional, scientific, and technical services" ~ "54",
+        industry == "Management of companies and enterprises" ~ "55",
+        industry == "Administrative and waste services" ~ "56",
+        industry == "Educational services" ~ "61",
+        industry == "Health care and social assistance" ~ "62",
+        industry == "Arts, entertainment, and recreation" ~ "71",
+        industry == "Accomodation and food services" ~ "72",
+        industry == "Other services (except public administration)" ~ "81",
+        industry == "Public administration" ~ "92",
+      )
+    ) %>% 
+    filter(!is.na(sector)) %>% 
+    transmute(
+      stateabb = "KS",
+      sector = sector,
+      week0314 = `Week ending March 14`,
+      week0321 = `Week ending March 21`,
+      week0328 = `Week ending March 28`,
+      week0404 = `Week ending April 4`
+    ) %>% 
+    pivot_longer(matches("week"), names_to = "endweek", values_to = "ic") %>% 
+    mutate(endweek = str_sub(endweek, start = 5))
+}
+
 # Massachusetts
 clean_industry_ma <- function() {
   read_sheet(basesheet, sheet = "ma_industry", col_types = "ciii") %>% 
@@ -236,6 +276,45 @@ clean_industry_ny <- function() {
     mutate(endweek = str_sub(endweek, start = 5))
 }
 
+# Oregon
+clean_industry_or <- function() {
+  read_sheet(basesheet, sheet = "or_industry") %>% 
+    rename(industry = Industry) %>% 
+    mutate(
+      sector = case_when(
+        industry == "Agriculture, forestry, fishing, and hunting" ~ "11",
+        industry == "Mining" ~ "21",
+        industry == "Utilities" ~ "22",
+        industry == "Construction" ~ "23",
+        industry == "Manufacturing" ~ "31-33",
+        industry == "Wholesale Trade" ~ "42",
+        industry == "Retail Trade" ~ "44-45",
+        industry == "Transportation and Warehousing" ~ "48-49",
+        industry == "Information" ~ "51",
+        industry == "Finance and Insurance" ~ "52",
+        industry == "Real Estate and Rental and Leasing" ~ "53",
+        industry == "Professional and Technical Services" ~ "54",
+        industry == "Management of Companies and Enterprises" ~ "55",
+        industry == "Administrative and Waste Services" ~ "56",
+        industry == "Educational Services" ~ "61",
+        industry == "Health Care and Social Assistance" ~ "62",
+        industry == "Arts, Entertainment, and Recreation" ~ "71",
+        industry == "Accommodation and Food Services" ~ "72",
+        industry == "Other Services" ~ "81",
+        industry == "Public Administration" ~ "92",
+      )
+    ) %>% 
+    filter(!is.na(sector)) %>% 
+    filter(year(Date) == 2020) %>% 
+    transmute(
+      stateabb = "OR",
+      sector = sector,
+      endweek = paste0(sprintf("%02d", month(Date)), sprintf("%02d", day(Date))),
+      ic = Claims
+    ) %>% 
+    filter(as.numeric(endweek) >= 307)
+}
+
 # Washington
 clean_industry_wa <- function() {
   read_sheet(basesheet, sheet = "wa_industry", col_types = "ciiii") %>% 
@@ -301,4 +380,16 @@ clean_industry_wy <- function() {
 }
 
 # example: combine data from several states
-map_dfr(c("al", "ma", "mi", "ne", "nv", "ny", "wa", "wy"), clean_industry_state)
+thestates <- c(
+  "al",
+  "ks",
+  "ma",
+  "mi",
+  "ne",
+  "nv",
+  "ny",
+  "or",
+  "wa",
+  "wy"
+)
+map_dfr(thestates, clean_industry_state)
