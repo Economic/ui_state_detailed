@@ -13,15 +13,21 @@ clean_industry_state <- function(stateabb) {
 }
 
 # Alabama
-# seems to be missing some industries in 3/14, 3/28, but 3/21 has all of them
+# seems to be missing some industries in 3/14, 3/28, 
+# but 3/21 and 4/4 has all of them
+# sheet assumes these are zeros.
 clean_industry_al <- function() {
-  read_sheet(basesheet, sheet = "al_industry", col_types = "dccDi") %>% 
+  read_sheet(basesheet, sheet = "al_industry", col_types = "cciiii") %>% 
     transmute(
       stateabb = "AL",
       sector = ifelse(`NAICS Title` == "INA", 99, Naics),
-      endweek = paste0(sprintf("%02d", month(WED)), sprintf("%02d", day(WED))),
-      ic = `Initial Clms`
-    )
+      week0314 = `Week ending 3/14`,
+      week0321 = `Week ending 3/21`,
+      week0328 = `Week ending 3/28`,
+      week0404 = `Week ending 4/4`
+    ) %>% 
+    pivot_longer(matches("week"), names_to = "endweek", values_to = "ic") %>% 
+    mutate(endweek = str_sub(endweek, start = 5))
 }
 
 # Kansas
@@ -66,7 +72,6 @@ clean_industry_ks <- function() {
 }
 
 # Maine
-# only 3/21 + 3/28 two-week sum
 # missing utilities & mining
 clean_industry_me <- function() {
   read_sheet(basesheet, sheet = "me_industry") %>% 
@@ -98,8 +103,9 @@ clean_industry_me <- function() {
     transmute(
       stateabb = "ME",
       sector = sector,
-      # Note that these values are a two-week sum
-      week0328 = `Two week period ending March 28`
+      week0321 = `Week ending March 21`,
+      week0328 = `Week ending March 28`,
+      week0404 = `Week ending April 4`
     ) %>% 
     pivot_longer(matches("week"), names_to = "endweek", values_to = "ic") %>% 
     mutate(endweek = str_sub(endweek, start = 5))
@@ -108,7 +114,7 @@ clean_industry_me <- function() {
 # Massachusetts
 # complete
 clean_industry_ma <- function() {
-  read_sheet(basesheet, sheet = "ma_industry", col_types = "ciii") %>% 
+  read_sheet(basesheet, sheet = "ma_industry") %>% 
     rename(industry = Industry) %>% 
     mutate(
       sector = case_when(
@@ -140,7 +146,8 @@ clean_industry_ma <- function() {
       sector = sector,
       week0314 = `Week Ending 3/14`,
       week0321 = `Week Ending 3/21`,
-      week0328 = `Week Ending 3/28`
+      week0328 = `Week Ending 3/28`,
+      week0328 = `Week Ending 4/4`
     ) %>% 
     pivot_longer(matches("week"), names_to = "endweek", values_to = "ic") %>% 
     mutate(endweek = str_sub(endweek, start = 5))
@@ -180,16 +187,13 @@ clean_industry_mi <- function() {
     transmute(
       stateabb = "MI",
       sector = sector,
-      week0314 = `Week Ending March 14`,
-      week0321 = `Week Ending March 21`,
-      week0328 = `Week Ending March 28`
-    ) %>% 
-    pivot_longer(matches("week"), names_to = "endweek", values_to = "ic") %>% 
-    mutate(endweek = str_sub(endweek, start = 5))
+      endweek = paste0(sprintf("%02d", month(endweek)), sprintf("%02d", day(endweek))),
+      ic = ic
+    )
 }
 
 # Nebraska
-# only 3-21 and 3-28, but otherwise complete
+# only 3-21+, but otherwise complete
 clean_industry_ne <- function() {
   read_sheet(basesheet, sheet = "ne_industry") %>% 
     rename(industry = Industry) %>% 
@@ -218,24 +222,19 @@ clean_industry_ne <- function() {
         industry == "Unknown" ~ "99"
       )
     ) %>% 
-    filter(!is.na(sector)) %>% 
     transmute(
       stateabb = "NE",
       sector = sector,
       week0321 = `Week ending March 21`,
-      week0328 = `Week ending March 28`
+      week0328 = `Week ending March 28`,
+      week0404 = `Week ending April 4`
     ) %>% 
     pivot_longer(matches("week"), names_to = "endweek", values_to = "ic") %>% 
-    mutate(endweek = str_sub(endweek, start = 5)) %>% 
-    # strangely NE includes two rows for retail... 
-    # very small number of claims in second row
-    # not sure if this is correct, but going to sum them
-    group_by(stateabb, sector, endweek) %>% 
-    summarize(ic = sum(ic))
+    mutate(endweek = str_sub(endweek, start = 5))
 }
 
 # Nevada
-# only 3-21 and 3-28, but otherwise complete
+# only 3-21+, but otherwise complete
 clean_industry_nv <- function() {
   read_sheet(basesheet, sheet = "nv_industry") %>% 
     rename(industry = Industry) %>% 
@@ -272,7 +271,8 @@ clean_industry_nv <- function() {
       stateabb = "NV",
       sector = sector,
       week0321 = `Week ending March 21`,
-      week0328 = `Week ending March 28`
+      week0328 = `Week ending March 28`,
+      week0404 = `Week ending April 4`
     ) %>% 
     pivot_longer(matches("week"), names_to = "endweek", values_to = "ic") %>% 
     mutate(endweek = str_sub(endweek, start = 5)) %>% 
@@ -317,7 +317,8 @@ clean_industry_ny <- function() {
       sector = sector,
       week0314 = `Week ending 3/14`,
       week0321 = `Week ending 3/21`,
-      week0328 = `Week ending 3/28`
+      week0328 = `Week ending 3/28`,
+      week0404 = `Week ending 4/4`
     ) %>% 
     pivot_longer(matches("week"), names_to = "endweek", values_to = "ic") %>% 
     mutate(endweek = str_sub(endweek, start = 5))
@@ -423,14 +424,8 @@ clean_industry_wa <- function() {
         TRUE ~ industry
       )
     ) %>% 
-    transmute(
-      stateabb = "WA",
-      sector = industry,
-      week0307 = `Week Ending 3/7`,
-      week0314 = `Week Ending 3/14`,
-      week0321 = `Week Ending 3/21`,
-      week0328 = `Week Ending 3/28`
-    ) %>% 
+    mutate(stateabb = "WA") %>% 
+    rename(sector = industry) %>%
     pivot_longer(matches("week"), names_to = "endweek", values_to = "ic") %>% 
     mutate(endweek = str_sub(endweek, start = 5))
 }
