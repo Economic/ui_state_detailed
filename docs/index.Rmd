@@ -1,0 +1,59 @@
+---
+title: "UI Claims by Industry: latest weekly"
+date: "April 13, 2020"
+output:
+  html_document:
+    theme: flatly
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+library(DT)
+library(tidyverse)
+library(lubridate)
+library(scales)
+opts_chunk$set(echo = FALSE)
+```
+
+```{r include=FALSE}
+state_ui_industry <- read_csv("../output/state_ui_industry.csv") %>% 
+  transmute(
+    State = stateabb,
+    `Week ending` = paste(month(endweek), day(endweek), sep = "-"),
+    `Sector name` = sectorname,
+    NAICS = sector,
+    `Initial claims (IC)` = ic,
+    `Employment (2019q3)` =  number(emp, accuracy = 1.0, big.mark = ","),
+    `IC share of emp` = percent(ic_share_emp, accuracy = 0.1),
+    `IC share of state IC` = percent(ic_share_sumic, accuracy = 0.1),
+    `Headline state IC` = number(ic_headline, accuracy = 1.0, big.mark = ",")
+  ) %>% 
+  arrange(State, `Week ending`, NAICS)
+```
+
+## What's available
+
+## The data
+```{r}
+datatable(
+  state_ui_industry,
+  rownames = FALSE,
+  extensions = 'Buttons',
+  options = list(
+    dom = 'Brt',
+    buttons = list(list(extend = 'csv', filename= 'state_ui_industry')),
+    columnDefs = list(
+      list(className = 'dt-right', targets = 0:8)
+    ),
+    scrollY = "750px",
+    scrollCollapse = TRUE,
+    paging = FALSE
+  )
+)
+```
+
+## Sources
+See the Github [repo](https://github.com/Economic/ui_state_detailed) for the code.
+
+## Contributors
+

@@ -1,10 +1,5 @@
-library(googlesheets4)
-library(tidyverse)
-library(lubridate)
-
-sheets_deauth()
-
 basesheet <- "https://docs.google.com/spreadsheets/d/1FAgigJSpBcmpV70rRJfzzj4EzhkvXExwVyTTiqZb2lE"
+sheets_deauth()
 
 # call to cleaning function for given state
 clean_industry_state <- function(stateabb) {
@@ -453,6 +448,8 @@ clean_industry_wy <- function() {
         industry == "71, 72 - Leisure and Hospitality" ~ "1026",
         industry == "81-Other services, except public administration (81)" ~ "81",
         industry == "92-Public administration (92)" ~ "92",
+        # WY includes both "unknown" and "unclassified" industries
+        # classifying unkown + unclassified as same sector
         industry == "99 - Unknown" ~ "99",
         industry == "99-Unclassified (99)" ~ "99"
       )
@@ -462,22 +459,9 @@ clean_industry_wy <- function() {
       sector = sector,
       ic = `Initial Claims`,
       endweek = str_sub(`Week Ending`, start = 5)
-    )
+    ) %>% 
+    # WY includes both "unknown" and "unclassified" industries.
+    # going to sum them:
+    group_by(stateabb, sector, endweek) %>% 
+    summarize(ic = sum(ic))
 }
-
-# example: combine data from several states
-thestates <- c(
-  "al",
-  "ks",
-  "ma",
-  "me",
-  "mi",
-  "nd",
-  "ne",
-  "nv",
-  "ny",
-  "or",
-  "wa",
-  "wy"
-)
-map_dfr(thestates, clean_industry_state)
