@@ -56,4 +56,4 @@ datatable(
 See the Github [repo](https://github.com/Economic/ui_state_detailed) for the code.
 
 ## Contributors
-
+Jori Kandra, Andrew Van Dam, Ben Zipperer

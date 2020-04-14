@@ -16,11 +16,17 @@ state_total_ic <- read_csv("https://oui.doleta.gov/unemploy/csv/ar539.csv") %>%
   filter(endweek >= mdy("03-14-20"))
 
 # prepare QCEW data
+qcew_total_emp <- read_csv("output/qcew_naics_2digit.csv") %>% 
+  mutate(statefips = as.numeric(str_sub(area_fips, end = 2))) %>% 
+  group_by(statefips) %>% 
+  summarize(emp_state_total = sum(emp))
+
 qcew_all <- read_csv("output/qcew_naics_2digit.csv") %>% 
   # first prepare construction/utilities aggregation
   filter(industry_code %in% c("22", "23")) %>%
   group_by(area_fips) %>% 
   summarize(emp = sum(emp)) %>% 
+  ungroup() %>% 
   mutate(industry_code = "22-23") %>% 
   # bind remaining QCEW data
   rbind(.,
@@ -31,7 +37,8 @@ qcew_all <- read_csv("output/qcew_naics_2digit.csv") %>%
     statefips = as.numeric(str_sub(area_fips, end = 2)),
     sector = industry_code,
     emp = emp
-  )
+  ) %>% 
+  inner_join(qcew_total_emp, by = "statefips")
 
 # combine UI industry data from several states
 thestates <- c(
@@ -77,11 +84,23 @@ ui_data <- map_dfr(thestates, clean_industry_state) %>%
     sector == "22-23" ~ "**Construction & utilities"
   )) %>% 
   inner_join(state_names, by = c("stateabb")) %>% 
-  inner_join(qcew_all, by = c("statefips", "sector")) %>% 
-  inner_join(state_total_ic, by = c("stateabb", "endweek")) %>% 
-  mutate(ic_share_emp = ic / emp) %>% 
+  select(stateabb, statefips, statename, endweek, sector, sectorname, ic)
+
+write_csv(ui_data, "output/state_ui_industry_original.csv")
+
+# recode the data by removing unclassified scaling it to match reported state ic totals
+ui_data_recoded <- ui_data %>% 
+  # filter out unclassified and calculate ic share of total state ic
+  filter(!sector == "99") %>% 
   group_by(stateabb, endweek) %>% 
   mutate(ic_share_sumic = ic / sum(ic)) %>% 
-  select(stateabb, statename, statefips, sector, sectorname, endweek, ic, emp, ic_share_emp, ic_share_sumic, ic_headline)
+  ungroup() %>% 
+  # replace ic value with ic share * headline state claims
+  inner_join(state_total_ic, by = c("stateabb", "endweek")) %>% 
+  mutate(ic = ic_share_sumic * ic_headline) %>% 
+  # calculate ic share of employment
+  inner_join(qcew_all, by = c("statefips", "sector")) %>% 
+  mutate(ic_share_emp = ic / emp) %>% 
+  select(stateabb, statename, statefips, sector, sectorname, endweek, ic, ic_share_sumic, ic_headline, emp, ic_share_emp, emp_state_total)
 
-write_csv(ui_data, "output/state_ui_industry.csv")
+write_csv(ui_data_recoded, "output/state_ui_industry_recoded.csv")

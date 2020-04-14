@@ -142,7 +142,7 @@ clean_industry_ma <- function() {
       week0314 = `Week Ending 3/14`,
       week0321 = `Week Ending 3/21`,
       week0328 = `Week Ending 3/28`,
-      week0328 = `Week Ending 4/4`
+      week0404 = `Week Ending 4/4`
     ) %>% 
     pivot_longer(matches("week"), names_to = "endweek", values_to = "ic") %>% 
     mutate(endweek = str_sub(endweek, start = 5))
