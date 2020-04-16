@@ -1,6 +1,6 @@
 ---
-title: "UI Claims by Industry: latest weekly"
-date: "April 15, 2020"
+title: "Weekly UI initial claims by industry"
+date: "Data updated April 15, 2020"
 output:
   html_document:
     theme: flatly
@@ -19,35 +19,53 @@ opts_chunk$set(echo = FALSE)
 state_ui_industry_recoded <- read_csv("../output/state_ui_industry_recoded.csv") %>% 
   transmute(
     State = stateabb,
-    `Week ending` = paste(month(endweek), day(endweek), sep = "-"),
+    `Week ending` = paste(sprintf("%02d", month(endweek)), sprintf("%02d", day(endweek)), sep = "-"),
     `Sector name` = sectorname,
     NAICS = sector,
     `Initial claims (IC)` = number(ic, accuracy = 1.0, big.mark = ","),
-    `Employment (2019q3)` =  number(emp, accuracy = 1.0, big.mark = ","),
-    `IC share of emp` = percent(ic_share_emp, accuracy = 0.1),
-    `IC share of state IC` = percent(ic_share_sumic, accuracy = 0.1),
-    `Headline state IC` = number(ic_headline, accuracy = 1.0, big.mark = ",")
+    `Total state IC` = number(ic_headline, accuracy = 1.0, big.mark = ","),
+    `IC share of state IC` = percent(ic_share_sumic, accuracy = 0.1)
   ) %>% 
   arrange(State, `Week ending`, NAICS)
 
 state_ui_industry_original <- read_csv("../output/state_ui_industry_original.csv") %>% 
   transmute(
     State = stateabb,
-    `Week ending` = paste(month(endweek), day(endweek), sep = "-"),
+    `Week ending` = paste(sprintf("%02d", month(endweek)), sprintf("%02d", day(endweek)), sep = "-"),
     `Sector name` = sectorname,
     NAICS = sector,
     `Initial claims (IC)` = number(ic, accuracy = 1.0, big.mark = ",")
   ) %>% 
   arrange(State, `Week ending`, NAICS)
+
+ui_data_summary <- read_csv("../output/ui_data_summary.csv") %>% 
+  transmute(
+    State = stateabb,
+    `First week ending` = minweek,
+    `Last week ending` = maxweek,
+    `Industries available` = desc
+  )
 ```
 
-## What's available
-
-Industry-specific initial UI claims at, mostly, the 2-digit NAICS level.
-
-These are from state employment offices for most states and for Michigan, the Upjohn Institute, which collected data from that state's employment office.
+## Available data
+```{r}
+datatable(
+  ui_data_summary,
+  rownames = FALSE,
+  options = list(
+    dom = 'rt',
+    columnDefs = list(
+      list(className = 'dt-right', targets = 0:3)
+    ),
+    scrollY = "800px",
+    scrollCollapse = TRUE,
+    paging = FALSE
+  )
+)
+```
 
 ## Original data
+This is data as reported from the sources below, with minimal re-coding.
 ```{r}
 datatable(
   state_ui_industry_original,
@@ -59,6 +77,8 @@ datatable(
     columnDefs = list(
       list(className = 'dt-right', targets = 0:4)
     ),
+    scroller = TRUE,
+    scrollX = TRUE,
     scrollY = "400px",
     scrollCollapse = TRUE,
     paging = FALSE
@@ -66,7 +86,8 @@ datatable(
 )
 ```
 
-## Adjusted data, removing unclassified sectors, scaling IC totals to match state-reported totals
+## Adjusted data
+This data takes the above and removes unclassified sectors and then scales IC totals to match the totals that states report weekly to the US DOL.
 ```{r}
 datatable(
   state_ui_industry_recoded,
@@ -76,8 +97,13 @@ datatable(
     dom = 'Brt',
     buttons = list(list(extend = 'csv', filename= 'state_ui_industry_recoded')),
     columnDefs = list(
-      list(className = 'dt-right', targets = 0:8)
+      list(className = 'dt-right', targets = 0:5),
+      list(width = "10%", targets = 0),
+      list(width = "15%", targets = 1),
+      list(width = "40%", targets = 2)
     ),
+    scroller = TRUE,
+    scrollX = TRUE,
     scrollY = "400px",
     scrollCollapse = TRUE,
     paging = FALSE
@@ -86,8 +112,9 @@ datatable(
 ```
 
 ## Sources
+The data are from state employment offices for most states; Michigan's data is from the [W.E. Upjohn Institute](https://www.upjohn.org/research-highlights), which collected data from that state's employment office.
 
-TK: links to each state's data sources.
+To do: list of state data sources.
 
 See the Github [repo](https://github.com/Economic/ui_state_detailed) for the code.
 

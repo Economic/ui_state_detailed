@@ -104,3 +104,27 @@ ui_data_recoded <- ui_data %>%
   select(stateabb, statename, statefips, sector, sectorname, endweek, ic, ic_share_sumic, ic_headline, emp, ic_share_emp, emp_state_total)
 
 write_csv(ui_data_recoded, "output/state_ui_industry_recoded.csv")
+
+ui_data_summary <- ui_data %>% 
+  group_by(stateabb) %>% 
+  summarize(minweek = min(endweek), maxweek = max(endweek)) %>% 
+  mutate(
+    minweek = paste(sprintf("%02d", month(minweek)), sprintf("%02d", day(minweek)), sep = "-"),
+    maxweek = paste(sprintf("%02d", month(maxweek)), sprintf("%02d", day(maxweek)), sep = "-"),
+    desc = case_when(
+      stateabb == "AL" ~ "2-digit NAICS",
+      stateabb == "KS" ~ "2-digit NAICS; no utilities",
+      stateabb == "MA" ~ "2-digit NAICS",
+      stateabb == "ME" ~ "2-digit NAICS; no mining or utilities",
+      stateabb == "MI" ~ "2-digit NAICS",
+      stateabb == "ND" ~ "2-digit NAICS",
+      stateabb == "NE" ~ "2-digit NAICS",
+      stateabb == "NV" ~ "2-digit NAICS",
+      stateabb == "NY" ~ "2-digit NAICS; combined constructions & utilities",
+      stateabb == "OR" ~ "2-digit NAICS",
+      stateabb == "WA" ~ "2-digit NAICS",
+      stateabb == "WY" ~ "mixture of high-level and 2-digit NAICS"
+    )
+  ) 
+
+write_csv(ui_data_summary, "output/ui_data_summary.csv")
