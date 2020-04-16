@@ -112,9 +112,14 @@ datatable(
 ```
 
 ## Sources
-The data are from state employment offices for most states; Michigan's data is from the [W.E. Upjohn Institute](https://www.upjohn.org/research-highlights), which collected data from that state's employment office.
 
-To do: list of state data sources.
+You can cite this data like
+
+> Economic Policy Institute. 2020. "Weekly UI initial claims by state and industry." Data collected from various sources. https://economic.github.io/ui_state_detailed/
+
+The data are actually from state employment offices for most states; Michigan's data is from the [W.E. Upjohn Institute](https://www.upjohn.org/research-highlights), which collected data from that state's employment office.
+
+To do: provide detailed list of state data sources.
 
 See the Github [repo](https://github.com/Economic/ui_state_detailed) for the code.
 
