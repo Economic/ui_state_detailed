@@ -4,6 +4,8 @@ date: "Data updated April 15, 2020"
 output:
   html_document:
     theme: flatly
+    includes:
+      in_header: index_twitter_card.html
 ---
 
 ```{r setup, include=FALSE}
