@@ -51,6 +51,7 @@ ui_data_summary <- read_csv("../output/ui_data_summary.csv") %>%
 ```{r}
 datatable(
   ui_data_summary,
+  elementId = "table-available",
   rownames = FALSE,
   options = list(
     dom = 'rt',
@@ -69,6 +70,7 @@ This is data as reported from the sources below, with minimal re-coding.
 ```{r}
 datatable(
   state_ui_industry_original,
+  elementId = "table-original",
   rownames = FALSE,
   extensions = 'Buttons',
   options = list(
@@ -91,6 +93,7 @@ This data takes the above and removes unclassified sectors and then scales IC to
 ```{r}
 datatable(
   state_ui_industry_recoded,
+  elementId = "table-adjusted",
   rownames = FALSE,
   extensions = 'Buttons',
   options = list(
