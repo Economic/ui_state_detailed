@@ -3,303 +3,589 @@ AL,1,Alabama,2020-03-14,11,"Agriculture, Forestry, Fishing, and Hunting",14
 AL,1,Alabama,2020-03-21,11,"Agriculture, Forestry, Fishing, and Hunting",11
 AL,1,Alabama,2020-03-28,11,"Agriculture, Forestry, Fishing, and Hunting",33
 AL,1,Alabama,2020-04-04,11,"Agriculture, Forestry, Fishing, and Hunting",92
+AL,1,Alabama,2020-04-11,11,"Agriculture, Forestry, Fishing, and Hunting",120
+AL,1,Alabama,2020-04-18,11,"Agriculture, Forestry, Fishing, and Hunting",79
 AL,1,Alabama,2020-03-14,21,"Mining, Quarrying, and Oil and Gas Extraction",6
 AL,1,Alabama,2020-03-21,21,"Mining, Quarrying, and Oil and Gas Extraction",20
 AL,1,Alabama,2020-03-28,21,"Mining, Quarrying, and Oil and Gas Extraction",69
 AL,1,Alabama,2020-04-04,21,"Mining, Quarrying, and Oil and Gas Extraction",93
+AL,1,Alabama,2020-04-11,21,"Mining, Quarrying, and Oil and Gas Extraction",77
+AL,1,Alabama,2020-04-18,21,"Mining, Quarrying, and Oil and Gas Extraction",78
 AL,1,Alabama,2020-03-14,22,Utilities,2
 AL,1,Alabama,2020-03-21,22,Utilities,4
 AL,1,Alabama,2020-03-28,22,Utilities,14
 AL,1,Alabama,2020-04-04,22,Utilities,26
+AL,1,Alabama,2020-04-11,22,Utilities,33
+AL,1,Alabama,2020-04-18,22,Utilities,38
 AL,1,Alabama,2020-03-14,23,Construction,203
 AL,1,Alabama,2020-03-21,23,Construction,390
 AL,1,Alabama,2020-03-28,23,Construction,1454
 AL,1,Alabama,2020-04-04,23,Construction,1952
+AL,1,Alabama,2020-04-11,23,Construction,1721
+AL,1,Alabama,2020-04-18,23,Construction,1449
 AL,1,Alabama,2020-03-14,31-33,Manufacturing,261
 AL,1,Alabama,2020-03-21,31-33,Manufacturing,513
 AL,1,Alabama,2020-03-28,31-33,Manufacturing,11486
 AL,1,Alabama,2020-04-04,31-33,Manufacturing,13962
+AL,1,Alabama,2020-04-11,31-33,Manufacturing,11608
+AL,1,Alabama,2020-04-18,31-33,Manufacturing,9770
 AL,1,Alabama,2020-03-14,42,Wholesale Trade,59
 AL,1,Alabama,2020-03-21,42,Wholesale Trade,122
 AL,1,Alabama,2020-03-28,42,Wholesale Trade,894
 AL,1,Alabama,2020-04-04,42,Wholesale Trade,1420
+AL,1,Alabama,2020-04-11,42,Wholesale Trade,1388
+AL,1,Alabama,2020-04-18,42,Wholesale Trade,1274
 AL,1,Alabama,2020-03-14,44-45,Retail Trade,186
 AL,1,Alabama,2020-03-21,44-45,Retail Trade,591
 AL,1,Alabama,2020-03-28,44-45,Retail Trade,5561
 AL,1,Alabama,2020-04-04,44-45,Retail Trade,10148
+AL,1,Alabama,2020-04-11,44-45,Retail Trade,7149
+AL,1,Alabama,2020-04-18,44-45,Retail Trade,5540
 AL,1,Alabama,2020-03-14,48-49,Transportation and Warehousing,47
 AL,1,Alabama,2020-03-21,48-49,Transportation and Warehousing,418
 AL,1,Alabama,2020-03-28,48-49,Transportation and Warehousing,1230
 AL,1,Alabama,2020-04-04,48-49,Transportation and Warehousing,1984
+AL,1,Alabama,2020-04-11,48-49,Transportation and Warehousing,1657
+AL,1,Alabama,2020-04-18,48-49,Transportation and Warehousing,1168
 AL,1,Alabama,2020-03-14,51,Information,12
 AL,1,Alabama,2020-03-21,51,Information,93
 AL,1,Alabama,2020-03-28,51,Information,0
 AL,1,Alabama,2020-04-04,51,Information,367
+AL,1,Alabama,2020-04-11,51,Information,270
+AL,1,Alabama,2020-04-18,51,Information,270
 AL,1,Alabama,2020-03-14,52,Finance and Insurance,51
 AL,1,Alabama,2020-03-21,52,Finance and Insurance,84
 AL,1,Alabama,2020-03-28,52,Finance and Insurance,247
 AL,1,Alabama,2020-04-04,52,Finance and Insurance,420
+AL,1,Alabama,2020-04-11,52,Finance and Insurance,365
+AL,1,Alabama,2020-04-18,52,Finance and Insurance,409
 AL,1,Alabama,2020-03-14,53,Real Estate and Rental and Leasing,26
 AL,1,Alabama,2020-03-21,53,Real Estate and Rental and Leasing,69
 AL,1,Alabama,2020-03-28,53,Real Estate and Rental and Leasing,653
 AL,1,Alabama,2020-04-04,53,Real Estate and Rental and Leasing,659
+AL,1,Alabama,2020-04-11,53,Real Estate and Rental and Leasing,490
+AL,1,Alabama,2020-04-18,53,Real Estate and Rental and Leasing,399
 AL,1,Alabama,2020-03-14,54,"Professional, Scientific, and Technical Services",83
 AL,1,Alabama,2020-03-21,54,"Professional, Scientific, and Technical Services",205
 AL,1,Alabama,2020-03-28,54,"Professional, Scientific, and Technical Services",1570
 AL,1,Alabama,2020-04-04,54,"Professional, Scientific, and Technical Services",1761
+AL,1,Alabama,2020-04-11,54,"Professional, Scientific, and Technical Services",1212
+AL,1,Alabama,2020-04-18,54,"Professional, Scientific, and Technical Services",963
 AL,1,Alabama,2020-03-14,55,Management of Companies and Enterprises,3
 AL,1,Alabama,2020-03-21,55,Management of Companies and Enterprises,111
 AL,1,Alabama,2020-03-28,55,Management of Companies and Enterprises,391
 AL,1,Alabama,2020-04-04,55,Management of Companies and Enterprises,295
+AL,1,Alabama,2020-04-11,55,Management of Companies and Enterprises,226
+AL,1,Alabama,2020-04-18,55,Management of Companies and Enterprises,190
 AL,1,Alabama,2020-03-14,56,"Admin. and Support, Waste Mgmt. and Remediation Services",0
 AL,1,Alabama,2020-03-21,56,"Admin. and Support, Waste Mgmt. and Remediation Services",1238
 AL,1,Alabama,2020-03-28,56,"Admin. and Support, Waste Mgmt. and Remediation Services",6506
 AL,1,Alabama,2020-04-04,56,"Admin. and Support, Waste Mgmt. and Remediation Services",7672
+AL,1,Alabama,2020-04-11,56,"Admin. and Support, Waste Mgmt. and Remediation Services",6003
+AL,1,Alabama,2020-04-18,56,"Admin. and Support, Waste Mgmt. and Remediation Services",5346
 AL,1,Alabama,2020-03-14,61,Educational Services,21
 AL,1,Alabama,2020-03-21,61,Educational Services,309
 AL,1,Alabama,2020-03-28,61,Educational Services,0
 AL,1,Alabama,2020-04-04,61,Educational Services,1653
+AL,1,Alabama,2020-04-11,61,Educational Services,984
+AL,1,Alabama,2020-04-18,61,Educational Services,1006
 AL,1,Alabama,2020-03-14,62,Health Care and Social Assistance,182
 AL,1,Alabama,2020-03-21,62,Health Care and Social Assistance,1123
 AL,1,Alabama,2020-03-28,62,Health Care and Social Assistance,7324
 AL,1,Alabama,2020-04-04,62,Health Care and Social Assistance,10483
+AL,1,Alabama,2020-04-11,62,Health Care and Social Assistance,6840
+AL,1,Alabama,2020-04-18,62,Health Care and Social Assistance,5367
 AL,1,Alabama,2020-03-14,71,"Arts, Entertainment, and Recreation",8
 AL,1,Alabama,2020-03-21,71,"Arts, Entertainment, and Recreation",247
 AL,1,Alabama,2020-03-28,71,"Arts, Entertainment, and Recreation",1512
 AL,1,Alabama,2020-04-04,71,"Arts, Entertainment, and Recreation",1568
+AL,1,Alabama,2020-04-11,71,"Arts, Entertainment, and Recreation",917
+AL,1,Alabama,2020-04-18,71,"Arts, Entertainment, and Recreation",812
 AL,1,Alabama,2020-03-14,72,Accommodation and Food Services,141
 AL,1,Alabama,2020-03-21,72,Accommodation and Food Services,3199
 AL,1,Alabama,2020-03-28,72,Accommodation and Food Services,17632
 AL,1,Alabama,2020-04-04,72,Accommodation and Food Services,12121
+AL,1,Alabama,2020-04-11,72,Accommodation and Food Services,7796
+AL,1,Alabama,2020-04-18,72,Accommodation and Food Services,6685
 AL,1,Alabama,2020-03-14,81,Other Services (except Public Administration),39
 AL,1,Alabama,2020-03-21,81,Other Services (except Public Administration),309
 AL,1,Alabama,2020-03-28,81,Other Services (except Public Administration),2859
 AL,1,Alabama,2020-04-04,81,Other Services (except Public Administration),2905
+AL,1,Alabama,2020-04-11,81,Other Services (except Public Administration),1734
+AL,1,Alabama,2020-04-18,81,Other Services (except Public Administration),1264
 AL,1,Alabama,2020-03-14,92,Public Administration,10
 AL,1,Alabama,2020-03-21,92,Public Administration,85
 AL,1,Alabama,2020-03-28,92,Public Administration,0
 AL,1,Alabama,2020-04-04,92,Public Administration,496
+AL,1,Alabama,2020-04-11,92,Public Administration,393
+AL,1,Alabama,2020-04-18,92,Public Administration,400
 AL,1,Alabama,2020-03-14,99,Unclassified,177
 AL,1,Alabama,2020-03-21,99,Unclassified,1751
 AL,1,Alabama,2020-03-28,99,Unclassified,19337
 AL,1,Alabama,2020-04-04,99,Unclassified,36662
-KS,20,Kansas,2020-03-14,31-33,Manufacturing,363
-KS,20,Kansas,2020-03-21,31-33,Manufacturing,3506
-KS,20,Kansas,2020-03-28,31-33,Manufacturing,15544
-KS,20,Kansas,2020-04-04,31-33,Manufacturing,6818
+AL,1,Alabama,2020-04-11,99,Unclassified,26532
+AL,1,Alabama,2020-04-18,99,Unclassified,23925
+IA,19,Iowa,2020-03-14,72,Accommodation and Food Services,229
+IA,19,Iowa,2020-03-21,72,Accommodation and Food Services,15980
+IA,19,Iowa,2020-03-28,72,Accommodation and Food Services,12519
+IA,19,Iowa,2020-04-04,72,Accommodation and Food Services,7123
+IA,19,Iowa,2020-04-11,72,Accommodation and Food Services,4292
+IA,19,Iowa,2020-04-18,72,Accommodation and Food Services,2606
+IA,19,Iowa,2020-03-14,56,"Admin. and Support, Waste Mgmt. and Remediation Services",148
+IA,19,Iowa,2020-03-21,56,"Admin. and Support, Waste Mgmt. and Remediation Services",1216
+IA,19,Iowa,2020-03-28,56,"Admin. and Support, Waste Mgmt. and Remediation Services",2408
+IA,19,Iowa,2020-04-04,56,"Admin. and Support, Waste Mgmt. and Remediation Services",2498
+IA,19,Iowa,2020-04-11,56,"Admin. and Support, Waste Mgmt. and Remediation Services",1854
+IA,19,Iowa,2020-04-18,56,"Admin. and Support, Waste Mgmt. and Remediation Services",1135
+IA,19,Iowa,2020-03-14,11,"Agriculture, Forestry, Fishing, and Hunting",12
+IA,19,Iowa,2020-03-21,11,"Agriculture, Forestry, Fishing, and Hunting",57
+IA,19,Iowa,2020-03-28,11,"Agriculture, Forestry, Fishing, and Hunting",86
+IA,19,Iowa,2020-04-04,11,"Agriculture, Forestry, Fishing, and Hunting",118
+IA,19,Iowa,2020-04-11,11,"Agriculture, Forestry, Fishing, and Hunting",105
+IA,19,Iowa,2020-04-18,11,"Agriculture, Forestry, Fishing, and Hunting",63
+IA,19,Iowa,2020-03-14,71,"Arts, Entertainment, and Recreation",15
+IA,19,Iowa,2020-03-21,71,"Arts, Entertainment, and Recreation",1359
+IA,19,Iowa,2020-03-28,71,"Arts, Entertainment, and Recreation",1510
+IA,19,Iowa,2020-04-04,71,"Arts, Entertainment, and Recreation",1534
+IA,19,Iowa,2020-04-11,71,"Arts, Entertainment, and Recreation",947
+IA,19,Iowa,2020-04-18,71,"Arts, Entertainment, and Recreation",898
+IA,19,Iowa,2020-03-14,23,Construction,477
+IA,19,Iowa,2020-03-21,23,Construction,1894
+IA,19,Iowa,2020-03-28,23,Construction,3094
+IA,19,Iowa,2020-04-04,23,Construction,2696
+IA,19,Iowa,2020-04-11,23,Construction,1784
+IA,19,Iowa,2020-04-18,23,Construction,977
+IA,19,Iowa,2020-03-14,61,Educational Services,31
+IA,19,Iowa,2020-03-21,61,Educational Services,3221
+IA,19,Iowa,2020-03-28,61,Educational Services,2391
+IA,19,Iowa,2020-04-04,61,Educational Services,1794
+IA,19,Iowa,2020-04-11,61,Educational Services,1407
+IA,19,Iowa,2020-04-18,61,Educational Services,933
+IA,19,Iowa,2020-03-14,52,Finance and Insurance,39
+IA,19,Iowa,2020-03-21,52,Finance and Insurance,155
+IA,19,Iowa,2020-03-28,52,Finance and Insurance,280
+IA,19,Iowa,2020-04-04,52,Finance and Insurance,392
+IA,19,Iowa,2020-04-11,52,Finance and Insurance,280
+IA,19,Iowa,2020-04-18,52,Finance and Insurance,145
+IA,19,Iowa,2020-03-14,62,Health Care and Social Assistance,103
+IA,19,Iowa,2020-03-21,62,Health Care and Social Assistance,5672
+IA,19,Iowa,2020-03-28,62,Health Care and Social Assistance,7490
+IA,19,Iowa,2020-04-04,62,Health Care and Social Assistance,9632
+IA,19,Iowa,2020-04-11,62,Health Care and Social Assistance,6789
+IA,19,Iowa,2020-04-18,62,Health Care and Social Assistance,3985
+IA,19,Iowa,2020-03-14,51,Information,43
+IA,19,Iowa,2020-03-21,51,Information,452
+IA,19,Iowa,2020-03-28,51,Information,695
+IA,19,Iowa,2020-04-04,51,Information,589
+IA,19,Iowa,2020-04-11,51,Information,445
+IA,19,Iowa,2020-04-18,51,Information,328
+IA,19,Iowa,2020-03-14,99,Unclassified,80
+IA,19,Iowa,2020-03-21,99,Unclassified,1279
+IA,19,Iowa,2020-03-28,99,Unclassified,4705
+IA,19,Iowa,2020-04-04,99,Unclassified,13408
+IA,19,Iowa,2020-04-11,99,Unclassified,9604
+IA,19,Iowa,2020-04-18,99,Unclassified,3817
+IA,19,Iowa,2020-03-14,55,Management of Companies and Enterprises,21
+IA,19,Iowa,2020-03-21,55,Management of Companies and Enterprises,123
+IA,19,Iowa,2020-03-28,55,Management of Companies and Enterprises,250
+IA,19,Iowa,2020-04-04,55,Management of Companies and Enterprises,198
+IA,19,Iowa,2020-04-11,55,Management of Companies and Enterprises,157
+IA,19,Iowa,2020-04-18,55,Management of Companies and Enterprises,96
+IA,19,Iowa,2020-03-14,31-33,Manufacturing,515
+IA,19,Iowa,2020-03-21,31-33,Manufacturing,2436
+IA,19,Iowa,2020-03-28,31-33,Manufacturing,7168
+IA,19,Iowa,2020-04-04,31-33,Manufacturing,9218
+IA,19,Iowa,2020-04-11,31-33,Manufacturing,6002
+IA,19,Iowa,2020-04-18,31-33,Manufacturing,5143
+IA,19,Iowa,2020-03-14,21,"Mining, Quarrying, and Oil and Gas Extraction",15
+IA,19,Iowa,2020-03-21,21,"Mining, Quarrying, and Oil and Gas Extraction",65
+IA,19,Iowa,2020-03-28,21,"Mining, Quarrying, and Oil and Gas Extraction",17
+IA,19,Iowa,2020-04-04,21,"Mining, Quarrying, and Oil and Gas Extraction",54
+IA,19,Iowa,2020-04-11,21,"Mining, Quarrying, and Oil and Gas Extraction",48
+IA,19,Iowa,2020-04-18,21,"Mining, Quarrying, and Oil and Gas Extraction",19
+IA,19,Iowa,2020-03-14,81,Other Services (except Public Administration),61
+IA,19,Iowa,2020-03-21,81,Other Services (except Public Administration),2375
+IA,19,Iowa,2020-03-28,81,Other Services (except Public Administration),3780
+IA,19,Iowa,2020-04-04,81,Other Services (except Public Administration),2239
+IA,19,Iowa,2020-04-11,81,Other Services (except Public Administration),1167
+IA,19,Iowa,2020-04-18,81,Other Services (except Public Administration),614
+IA,19,Iowa,2020-03-14,54,"Professional, Scientific, and Technical Services",46
+IA,19,Iowa,2020-03-21,54,"Professional, Scientific, and Technical Services",636
+IA,19,Iowa,2020-03-28,54,"Professional, Scientific, and Technical Services",1040
+IA,19,Iowa,2020-04-04,54,"Professional, Scientific, and Technical Services",1256
+IA,19,Iowa,2020-04-11,54,"Professional, Scientific, and Technical Services",913
+IA,19,Iowa,2020-04-18,54,"Professional, Scientific, and Technical Services",497
+IA,19,Iowa,2020-03-14,92,Public Administration,9
+IA,19,Iowa,2020-03-21,92,Public Administration,192
+IA,19,Iowa,2020-03-28,92,Public Administration,342
+IA,19,Iowa,2020-04-04,92,Public Administration,326
+IA,19,Iowa,2020-04-11,92,Public Administration,251
+IA,19,Iowa,2020-04-18,92,Public Administration,245
+IA,19,Iowa,2020-03-14,53,Real Estate and Rental and Leasing,17
+IA,19,Iowa,2020-03-21,53,Real Estate and Rental and Leasing,260
+IA,19,Iowa,2020-03-28,53,Real Estate and Rental and Leasing,515
+IA,19,Iowa,2020-04-04,53,Real Estate and Rental and Leasing,539
+IA,19,Iowa,2020-04-11,53,Real Estate and Rental and Leasing,393
+IA,19,Iowa,2020-04-18,53,Real Estate and Rental and Leasing,219
+IA,19,Iowa,2020-03-14,44-45,Retail Trade,105
+IA,19,Iowa,2020-03-21,44-45,Retail Trade,2171
+IA,19,Iowa,2020-03-28,44-45,Retail Trade,5888
+IA,19,Iowa,2020-04-04,44-45,Retail Trade,8088
+IA,19,Iowa,2020-04-11,44-45,Retail Trade,5813
+IA,19,Iowa,2020-04-18,44-45,Retail Trade,3307
+IA,19,Iowa,2020-03-14,48-49,Transportation and Warehousing,200
+IA,19,Iowa,2020-03-21,48-49,Transportation and Warehousing,1085
+IA,19,Iowa,2020-03-28,48-49,Transportation and Warehousing,813
+IA,19,Iowa,2020-04-04,48-49,Transportation and Warehousing,998
+IA,19,Iowa,2020-04-11,48-49,Transportation and Warehousing,690
+IA,19,Iowa,2020-04-18,48-49,Transportation and Warehousing,520
+IA,19,Iowa,2020-03-14,22,Utilities,5
+IA,19,Iowa,2020-03-21,22,Utilities,18
+IA,19,Iowa,2020-03-28,22,Utilities,24
+IA,19,Iowa,2020-04-04,22,Utilities,18
+IA,19,Iowa,2020-04-11,22,Utilities,9
+IA,19,Iowa,2020-04-18,22,Utilities,8
+IA,19,Iowa,2020-03-14,42,Wholesale Trade,58
+IA,19,Iowa,2020-03-21,42,Wholesale Trade,321
+IA,19,Iowa,2020-03-28,42,Wholesale Trade,981
+IA,19,Iowa,2020-04-04,42,Wholesale Trade,1520
+IA,19,Iowa,2020-04-11,42,Wholesale Trade,1028
+IA,19,Iowa,2020-04-18,42,Wholesale Trade,609
 KS,20,Kansas,2020-03-14,72,Accommodation and Food Services,141
 KS,20,Kansas,2020-03-21,72,Accommodation and Food Services,7127
 KS,20,Kansas,2020-03-28,72,Accommodation and Food Services,9130
 KS,20,Kansas,2020-04-04,72,Accommodation and Food Services,7271
-KS,20,Kansas,2020-03-14,62,Health Care and Social Assistance,112
-KS,20,Kansas,2020-03-21,62,Health Care and Social Assistance,2910
-KS,20,Kansas,2020-03-28,62,Health Care and Social Assistance,4681
-KS,20,Kansas,2020-04-04,62,Health Care and Social Assistance,6409
-KS,20,Kansas,2020-03-14,44-45,Retail Trade,95
-KS,20,Kansas,2020-03-21,44-45,Retail Trade,1240
-KS,20,Kansas,2020-03-28,44-45,Retail Trade,4496
-KS,20,Kansas,2020-04-04,44-45,Retail Trade,6505
-KS,20,Kansas,2020-03-14,81,Other Services (except Public Administration),26
-KS,20,Kansas,2020-03-21,81,Other Services (except Public Administration),1004
-KS,20,Kansas,2020-03-28,81,Other Services (except Public Administration),4159
-KS,20,Kansas,2020-04-04,81,Other Services (except Public Administration),4337
+KS,20,Kansas,2020-04-11,72,Accommodation and Food Services,3614
+KS,20,Kansas,2020-04-18,72,Accommodation and Food Services,3298
 KS,20,Kansas,2020-03-14,56,"Admin. and Support, Waste Mgmt. and Remediation Services",93
 KS,20,Kansas,2020-03-21,56,"Admin. and Support, Waste Mgmt. and Remediation Services",826
 KS,20,Kansas,2020-03-28,56,"Admin. and Support, Waste Mgmt. and Remediation Services",2251
 KS,20,Kansas,2020-04-04,56,"Admin. and Support, Waste Mgmt. and Remediation Services",2684
-KS,20,Kansas,2020-03-14,71,"Arts, Entertainment, and Recreation",3
-KS,20,Kansas,2020-03-21,71,"Arts, Entertainment, and Recreation",932
-KS,20,Kansas,2020-03-28,71,"Arts, Entertainment, and Recreation",1976
-KS,20,Kansas,2020-04-04,71,"Arts, Entertainment, and Recreation",1637
-KS,20,Kansas,2020-03-14,23,Construction,315
-KS,20,Kansas,2020-03-21,23,Construction,866
-KS,20,Kansas,2020-03-28,23,Construction,1735
-KS,20,Kansas,2020-04-04,23,Construction,2203
-KS,20,Kansas,2020-03-14,48-49,Transportation and Warehousing,64
-KS,20,Kansas,2020-03-21,48-49,Transportation and Warehousing,1253
-KS,20,Kansas,2020-03-28,48-49,Transportation and Warehousing,1451
-KS,20,Kansas,2020-04-04,48-49,Transportation and Warehousing,1599
-KS,20,Kansas,2020-03-14,54,"Professional, Scientific, and Technical Services",38
-KS,20,Kansas,2020-03-21,54,"Professional, Scientific, and Technical Services",423
-KS,20,Kansas,2020-03-28,54,"Professional, Scientific, and Technical Services",1112
-KS,20,Kansas,2020-04-04,54,"Professional, Scientific, and Technical Services",1662
-KS,20,Kansas,2020-03-14,61,Educational Services,33
-KS,20,Kansas,2020-03-21,61,Educational Services,632
-KS,20,Kansas,2020-03-28,61,Educational Services,1010
-KS,20,Kansas,2020-04-04,61,Educational Services,1174
-KS,20,Kansas,2020-03-14,42,Wholesale Trade,35
-KS,20,Kansas,2020-03-21,42,Wholesale Trade,195
-KS,20,Kansas,2020-03-28,42,Wholesale Trade,712
-KS,20,Kansas,2020-04-04,42,Wholesale Trade,982
-KS,20,Kansas,2020-03-14,53,Real Estate and Rental and Leasing,23
-KS,20,Kansas,2020-03-21,53,Real Estate and Rental and Leasing,262
-KS,20,Kansas,2020-03-28,53,Real Estate and Rental and Leasing,529
-KS,20,Kansas,2020-04-04,53,Real Estate and Rental and Leasing,789
-KS,20,Kansas,2020-03-14,51,Information,20
-KS,20,Kansas,2020-03-21,51,Information,347
-KS,20,Kansas,2020-03-28,51,Information,403
-KS,20,Kansas,2020-04-04,51,Information,721
-KS,20,Kansas,2020-03-14,21,"Mining, Quarrying, and Oil and Gas Extraction",37
-KS,20,Kansas,2020-03-21,21,"Mining, Quarrying, and Oil and Gas Extraction",107
-KS,20,Kansas,2020-03-28,21,"Mining, Quarrying, and Oil and Gas Extraction",237
-KS,20,Kansas,2020-04-04,21,"Mining, Quarrying, and Oil and Gas Extraction",328
-KS,20,Kansas,2020-03-14,92,Public Administration,27
-KS,20,Kansas,2020-03-21,92,Public Administration,103
-KS,20,Kansas,2020-03-28,92,Public Administration,232
-KS,20,Kansas,2020-04-04,92,Public Administration,338
-KS,20,Kansas,2020-03-14,52,Finance and Insurance,32
-KS,20,Kansas,2020-03-21,52,Finance and Insurance,116
-KS,20,Kansas,2020-03-28,52,Finance and Insurance,227
-KS,20,Kansas,2020-04-04,52,Finance and Insurance,380
+KS,20,Kansas,2020-04-11,56,"Admin. and Support, Waste Mgmt. and Remediation Services",1609
+KS,20,Kansas,2020-04-18,56,"Admin. and Support, Waste Mgmt. and Remediation Services",1748
 KS,20,Kansas,2020-03-14,11,"Agriculture, Forestry, Fishing, and Hunting",1
 KS,20,Kansas,2020-03-21,11,"Agriculture, Forestry, Fishing, and Hunting",12
 KS,20,Kansas,2020-03-28,11,"Agriculture, Forestry, Fishing, and Hunting",47
 KS,20,Kansas,2020-04-04,11,"Agriculture, Forestry, Fishing, and Hunting",83
+KS,20,Kansas,2020-04-11,11,"Agriculture, Forestry, Fishing, and Hunting",51
+KS,20,Kansas,2020-04-18,11,"Agriculture, Forestry, Fishing, and Hunting",71
+KS,20,Kansas,2020-03-14,71,"Arts, Entertainment, and Recreation",3
+KS,20,Kansas,2020-03-21,71,"Arts, Entertainment, and Recreation",932
+KS,20,Kansas,2020-03-28,71,"Arts, Entertainment, and Recreation",1976
+KS,20,Kansas,2020-04-04,71,"Arts, Entertainment, and Recreation",1637
+KS,20,Kansas,2020-04-11,71,"Arts, Entertainment, and Recreation",905
+KS,20,Kansas,2020-04-18,71,"Arts, Entertainment, and Recreation",1188
+KS,20,Kansas,2020-03-14,23,Construction,315
+KS,20,Kansas,2020-03-21,23,Construction,866
+KS,20,Kansas,2020-03-28,23,Construction,1735
+KS,20,Kansas,2020-04-04,23,Construction,2203
+KS,20,Kansas,2020-04-11,23,Construction,1083
+KS,20,Kansas,2020-04-18,23,Construction,1021
+KS,20,Kansas,2020-03-14,61,Educational Services,33
+KS,20,Kansas,2020-03-21,61,Educational Services,632
+KS,20,Kansas,2020-03-28,61,Educational Services,1010
+KS,20,Kansas,2020-04-04,61,Educational Services,1174
+KS,20,Kansas,2020-04-11,61,Educational Services,615
+KS,20,Kansas,2020-04-18,61,Educational Services,603
+KS,20,Kansas,2020-03-14,52,Finance and Insurance,32
+KS,20,Kansas,2020-03-21,52,Finance and Insurance,116
+KS,20,Kansas,2020-03-28,52,Finance and Insurance,227
+KS,20,Kansas,2020-04-04,52,Finance and Insurance,380
+KS,20,Kansas,2020-04-11,52,Finance and Insurance,352
+KS,20,Kansas,2020-04-18,52,Finance and Insurance,336
+KS,20,Kansas,2020-03-14,62,Health Care and Social Assistance,112
+KS,20,Kansas,2020-03-21,62,Health Care and Social Assistance,2910
+KS,20,Kansas,2020-03-28,62,Health Care and Social Assistance,4681
+KS,20,Kansas,2020-04-04,62,Health Care and Social Assistance,6409
+KS,20,Kansas,2020-04-11,62,Health Care and Social Assistance,3245
+KS,20,Kansas,2020-04-18,62,Health Care and Social Assistance,2931
+KS,20,Kansas,2020-03-14,51,Information,20
+KS,20,Kansas,2020-03-21,51,Information,347
+KS,20,Kansas,2020-03-28,51,Information,403
+KS,20,Kansas,2020-04-04,51,Information,721
+KS,20,Kansas,2020-04-11,51,Information,188
+KS,20,Kansas,2020-04-18,51,Information,227
 KS,20,Kansas,2020-03-14,55,Management of Companies and Enterprises,8
 KS,20,Kansas,2020-03-21,55,Management of Companies and Enterprises,38
 KS,20,Kansas,2020-03-28,55,Management of Companies and Enterprises,42
 KS,20,Kansas,2020-04-04,55,Management of Companies and Enterprises,54
-MA,25,Massachusetts,2020-03-14,11,"Agriculture, Forestry, Fishing, and Hunting",30
-MA,25,Massachusetts,2020-03-21,11,"Agriculture, Forestry, Fishing, and Hunting",237
-MA,25,Massachusetts,2020-03-28,11,"Agriculture, Forestry, Fishing, and Hunting",445
-MA,25,Massachusetts,2020-04-04,11,"Agriculture, Forestry, Fishing, and Hunting",387
-MA,25,Massachusetts,2020-03-14,21,"Mining, Quarrying, and Oil and Gas Extraction",2
-MA,25,Massachusetts,2020-03-21,21,"Mining, Quarrying, and Oil and Gas Extraction",30
-MA,25,Massachusetts,2020-03-28,21,"Mining, Quarrying, and Oil and Gas Extraction",52
-MA,25,Massachusetts,2020-04-04,21,"Mining, Quarrying, and Oil and Gas Extraction",34
-MA,25,Massachusetts,2020-03-14,22,Utilities,5
-MA,25,Massachusetts,2020-03-21,22,Utilities,47
-MA,25,Massachusetts,2020-03-28,22,Utilities,124
-MA,25,Massachusetts,2020-04-04,22,Utilities,82
-MA,25,Massachusetts,2020-03-14,23,Construction,800
-MA,25,Massachusetts,2020-03-21,23,Construction,13522
-MA,25,Massachusetts,2020-03-28,23,Construction,17328
-MA,25,Massachusetts,2020-04-04,23,Construction,10376
-MA,25,Massachusetts,2020-03-14,31-33,Manufacturing,329
-MA,25,Massachusetts,2020-03-21,31-33,Manufacturing,2919
-MA,25,Massachusetts,2020-03-28,31-33,Manufacturing,10593
-MA,25,Massachusetts,2020-04-04,31-33,Manufacturing,7572
-MA,25,Massachusetts,2020-03-14,42,Wholesale Trade,196
-MA,25,Massachusetts,2020-03-21,42,Wholesale Trade,2279
-MA,25,Massachusetts,2020-03-28,42,Wholesale Trade,5618
-MA,25,Massachusetts,2020-04-04,42,Wholesale Trade,4599
-MA,25,Massachusetts,2020-03-14,44-45,Retail Trade,441
-MA,25,Massachusetts,2020-03-21,44-45,Retail Trade,9622
-MA,25,Massachusetts,2020-03-28,44-45,Retail Trade,25066
-MA,25,Massachusetts,2020-04-04,44-45,Retail Trade,20529
-MA,25,Massachusetts,2020-03-14,48-49,Transportation and Warehousing,521
-MA,25,Massachusetts,2020-03-21,48-49,Transportation and Warehousing,6772
-MA,25,Massachusetts,2020-03-28,48-49,Transportation and Warehousing,5242
-MA,25,Massachusetts,2020-04-04,48-49,Transportation and Warehousing,4740
-MA,25,Massachusetts,2020-03-14,51,Information,142
-MA,25,Massachusetts,2020-03-21,51,Information,1268
-MA,25,Massachusetts,2020-03-28,51,Information,2025
-MA,25,Massachusetts,2020-04-04,51,Information,2308
-MA,25,Massachusetts,2020-03-14,52,Finance and Insurance,169
-MA,25,Massachusetts,2020-03-21,52,Finance and Insurance,646
-MA,25,Massachusetts,2020-03-28,52,Finance and Insurance,973
-MA,25,Massachusetts,2020-04-04,52,Finance and Insurance,990
-MA,25,Massachusetts,2020-03-14,53,Real Estate and Rental and Leasing,119
-MA,25,Massachusetts,2020-03-21,53,Real Estate and Rental and Leasing,1676
-MA,25,Massachusetts,2020-03-28,53,Real Estate and Rental and Leasing,2649
-MA,25,Massachusetts,2020-04-04,53,Real Estate and Rental and Leasing,1978
-MA,25,Massachusetts,2020-03-14,54,"Professional, Scientific, and Technical Services",521
-MA,25,Massachusetts,2020-03-21,54,"Professional, Scientific, and Technical Services",5175
-MA,25,Massachusetts,2020-03-28,54,"Professional, Scientific, and Technical Services",8853
-MA,25,Massachusetts,2020-04-04,54,"Professional, Scientific, and Technical Services",6887
-MA,25,Massachusetts,2020-03-14,55,Management of Companies and Enterprises,87
-MA,25,Massachusetts,2020-03-21,55,Management of Companies and Enterprises,1703
-MA,25,Massachusetts,2020-03-28,55,Management of Companies and Enterprises,1162
-MA,25,Massachusetts,2020-04-04,55,Management of Companies and Enterprises,862
+KS,20,Kansas,2020-04-11,55,Management of Companies and Enterprises,32
+KS,20,Kansas,2020-04-18,55,Management of Companies and Enterprises,31
+KS,20,Kansas,2020-03-14,31-33,Manufacturing,363
+KS,20,Kansas,2020-03-21,31-33,Manufacturing,3506
+KS,20,Kansas,2020-03-28,31-33,Manufacturing,15544
+KS,20,Kansas,2020-04-04,31-33,Manufacturing,6818
+KS,20,Kansas,2020-04-11,31-33,Manufacturing,8551
+KS,20,Kansas,2020-04-18,31-33,Manufacturing,9229
+KS,20,Kansas,2020-03-14,21,"Mining, Quarrying, and Oil and Gas Extraction",37
+KS,20,Kansas,2020-03-21,21,"Mining, Quarrying, and Oil and Gas Extraction",107
+KS,20,Kansas,2020-03-28,21,"Mining, Quarrying, and Oil and Gas Extraction",237
+KS,20,Kansas,2020-04-04,21,"Mining, Quarrying, and Oil and Gas Extraction",328
+KS,20,Kansas,2020-04-11,21,"Mining, Quarrying, and Oil and Gas Extraction",148
+KS,20,Kansas,2020-04-18,21,"Mining, Quarrying, and Oil and Gas Extraction",97
+KS,20,Kansas,2020-03-14,81,Other Services (except Public Administration),26
+KS,20,Kansas,2020-03-21,81,Other Services (except Public Administration),1004
+KS,20,Kansas,2020-03-28,81,Other Services (except Public Administration),4159
+KS,20,Kansas,2020-04-04,81,Other Services (except Public Administration),4337
+KS,20,Kansas,2020-04-11,81,Other Services (except Public Administration),1791
+KS,20,Kansas,2020-04-18,81,Other Services (except Public Administration),1957
+KS,20,Kansas,2020-03-14,54,"Professional, Scientific, and Technical Services",38
+KS,20,Kansas,2020-03-21,54,"Professional, Scientific, and Technical Services",423
+KS,20,Kansas,2020-03-28,54,"Professional, Scientific, and Technical Services",1112
+KS,20,Kansas,2020-04-04,54,"Professional, Scientific, and Technical Services",1662
+KS,20,Kansas,2020-04-11,54,"Professional, Scientific, and Technical Services",789
+KS,20,Kansas,2020-04-18,54,"Professional, Scientific, and Technical Services",933
+KS,20,Kansas,2020-03-14,92,Public Administration,27
+KS,20,Kansas,2020-03-21,92,Public Administration,103
+KS,20,Kansas,2020-03-28,92,Public Administration,232
+KS,20,Kansas,2020-04-04,92,Public Administration,338
+KS,20,Kansas,2020-04-11,92,Public Administration,477
+KS,20,Kansas,2020-04-18,92,Public Administration,411
+KS,20,Kansas,2020-03-14,53,Real Estate and Rental and Leasing,23
+KS,20,Kansas,2020-03-21,53,Real Estate and Rental and Leasing,262
+KS,20,Kansas,2020-03-28,53,Real Estate and Rental and Leasing,529
+KS,20,Kansas,2020-04-04,53,Real Estate and Rental and Leasing,789
+KS,20,Kansas,2020-04-11,53,Real Estate and Rental and Leasing,494
+KS,20,Kansas,2020-04-18,53,Real Estate and Rental and Leasing,446
+KS,20,Kansas,2020-03-14,44-45,Retail Trade,95
+KS,20,Kansas,2020-03-21,44-45,Retail Trade,1240
+KS,20,Kansas,2020-03-28,44-45,Retail Trade,4496
+KS,20,Kansas,2020-04-04,44-45,Retail Trade,6505
+KS,20,Kansas,2020-04-11,44-45,Retail Trade,3746
+KS,20,Kansas,2020-04-18,44-45,Retail Trade,2943
+KS,20,Kansas,2020-03-14,48-49,Transportation and Warehousing,64
+KS,20,Kansas,2020-03-21,48-49,Transportation and Warehousing,1253
+KS,20,Kansas,2020-03-28,48-49,Transportation and Warehousing,1451
+KS,20,Kansas,2020-04-04,48-49,Transportation and Warehousing,1599
+KS,20,Kansas,2020-04-11,48-49,Transportation and Warehousing,689
+KS,20,Kansas,2020-04-18,48-49,Transportation and Warehousing,869
+KS,20,Kansas,2020-03-14,42,Wholesale Trade,35
+KS,20,Kansas,2020-03-21,42,Wholesale Trade,195
+KS,20,Kansas,2020-03-28,42,Wholesale Trade,712
+KS,20,Kansas,2020-04-04,42,Wholesale Trade,982
+KS,20,Kansas,2020-04-11,42,Wholesale Trade,686
+KS,20,Kansas,2020-04-18,42,Wholesale Trade,741
 MA,25,Massachusetts,2020-03-14,56,"Admin. and Support, Waste Mgmt. and Remediation Services",604
 MA,25,Massachusetts,2020-03-21,56,"Admin. and Support, Waste Mgmt. and Remediation Services",4422
 MA,25,Massachusetts,2020-03-28,56,"Admin. and Support, Waste Mgmt. and Remediation Services",8883
 MA,25,Massachusetts,2020-04-04,56,"Admin. and Support, Waste Mgmt. and Remediation Services",7129
-MA,25,Massachusetts,2020-03-14,61,Educational Services,144
-MA,25,Massachusetts,2020-03-21,61,Educational Services,2914
-MA,25,Massachusetts,2020-03-28,61,Educational Services,3792
-MA,25,Massachusetts,2020-04-04,61,Educational Services,2689
-MA,25,Massachusetts,2020-03-14,62,Health Care and Social Assistance,440
-MA,25,Massachusetts,2020-03-21,62,Health Care and Social Assistance,18192
-MA,25,Massachusetts,2020-03-28,62,Health Care and Social Assistance,20677
-MA,25,Massachusetts,2020-04-04,62,Health Care and Social Assistance,16276
+MA,25,Massachusetts,2020-04-11,56,"Admin. and Support, Waste Mgmt. and Remediation Services",5863
+MA,25,Massachusetts,2020-04-18,56,"Admin. and Support, Waste Mgmt. and Remediation Services",4956
+MA,25,Massachusetts,2020-03-14,11,"Agriculture, Forestry, Fishing, and Hunting",30
+MA,25,Massachusetts,2020-03-21,11,"Agriculture, Forestry, Fishing, and Hunting",237
+MA,25,Massachusetts,2020-03-28,11,"Agriculture, Forestry, Fishing, and Hunting",445
+MA,25,Massachusetts,2020-04-04,11,"Agriculture, Forestry, Fishing, and Hunting",387
+MA,25,Massachusetts,2020-04-11,11,"Agriculture, Forestry, Fishing, and Hunting",393
+MA,25,Massachusetts,2020-04-18,11,"Agriculture, Forestry, Fishing, and Hunting",281
 MA,25,Massachusetts,2020-03-14,71,"Arts, Entertainment, and Recreation",194
 MA,25,Massachusetts,2020-03-21,71,"Arts, Entertainment, and Recreation",5137
 MA,25,Massachusetts,2020-03-28,71,"Arts, Entertainment, and Recreation",4580
 MA,25,Massachusetts,2020-04-04,71,"Arts, Entertainment, and Recreation",3230
+MA,25,Massachusetts,2020-04-11,71,"Arts, Entertainment, and Recreation",2206
+MA,25,Massachusetts,2020-04-18,71,"Arts, Entertainment, and Recreation",1777
+MA,25,Massachusetts,2020-03-14,23,Construction,800
+MA,25,Massachusetts,2020-03-21,23,Construction,13522
+MA,25,Massachusetts,2020-03-28,23,Construction,17328
+MA,25,Massachusetts,2020-04-04,23,Construction,10376
+MA,25,Massachusetts,2020-04-11,23,Construction,7881
+MA,25,Massachusetts,2020-04-18,23,Construction,4754
+MA,25,Massachusetts,2020-03-14,61,Educational Services,144
+MA,25,Massachusetts,2020-03-21,61,Educational Services,2914
+MA,25,Massachusetts,2020-03-28,61,Educational Services,3792
+MA,25,Massachusetts,2020-04-04,61,Educational Services,2689
+MA,25,Massachusetts,2020-04-11,61,Educational Services,2283
+MA,25,Massachusetts,2020-04-18,61,Educational Services,1653
+MA,25,Massachusetts,2020-03-14,52,Finance and Insurance,169
+MA,25,Massachusetts,2020-03-21,52,Finance and Insurance,646
+MA,25,Massachusetts,2020-03-28,52,Finance and Insurance,973
+MA,25,Massachusetts,2020-04-04,52,Finance and Insurance,990
+MA,25,Massachusetts,2020-04-11,52,Finance and Insurance,735
+MA,25,Massachusetts,2020-04-18,52,Finance and Insurance,536
 MA,25,Massachusetts,2020-03-14,72,Accommodation and Food Services,1861
 MA,25,Massachusetts,2020-03-21,72,Accommodation and Food Services,44353
 MA,25,Massachusetts,2020-03-28,72,Accommodation and Food Services,25993
 MA,25,Massachusetts,2020-04-04,72,Accommodation and Food Services,17163
-MA,25,Massachusetts,2020-03-14,81,Other Services (except Public Administration),301
-MA,25,Massachusetts,2020-03-21,81,Other Services (except Public Administration),11047
-MA,25,Massachusetts,2020-03-28,81,Other Services (except Public Administration),15419
-MA,25,Massachusetts,2020-04-04,81,Other Services (except Public Administration),10883
-MA,25,Massachusetts,2020-03-14,92,Public Administration,116
-MA,25,Massachusetts,2020-03-21,92,Public Administration,1679
-MA,25,Massachusetts,2020-03-28,92,Public Administration,1913
-MA,25,Massachusetts,2020-04-04,92,Public Administration,1468
+MA,25,Massachusetts,2020-04-11,72,Accommodation and Food Services,12634
+MA,25,Massachusetts,2020-04-18,72,Accommodation and Food Services,9564
+MA,25,Massachusetts,2020-03-14,62,Health Care and Social Assistance,440
+MA,25,Massachusetts,2020-03-21,62,Health Care and Social Assistance,18192
+MA,25,Massachusetts,2020-03-28,62,Health Care and Social Assistance,20677
+MA,25,Massachusetts,2020-04-04,62,Health Care and Social Assistance,16276
+MA,25,Massachusetts,2020-04-11,62,Health Care and Social Assistance,12597
+MA,25,Massachusetts,2020-04-18,62,Health Care and Social Assistance,9249
+MA,25,Massachusetts,2020-03-14,51,Information,142
+MA,25,Massachusetts,2020-03-21,51,Information,1268
+MA,25,Massachusetts,2020-03-28,51,Information,2025
+MA,25,Massachusetts,2020-04-04,51,Information,2308
+MA,25,Massachusetts,2020-04-11,51,Information,1480
+MA,25,Massachusetts,2020-04-18,51,Information,1336
 MA,25,Massachusetts,2020-03-14,99,Unclassified,362
 MA,25,Massachusetts,2020-03-21,99,Unclassified,14352
 MA,25,Massachusetts,2020-03-28,99,Unclassified,19645
 MA,25,Massachusetts,2020-04-04,99,Unclassified,19268
+MA,25,Massachusetts,2020-04-11,99,Unclassified,11188
+MA,25,Massachusetts,2020-04-18,99,Unclassified,8705
+MA,25,Massachusetts,2020-03-14,55,Management of Companies and Enterprises,87
+MA,25,Massachusetts,2020-03-21,55,Management of Companies and Enterprises,1703
+MA,25,Massachusetts,2020-03-28,55,Management of Companies and Enterprises,1162
+MA,25,Massachusetts,2020-04-04,55,Management of Companies and Enterprises,862
+MA,25,Massachusetts,2020-04-11,55,Management of Companies and Enterprises,715
+MA,25,Massachusetts,2020-04-18,55,Management of Companies and Enterprises,486
+MA,25,Massachusetts,2020-03-14,31-33,Manufacturing,329
+MA,25,Massachusetts,2020-03-21,31-33,Manufacturing,2919
+MA,25,Massachusetts,2020-03-28,31-33,Manufacturing,10593
+MA,25,Massachusetts,2020-04-04,31-33,Manufacturing,7572
+MA,25,Massachusetts,2020-04-11,31-33,Manufacturing,5896
+MA,25,Massachusetts,2020-04-18,31-33,Manufacturing,5065
+MA,25,Massachusetts,2020-03-14,21,"Mining, Quarrying, and Oil and Gas Extraction",2
+MA,25,Massachusetts,2020-03-21,21,"Mining, Quarrying, and Oil and Gas Extraction",30
+MA,25,Massachusetts,2020-03-28,21,"Mining, Quarrying, and Oil and Gas Extraction",52
+MA,25,Massachusetts,2020-04-04,21,"Mining, Quarrying, and Oil and Gas Extraction",34
+MA,25,Massachusetts,2020-04-11,21,"Mining, Quarrying, and Oil and Gas Extraction",25
+MA,25,Massachusetts,2020-04-18,21,"Mining, Quarrying, and Oil and Gas Extraction",13
+MA,25,Massachusetts,2020-03-14,81,Other Services (except Public Administration),301
+MA,25,Massachusetts,2020-03-21,81,Other Services (except Public Administration),11047
+MA,25,Massachusetts,2020-03-28,81,Other Services (except Public Administration),15419
+MA,25,Massachusetts,2020-04-04,81,Other Services (except Public Administration),10883
+MA,25,Massachusetts,2020-04-11,81,Other Services (except Public Administration),6971
+MA,25,Massachusetts,2020-04-18,81,Other Services (except Public Administration),5383
+MA,25,Massachusetts,2020-03-14,54,"Professional, Scientific, and Technical Services",521
+MA,25,Massachusetts,2020-03-21,54,"Professional, Scientific, and Technical Services",5175
+MA,25,Massachusetts,2020-03-28,54,"Professional, Scientific, and Technical Services",8853
+MA,25,Massachusetts,2020-04-04,54,"Professional, Scientific, and Technical Services",6887
+MA,25,Massachusetts,2020-04-11,54,"Professional, Scientific, and Technical Services",5567
+MA,25,Massachusetts,2020-04-18,54,"Professional, Scientific, and Technical Services",4359
+MA,25,Massachusetts,2020-03-14,92,Public Administration,116
+MA,25,Massachusetts,2020-03-21,92,Public Administration,1679
+MA,25,Massachusetts,2020-03-28,92,Public Administration,1913
+MA,25,Massachusetts,2020-04-04,92,Public Administration,1468
+MA,25,Massachusetts,2020-04-11,92,Public Administration,1425
+MA,25,Massachusetts,2020-04-18,92,Public Administration,1244
+MA,25,Massachusetts,2020-03-14,53,Real Estate and Rental and Leasing,119
+MA,25,Massachusetts,2020-03-21,53,Real Estate and Rental and Leasing,1676
+MA,25,Massachusetts,2020-03-28,53,Real Estate and Rental and Leasing,2649
+MA,25,Massachusetts,2020-04-04,53,Real Estate and Rental and Leasing,1978
+MA,25,Massachusetts,2020-04-11,53,Real Estate and Rental and Leasing,1370
+MA,25,Massachusetts,2020-04-18,53,Real Estate and Rental and Leasing,1040
+MA,25,Massachusetts,2020-03-14,44-45,Retail Trade,441
+MA,25,Massachusetts,2020-03-21,44-45,Retail Trade,9622
+MA,25,Massachusetts,2020-03-28,44-45,Retail Trade,25066
+MA,25,Massachusetts,2020-04-04,44-45,Retail Trade,20529
+MA,25,Massachusetts,2020-04-11,44-45,Retail Trade,15534
+MA,25,Massachusetts,2020-04-18,44-45,Retail Trade,12669
+MA,25,Massachusetts,2020-03-14,48-49,Transportation and Warehousing,521
+MA,25,Massachusetts,2020-03-21,48-49,Transportation and Warehousing,6772
+MA,25,Massachusetts,2020-03-28,48-49,Transportation and Warehousing,5242
+MA,25,Massachusetts,2020-04-04,48-49,Transportation and Warehousing,4740
+MA,25,Massachusetts,2020-04-11,48-49,Transportation and Warehousing,3362
+MA,25,Massachusetts,2020-04-18,48-49,Transportation and Warehousing,3292
+MA,25,Massachusetts,2020-03-14,22,Utilities,5
+MA,25,Massachusetts,2020-03-21,22,Utilities,47
+MA,25,Massachusetts,2020-03-28,22,Utilities,124
+MA,25,Massachusetts,2020-04-04,22,Utilities,82
+MA,25,Massachusetts,2020-04-11,22,Utilities,85
+MA,25,Massachusetts,2020-04-18,22,Utilities,82
+MA,25,Massachusetts,2020-03-14,42,Wholesale Trade,196
+MA,25,Massachusetts,2020-03-21,42,Wholesale Trade,2279
+MA,25,Massachusetts,2020-03-28,42,Wholesale Trade,5618
+MA,25,Massachusetts,2020-04-04,42,Wholesale Trade,4598
+MA,25,Massachusetts,2020-04-11,42,Wholesale Trade,4618
+MA,25,Massachusetts,2020-04-18,42,Wholesale Trade,3709
 ME,23,Maine,2020-03-21,56,"Admin. and Support, Waste Mgmt. and Remediation Services",280
 ME,23,Maine,2020-03-28,56,"Admin. and Support, Waste Mgmt. and Remediation Services",460
 ME,23,Maine,2020-04-04,56,"Admin. and Support, Waste Mgmt. and Remediation Services",320
+ME,23,Maine,2020-04-11,56,"Admin. and Support, Waste Mgmt. and Remediation Services",160
+ME,23,Maine,2020-04-18,56,"Admin. and Support, Waste Mgmt. and Remediation Services",120
 ME,23,Maine,2020-03-21,11,"Agriculture, Forestry, Fishing, and Hunting",30
 ME,23,Maine,2020-03-28,11,"Agriculture, Forestry, Fishing, and Hunting",90
 ME,23,Maine,2020-04-04,11,"Agriculture, Forestry, Fishing, and Hunting",100
+ME,23,Maine,2020-04-11,11,"Agriculture, Forestry, Fishing, and Hunting",70
+ME,23,Maine,2020-04-18,11,"Agriculture, Forestry, Fishing, and Hunting",40
 ME,23,Maine,2020-03-21,23,Construction,120
 ME,23,Maine,2020-03-28,23,Construction,360
 ME,23,Maine,2020-04-04,23,Construction,270
+ME,23,Maine,2020-04-11,23,Construction,100
+ME,23,Maine,2020-04-18,23,Construction,90
 ME,23,Maine,2020-03-21,61,Educational Services,440
 ME,23,Maine,2020-03-28,61,Educational Services,410
 ME,23,Maine,2020-04-04,61,Educational Services,440
-ME,23,Maine,2020-03-21,52,Finance and Insurance,20
-ME,23,Maine,2020-03-28,52,Finance and Insurance,0
-ME,23,Maine,2020-04-04,52,Finance and Insurance,0
-ME,23,Maine,2020-03-21,51,Information,150
-ME,23,Maine,2020-03-28,51,Information,90
-ME,23,Maine,2020-04-04,51,Information,70
-ME,23,Maine,2020-03-21,55,Management of Companies and Enterprises,0
-ME,23,Maine,2020-03-28,55,Management of Companies and Enterprises,30
-ME,23,Maine,2020-04-04,55,Management of Companies and Enterprises,30
-ME,23,Maine,2020-03-21,81,Other Services (except Public Administration),840
-ME,23,Maine,2020-03-28,81,Other Services (except Public Administration),580
-ME,23,Maine,2020-04-04,81,Other Services (except Public Administration),380
-ME,23,Maine,2020-03-21,54,"Professional, Scientific, and Technical Services",80
-ME,23,Maine,2020-03-28,54,"Professional, Scientific, and Technical Services",200
-ME,23,Maine,2020-04-04,54,"Professional, Scientific, and Technical Services",260
-ME,23,Maine,2020-03-21,92,Public Administration,0
-ME,23,Maine,2020-03-28,92,Public Administration,0
-ME,23,Maine,2020-04-04,92,Public Administration,0
-ME,23,Maine,2020-03-21,53,Real Estate and Rental and Leasing,20
-ME,23,Maine,2020-03-28,53,Real Estate and Rental and Leasing,80
-ME,23,Maine,2020-04-04,53,Real Estate and Rental and Leasing,70
-ME,23,Maine,2020-03-21,48-49,Transportation and Warehousing,220
-ME,23,Maine,2020-03-28,48-49,Transportation and Warehousing,170
-ME,23,Maine,2020-04-04,48-49,Transportation and Warehousing,120
-ME,23,Maine,2020-03-21,42,Wholesale Trade,170
-ME,23,Maine,2020-03-28,42,Wholesale Trade,200
-ME,23,Maine,2020-04-04,42,Wholesale Trade,190
+ME,23,Maine,2020-04-11,61,Educational Services,270
+ME,23,Maine,2020-04-18,61,Educational Services,160
 ME,23,Maine,2020-03-21,71,"Arts, Entertainment, and Recreation",910
 ME,23,Maine,2020-03-28,71,"Arts, Entertainment, and Recreation",750
 ME,23,Maine,2020-04-04,71,"Arts, Entertainment, and Recreation",350
+ME,23,Maine,2020-04-11,71,"Arts, Entertainment, and Recreation",160
+ME,23,Maine,2020-04-18,71,"Arts, Entertainment, and Recreation",110
+ME,23,Maine,2020-03-21,52,Finance and Insurance,20
+ME,23,Maine,2020-03-28,52,Finance and Insurance,0
+ME,23,Maine,2020-04-04,52,Finance and Insurance,0
+ME,23,Maine,2020-04-11,52,Finance and Insurance,0
+ME,23,Maine,2020-04-18,52,Finance and Insurance,70
 ME,23,Maine,2020-03-21,72,Accommodation and Food Services,7970
 ME,23,Maine,2020-03-28,72,Accommodation and Food Services,2980
 ME,23,Maine,2020-04-04,72,Accommodation and Food Services,1700
+ME,23,Maine,2020-04-11,72,Accommodation and Food Services,560
+ME,23,Maine,2020-04-18,72,Accommodation and Food Services,260
 ME,23,Maine,2020-03-21,62,Health Care and Social Assistance,3590
 ME,23,Maine,2020-03-28,62,Health Care and Social Assistance,2810
 ME,23,Maine,2020-04-04,62,Health Care and Social Assistance,1970
-ME,23,Maine,2020-03-21,31-33,Manufacturing,1130
-ME,23,Maine,2020-03-28,31-33,Manufacturing,2010
-ME,23,Maine,2020-04-04,31-33,Manufacturing,1330
-ME,23,Maine,2020-03-21,44-45,Retail Trade,1100
-ME,23,Maine,2020-03-28,44-45,Retail Trade,2160
-ME,23,Maine,2020-04-04,44-45,Retail Trade,2570
+ME,23,Maine,2020-04-11,62,Health Care and Social Assistance,870
+ME,23,Maine,2020-04-18,62,Health Care and Social Assistance,660
 ME,23,Maine,2020-03-21,99,Unclassified,4350
 ME,23,Maine,2020-03-28,99,Unclassified,10330
 ME,23,Maine,2020-04-04,99,Unclassified,20640
+ME,23,Maine,2020-04-11,99,Unclassified,8060
+ME,23,Maine,2020-04-18,99,Unclassified,7040
+ME,23,Maine,2020-03-21,51,Information,150
+ME,23,Maine,2020-03-28,51,Information,90
+ME,23,Maine,2020-04-04,51,Information,70
+ME,23,Maine,2020-04-11,51,Information,50
+ME,23,Maine,2020-04-18,51,Information,20
+ME,23,Maine,2020-03-21,55,Management of Companies and Enterprises,0
+ME,23,Maine,2020-03-28,55,Management of Companies and Enterprises,30
+ME,23,Maine,2020-04-04,55,Management of Companies and Enterprises,30
+ME,23,Maine,2020-04-11,55,Management of Companies and Enterprises,70
+ME,23,Maine,2020-04-18,55,Management of Companies and Enterprises,50
+ME,23,Maine,2020-03-21,31-33,Manufacturing,1130
+ME,23,Maine,2020-03-28,31-33,Manufacturing,2010
+ME,23,Maine,2020-04-04,31-33,Manufacturing,1330
+ME,23,Maine,2020-04-11,31-33,Manufacturing,1090
+ME,23,Maine,2020-04-18,31-33,Manufacturing,1150
+ME,23,Maine,2020-03-21,81,Other Services (except Public Administration),840
+ME,23,Maine,2020-03-28,81,Other Services (except Public Administration),580
+ME,23,Maine,2020-04-04,81,Other Services (except Public Administration),380
+ME,23,Maine,2020-04-11,81,Other Services (except Public Administration),60
+ME,23,Maine,2020-04-18,81,Other Services (except Public Administration),0
+ME,23,Maine,2020-03-21,54,"Professional, Scientific, and Technical Services",80
+ME,23,Maine,2020-03-28,54,"Professional, Scientific, and Technical Services",200
+ME,23,Maine,2020-04-04,54,"Professional, Scientific, and Technical Services",260
+ME,23,Maine,2020-04-11,54,"Professional, Scientific, and Technical Services",170
+ME,23,Maine,2020-04-18,54,"Professional, Scientific, and Technical Services",160
+ME,23,Maine,2020-03-21,92,Public Administration,0
+ME,23,Maine,2020-03-28,92,Public Administration,0
+ME,23,Maine,2020-04-04,92,Public Administration,0
+ME,23,Maine,2020-04-11,92,Public Administration,0
+ME,23,Maine,2020-04-18,92,Public Administration,0
+ME,23,Maine,2020-03-21,53,Real Estate and Rental and Leasing,20
+ME,23,Maine,2020-03-28,53,Real Estate and Rental and Leasing,80
+ME,23,Maine,2020-04-04,53,Real Estate and Rental and Leasing,70
+ME,23,Maine,2020-04-11,53,Real Estate and Rental and Leasing,30
+ME,23,Maine,2020-04-18,53,Real Estate and Rental and Leasing,0
+ME,23,Maine,2020-03-21,44-45,Retail Trade,1100
+ME,23,Maine,2020-03-28,44-45,Retail Trade,2160
+ME,23,Maine,2020-04-04,44-45,Retail Trade,2570
+ME,23,Maine,2020-04-11,44-45,Retail Trade,1500
+ME,23,Maine,2020-04-18,44-45,Retail Trade,1400
+ME,23,Maine,2020-03-21,48-49,Transportation and Warehousing,220
+ME,23,Maine,2020-03-28,48-49,Transportation and Warehousing,170
+ME,23,Maine,2020-04-04,48-49,Transportation and Warehousing,120
+ME,23,Maine,2020-04-11,48-49,Transportation and Warehousing,50
+ME,23,Maine,2020-04-18,48-49,Transportation and Warehousing,60
+ME,23,Maine,2020-03-21,42,Wholesale Trade,170
+ME,23,Maine,2020-03-28,42,Wholesale Trade,200
+ME,23,Maine,2020-04-04,42,Wholesale Trade,190
+ME,23,Maine,2020-04-11,42,Wholesale Trade,120
+ME,23,Maine,2020-04-18,42,Wholesale Trade,140
 MI,26,Michigan,2020-03-14,31-33,Manufacturing,980
 MI,26,Michigan,2020-03-14,23,Construction,723
 MI,26,Michigan,2020-03-14,44-45,Retail Trade,411
@@ -363,27 +649,69 @@ MI,26,Michigan,2020-03-28,72,Accommodation and Food Services,29778
 MI,26,Michigan,2020-03-28,81,Other Services (except Public Administration),14225
 MI,26,Michigan,2020-03-28,92,Public Administration,1059
 MI,26,Michigan,2020-03-28,99,Unclassified,29579
-MI,26,Michigan,2020-04-04,11,"Agriculture, Forestry, Fishing, and Hunting",777
+MI,26,Michigan,2020-04-04,11,"Agriculture, Forestry, Fishing, and Hunting",778
 MI,26,Michigan,2020-04-04,21,"Mining, Quarrying, and Oil and Gas Extraction",383
 MI,26,Michigan,2020-04-04,22,Utilities,129
-MI,26,Michigan,2020-04-04,23,Construction,28605
-MI,26,Michigan,2020-04-04,31-33,Manufacturing,59943
-MI,26,Michigan,2020-04-04,42,Wholesale Trade,18603
-MI,26,Michigan,2020-04-04,44-45,Retail Trade,41973
+MI,26,Michigan,2020-04-04,23,Construction,28608
+MI,26,Michigan,2020-04-04,31-33,Manufacturing,59964
+MI,26,Michigan,2020-04-04,42,Wholesale Trade,18606
+MI,26,Michigan,2020-04-04,44-45,Retail Trade,41976
 MI,26,Michigan,2020-04-04,48-49,Transportation and Warehousing,9827
 MI,26,Michigan,2020-04-04,51,Information,2642
-MI,26,Michigan,2020-04-04,52,Finance and Insurance,1777
+MI,26,Michigan,2020-04-04,52,Finance and Insurance,1778
 MI,26,Michigan,2020-04-04,53,Real Estate and Rental and Leasing,4389
-MI,26,Michigan,2020-04-04,54,"Professional, Scientific, and Technical Services",14678
-MI,26,Michigan,2020-04-04,55,Management of Companies and Enterprises,4421
-MI,26,Michigan,2020-04-04,56,"Admin. and Support, Waste Mgmt. and Remediation Services",26053
+MI,26,Michigan,2020-04-04,54,"Professional, Scientific, and Technical Services",14682
+MI,26,Michigan,2020-04-04,55,Management of Companies and Enterprises,4424
+MI,26,Michigan,2020-04-04,56,"Admin. and Support, Waste Mgmt. and Remediation Services",26062
 MI,26,Michigan,2020-04-04,61,Educational Services,5334
-MI,26,Michigan,2020-04-04,62,Health Care and Social Assistance,31149
-MI,26,Michigan,2020-04-04,71,"Arts, Entertainment, and Recreation",5911
-MI,26,Michigan,2020-04-04,72,Accommodation and Food Services,42307
-MI,26,Michigan,2020-04-04,81,Other Services (except Public Administration),16094
+MI,26,Michigan,2020-04-04,62,Health Care and Social Assistance,31150
+MI,26,Michigan,2020-04-04,71,"Arts, Entertainment, and Recreation",5912
+MI,26,Michigan,2020-04-04,72,Accommodation and Food Services,42309
+MI,26,Michigan,2020-04-04,81,Other Services (except Public Administration),16096
 MI,26,Michigan,2020-04-04,92,Public Administration,2161
-MI,26,Michigan,2020-04-04,99,Unclassified,77094
+MI,26,Michigan,2020-04-04,99,Unclassified,77151
+MI,26,Michigan,2020-04-11,11,"Agriculture, Forestry, Fishing, and Hunting",472
+MI,26,Michigan,2020-04-11,21,"Mining, Quarrying, and Oil and Gas Extraction",208
+MI,26,Michigan,2020-04-11,22,Utilities,49
+MI,26,Michigan,2020-04-11,23,Construction,13024
+MI,26,Michigan,2020-04-11,31-33,Manufacturing,32303
+MI,26,Michigan,2020-04-11,42,Wholesale Trade,9000
+MI,26,Michigan,2020-04-11,44-45,Retail Trade,23972
+MI,26,Michigan,2020-04-11,48-49,Transportation and Warehousing,6496
+MI,26,Michigan,2020-04-11,51,Information,1565
+MI,26,Michigan,2020-04-11,52,Finance and Insurance,1142
+MI,26,Michigan,2020-04-11,53,Real Estate and Rental and Leasing,2587
+MI,26,Michigan,2020-04-11,54,"Professional, Scientific, and Technical Services",8531
+MI,26,Michigan,2020-04-11,55,Management of Companies and Enterprises,3495
+MI,26,Michigan,2020-04-11,56,"Admin. and Support, Waste Mgmt. and Remediation Services",16446
+MI,26,Michigan,2020-04-11,61,Educational Services,3147
+MI,26,Michigan,2020-04-11,62,Health Care and Social Assistance,18256
+MI,26,Michigan,2020-04-11,71,"Arts, Entertainment, and Recreation",3261
+MI,26,Michigan,2020-04-11,72,Accommodation and Food Services,22541
+MI,26,Michigan,2020-04-11,81,Other Services (except Public Administration),8724
+MI,26,Michigan,2020-04-11,92,Public Administration,1639
+MI,26,Michigan,2020-04-11,99,Unclassified,49400
+MI,26,Michigan,2020-04-18,11,"Agriculture, Forestry, Fishing, and Hunting",384
+MI,26,Michigan,2020-04-18,21,"Mining, Quarrying, and Oil and Gas Extraction",153
+MI,26,Michigan,2020-04-18,22,Utilities,49
+MI,26,Michigan,2020-04-18,23,Construction,7061
+MI,26,Michigan,2020-04-18,31-33,Manufacturing,21753
+MI,26,Michigan,2020-04-18,42,Wholesale Trade,6106
+MI,26,Michigan,2020-04-18,44-45,Retail Trade,12704
+MI,26,Michigan,2020-04-18,48-49,Transportation and Warehousing,4489
+MI,26,Michigan,2020-04-18,51,Information,1260
+MI,26,Michigan,2020-04-18,52,Finance and Insurance,1109
+MI,26,Michigan,2020-04-18,53,Real Estate and Rental and Leasing,2015
+MI,26,Michigan,2020-04-18,54,"Professional, Scientific, and Technical Services",5881
+MI,26,Michigan,2020-04-18,55,Management of Companies and Enterprises,2653
+MI,26,Michigan,2020-04-18,56,"Admin. and Support, Waste Mgmt. and Remediation Services",10223
+MI,26,Michigan,2020-04-18,61,Educational Services,1973
+MI,26,Michigan,2020-04-18,62,Health Care and Social Assistance,15551
+MI,26,Michigan,2020-04-18,71,"Arts, Entertainment, and Recreation",1831
+MI,26,Michigan,2020-04-18,72,Accommodation and Food Services,11849
+MI,26,Michigan,2020-04-18,81,Other Services (except Public Administration),4600
+MI,26,Michigan,2020-04-18,92,Public Administration,1594
+MI,26,Michigan,2020-04-18,99,Unclassified,25961
 ND,38,North Dakota,2020-03-07,11,"Agriculture, Forestry, Fishing, and Hunting",10
 ND,38,North Dakota,2020-03-14,11,"Agriculture, Forestry, Fishing, and Hunting",8
 ND,38,North Dakota,2020-03-21,11,"Agriculture, Forestry, Fishing, and Hunting",10
@@ -489,212 +817,378 @@ ND,38,North Dakota,2020-04-04,71,"Arts, Entertainment, and Recreation",573
 ND,38,North Dakota,2020-04-04,11,"Agriculture, Forestry, Fishing, and Hunting",50
 ND,38,North Dakota,2020-04-04,56,"Admin. and Support, Waste Mgmt. and Remediation Services",525
 ND,38,North Dakota,2020-04-04,72,Accommodation and Food Services,2282
-NE,31,Nebraska,2020-03-21,44-45,Retail Trade,1094
-NE,31,Nebraska,2020-03-28,44-45,Retail Trade,2483
-NE,31,Nebraska,2020-04-04,44-45,Retail Trade,3744
-NE,31,Nebraska,2020-03-21,62,Health Care and Social Assistance,1717
-NE,31,Nebraska,2020-03-28,62,Health Care and Social Assistance,3539
-NE,31,Nebraska,2020-04-04,62,Health Care and Social Assistance,3627
+ND,38,North Dakota,2020-04-11,42,Wholesale Trade,378
+ND,38,North Dakota,2020-04-11,22,Utilities,9
+ND,38,North Dakota,2020-04-11,99,Unclassified,730
+ND,38,North Dakota,2020-04-11,48-49,Transportation and Warehousing,480
+ND,38,North Dakota,2020-04-11,44-45,Retail Trade,1016
+ND,38,North Dakota,2020-04-11,53,Real Estate and Rental and Leasing,108
+ND,38,North Dakota,2020-04-11,92,Public Administration,60
+ND,38,North Dakota,2020-04-11,54,"Professional, Scientific, and Technical Services",221
+ND,38,North Dakota,2020-04-11,81,Other Services (except Public Administration),282
+ND,38,North Dakota,2020-04-11,21,"Mining, Quarrying, and Oil and Gas Extraction",1250
+ND,38,North Dakota,2020-04-11,31-33,Manufacturing,1816
+ND,38,North Dakota,2020-04-11,55,Management of Companies and Enterprises,11
+ND,38,North Dakota,2020-04-11,51,Information,60
+ND,38,North Dakota,2020-04-11,62,Health Care and Social Assistance,919
+ND,38,North Dakota,2020-04-11,52,Finance and Insurance,61
+ND,38,North Dakota,2020-04-11,61,Educational Services,230
+ND,38,North Dakota,2020-04-11,23,Construction,750
+ND,38,North Dakota,2020-04-11,71,"Arts, Entertainment, and Recreation",550
+ND,38,North Dakota,2020-04-11,11,"Agriculture, Forestry, Fishing, and Hunting",39
+ND,38,North Dakota,2020-04-11,56,"Admin. and Support, Waste Mgmt. and Remediation Services",292
+ND,38,North Dakota,2020-04-11,72,Accommodation and Food Services,1242
+ND,38,North Dakota,2020-04-18,42,Wholesale Trade,343
+ND,38,North Dakota,2020-04-18,22,Utilities,6
+ND,38,North Dakota,2020-04-18,99,Unclassified,742
+ND,38,North Dakota,2020-04-18,48-49,Transportation and Warehousing,392
+ND,38,North Dakota,2020-04-18,44-45,Retail Trade,854
+ND,38,North Dakota,2020-04-18,53,Real Estate and Rental and Leasing,129
+ND,38,North Dakota,2020-04-18,92,Public Administration,42
+ND,38,North Dakota,2020-04-18,54,"Professional, Scientific, and Technical Services",250
+ND,38,North Dakota,2020-04-18,81,Other Services (except Public Administration),414
+ND,38,North Dakota,2020-04-18,21,"Mining, Quarrying, and Oil and Gas Extraction",1186
+ND,38,North Dakota,2020-04-18,31-33,Manufacturing,501
+ND,38,North Dakota,2020-04-18,55,Management of Companies and Enterprises,16
+ND,38,North Dakota,2020-04-18,51,Information,47
+ND,38,North Dakota,2020-04-18,62,Health Care and Social Assistance,1364
+ND,38,North Dakota,2020-04-18,52,Finance and Insurance,52
+ND,38,North Dakota,2020-04-18,61,Educational Services,215
+ND,38,North Dakota,2020-04-18,23,Construction,609
+ND,38,North Dakota,2020-04-18,71,"Arts, Entertainment, and Recreation",584
+ND,38,North Dakota,2020-04-18,11,"Agriculture, Forestry, Fishing, and Hunting",29
+ND,38,North Dakota,2020-04-18,56,"Admin. and Support, Waste Mgmt. and Remediation Services",338
+ND,38,North Dakota,2020-04-18,72,Accommodation and Food Services,1052
 NE,31,Nebraska,2020-03-21,72,Accommodation and Food Services,6040
 NE,31,Nebraska,2020-03-28,72,Accommodation and Food Services,5163
 NE,31,Nebraska,2020-04-04,72,Accommodation and Food Services,3582
-NE,31,Nebraska,2020-03-21,81,Other Services (except Public Administration),915
-NE,31,Nebraska,2020-03-28,81,Other Services (except Public Administration),2515
-NE,31,Nebraska,2020-04-04,81,Other Services (except Public Administration),2951
-NE,31,Nebraska,2020-03-21,31-33,Manufacturing,471
-NE,31,Nebraska,2020-03-28,31-33,Manufacturing,1490
-NE,31,Nebraska,2020-04-04,31-33,Manufacturing,1619
+NE,31,Nebraska,2020-04-11,72,Accommodation and Food Services,1811
+NE,31,Nebraska,2020-04-18,72,Accommodation and Food Services,1254
 NE,31,Nebraska,2020-03-21,56,"Admin. and Support, Waste Mgmt. and Remediation Services",528
 NE,31,Nebraska,2020-03-28,56,"Admin. and Support, Waste Mgmt. and Remediation Services",1308
 NE,31,Nebraska,2020-04-04,56,"Admin. and Support, Waste Mgmt. and Remediation Services",1394
-NE,31,Nebraska,2020-03-21,23,Construction,526
-NE,31,Nebraska,2020-03-28,23,Construction,1059
-NE,31,Nebraska,2020-04-04,23,Construction,1268
-NE,31,Nebraska,2020-03-21,61,Educational Services,500
-NE,31,Nebraska,2020-03-28,61,Educational Services,897
-NE,31,Nebraska,2020-04-04,61,Educational Services,990
-NE,31,Nebraska,2020-03-21,54,"Professional, Scientific, and Technical Services",304
-NE,31,Nebraska,2020-03-28,54,"Professional, Scientific, and Technical Services",562
-NE,31,Nebraska,2020-04-04,54,"Professional, Scientific, and Technical Services",847
-NE,31,Nebraska,2020-03-21,71,"Arts, Entertainment, and Recreation",602
-NE,31,Nebraska,2020-03-28,71,"Arts, Entertainment, and Recreation",919
-NE,31,Nebraska,2020-04-04,71,"Arts, Entertainment, and Recreation",782
-NE,31,Nebraska,2020-03-21,48-49,Transportation and Warehousing,360
-NE,31,Nebraska,2020-03-28,48-49,Transportation and Warehousing,601
-NE,31,Nebraska,2020-04-04,48-49,Transportation and Warehousing,625
-NE,31,Nebraska,2020-03-21,42,Wholesale Trade,172
-NE,31,Nebraska,2020-03-28,42,Wholesale Trade,456
-NE,31,Nebraska,2020-04-04,42,Wholesale Trade,562
-NE,31,Nebraska,2020-03-21,53,Real Estate and Rental and Leasing,114
-NE,31,Nebraska,2020-03-28,53,Real Estate and Rental and Leasing,236
-NE,31,Nebraska,2020-04-04,53,Real Estate and Rental and Leasing,433
-NE,31,Nebraska,2020-03-21,52,Finance and Insurance,123
-NE,31,Nebraska,2020-03-28,52,Finance and Insurance,211
-NE,31,Nebraska,2020-04-04,52,Finance and Insurance,335
-NE,31,Nebraska,2020-03-21,51,Information,159
-NE,31,Nebraska,2020-03-28,51,Information,185
-NE,31,Nebraska,2020-04-04,51,Information,299
-NE,31,Nebraska,2020-03-21,92,Public Administration,66
-NE,31,Nebraska,2020-03-28,92,Public Administration,147
-NE,31,Nebraska,2020-04-04,92,Public Administration,240
-NE,31,Nebraska,2020-03-21,55,Management of Companies and Enterprises,91
-NE,31,Nebraska,2020-03-28,55,Management of Companies and Enterprises,76
-NE,31,Nebraska,2020-04-04,55,Management of Companies and Enterprises,144
+NE,31,Nebraska,2020-04-11,56,"Admin. and Support, Waste Mgmt. and Remediation Services",876
+NE,31,Nebraska,2020-04-18,56,"Admin. and Support, Waste Mgmt. and Remediation Services",570
 NE,31,Nebraska,2020-03-21,11,"Agriculture, Forestry, Fishing, and Hunting",28
 NE,31,Nebraska,2020-03-28,11,"Agriculture, Forestry, Fishing, and Hunting",49
 NE,31,Nebraska,2020-04-04,11,"Agriculture, Forestry, Fishing, and Hunting",90
+NE,31,Nebraska,2020-04-11,11,"Agriculture, Forestry, Fishing, and Hunting",79
+NE,31,Nebraska,2020-04-18,11,"Agriculture, Forestry, Fishing, and Hunting",54
+NE,31,Nebraska,2020-03-21,71,"Arts, Entertainment, and Recreation",602
+NE,31,Nebraska,2020-03-28,71,"Arts, Entertainment, and Recreation",919
+NE,31,Nebraska,2020-04-04,71,"Arts, Entertainment, and Recreation",782
+NE,31,Nebraska,2020-04-11,71,"Arts, Entertainment, and Recreation",397
+NE,31,Nebraska,2020-04-18,71,"Arts, Entertainment, and Recreation",251
+NE,31,Nebraska,2020-03-21,23,Construction,526
+NE,31,Nebraska,2020-03-28,23,Construction,1059
+NE,31,Nebraska,2020-04-04,23,Construction,1268
+NE,31,Nebraska,2020-04-11,23,Construction,753
+NE,31,Nebraska,2020-04-18,23,Construction,473
+NE,31,Nebraska,2020-03-21,61,Educational Services,500
+NE,31,Nebraska,2020-03-28,61,Educational Services,897
+NE,31,Nebraska,2020-04-04,61,Educational Services,990
+NE,31,Nebraska,2020-04-11,61,Educational Services,557
+NE,31,Nebraska,2020-04-18,61,Educational Services,381
+NE,31,Nebraska,2020-03-21,52,Finance and Insurance,123
+NE,31,Nebraska,2020-03-28,52,Finance and Insurance,211
+NE,31,Nebraska,2020-04-04,52,Finance and Insurance,335
+NE,31,Nebraska,2020-04-11,52,Finance and Insurance,210
+NE,31,Nebraska,2020-04-18,52,Finance and Insurance,178
+NE,31,Nebraska,2020-03-21,62,Health Care and Social Assistance,1717
+NE,31,Nebraska,2020-03-28,62,Health Care and Social Assistance,3539
+NE,31,Nebraska,2020-04-04,62,Health Care and Social Assistance,3627
+NE,31,Nebraska,2020-04-11,62,Health Care and Social Assistance,1973
+NE,31,Nebraska,2020-04-18,62,Health Care and Social Assistance,1529
+NE,31,Nebraska,2020-03-21,51,Information,159
+NE,31,Nebraska,2020-03-28,51,Information,185
+NE,31,Nebraska,2020-04-04,51,Information,299
+NE,31,Nebraska,2020-04-11,51,Information,321
+NE,31,Nebraska,2020-04-18,51,Information,178
+NE,31,Nebraska,2020-03-21,55,Management of Companies and Enterprises,91
+NE,31,Nebraska,2020-03-28,55,Management of Companies and Enterprises,76
+NE,31,Nebraska,2020-04-04,55,Management of Companies and Enterprises,144
+NE,31,Nebraska,2020-04-11,55,Management of Companies and Enterprises,124
+NE,31,Nebraska,2020-04-18,55,Management of Companies and Enterprises,97
+NE,31,Nebraska,2020-03-21,31-33,Manufacturing,471
+NE,31,Nebraska,2020-03-28,31-33,Manufacturing,1490
+NE,31,Nebraska,2020-04-04,31-33,Manufacturing,1619
+NE,31,Nebraska,2020-04-11,31-33,Manufacturing,1098
+NE,31,Nebraska,2020-04-18,31-33,Manufacturing,1224
 NE,31,Nebraska,2020-03-21,21,"Mining, Quarrying, and Oil and Gas Extraction",4
 NE,31,Nebraska,2020-03-28,21,"Mining, Quarrying, and Oil and Gas Extraction",4
 NE,31,Nebraska,2020-04-04,21,"Mining, Quarrying, and Oil and Gas Extraction",13
-NE,31,Nebraska,2020-03-21,22,Utilities,6
-NE,31,Nebraska,2020-03-28,22,Utilities,2
-NE,31,Nebraska,2020-04-04,22,Utilities,10
+NE,31,Nebraska,2020-04-11,21,"Mining, Quarrying, and Oil and Gas Extraction",8
+NE,31,Nebraska,2020-04-18,21,"Mining, Quarrying, and Oil and Gas Extraction",4
+NE,31,Nebraska,2020-03-21,81,Other Services (except Public Administration),915
+NE,31,Nebraska,2020-03-28,81,Other Services (except Public Administration),2515
+NE,31,Nebraska,2020-04-04,81,Other Services (except Public Administration),2951
+NE,31,Nebraska,2020-04-11,81,Other Services (except Public Administration),1410
+NE,31,Nebraska,2020-04-18,81,Other Services (except Public Administration),825
+NE,31,Nebraska,2020-03-21,54,"Professional, Scientific, and Technical Services",304
+NE,31,Nebraska,2020-03-28,54,"Professional, Scientific, and Technical Services",562
+NE,31,Nebraska,2020-04-04,54,"Professional, Scientific, and Technical Services",847
+NE,31,Nebraska,2020-04-11,54,"Professional, Scientific, and Technical Services",442
+NE,31,Nebraska,2020-04-18,54,"Professional, Scientific, and Technical Services",295
+NE,31,Nebraska,2020-03-21,92,Public Administration,66
+NE,31,Nebraska,2020-03-28,92,Public Administration,147
+NE,31,Nebraska,2020-04-04,92,Public Administration,240
+NE,31,Nebraska,2020-04-11,92,Public Administration,147
+NE,31,Nebraska,2020-04-18,92,Public Administration,135
+NE,31,Nebraska,2020-03-21,53,Real Estate and Rental and Leasing,114
+NE,31,Nebraska,2020-03-28,53,Real Estate and Rental and Leasing,236
+NE,31,Nebraska,2020-04-04,53,Real Estate and Rental and Leasing,433
+NE,31,Nebraska,2020-04-11,53,Real Estate and Rental and Leasing,232
+NE,31,Nebraska,2020-04-18,53,Real Estate and Rental and Leasing,178
+NE,31,Nebraska,2020-03-21,44-45,Retail Trade,1094
+NE,31,Nebraska,2020-03-28,44-45,Retail Trade,2483
+NE,31,Nebraska,2020-04-04,44-45,Retail Trade,3744
+NE,31,Nebraska,2020-04-11,44-45,Retail Trade,2711
+NE,31,Nebraska,2020-04-18,44-45,Retail Trade,1439
+NE,31,Nebraska,2020-03-21,48-49,Transportation and Warehousing,360
+NE,31,Nebraska,2020-03-28,48-49,Transportation and Warehousing,601
+NE,31,Nebraska,2020-04-04,48-49,Transportation and Warehousing,625
+NE,31,Nebraska,2020-04-11,48-49,Transportation and Warehousing,407
+NE,31,Nebraska,2020-04-18,48-49,Transportation and Warehousing,648
 NE,31,Nebraska,2020-03-21,99,Unclassified,1846
 NE,31,Nebraska,2020-03-28,99,Unclassified,2625
 NE,31,Nebraska,2020-04-04,99,Unclassified,2987
+NE,31,Nebraska,2020-04-11,99,Unclassified,2029
+NE,31,Nebraska,2020-04-18,99,Unclassified,2032
+NE,31,Nebraska,2020-03-21,22,Utilities,6
+NE,31,Nebraska,2020-03-28,22,Utilities,2
+NE,31,Nebraska,2020-04-04,22,Utilities,10
+NE,31,Nebraska,2020-04-11,22,Utilities,6
+NE,31,Nebraska,2020-04-18,22,Utilities,4
+NE,31,Nebraska,2020-03-21,42,Wholesale Trade,172
+NE,31,Nebraska,2020-03-28,42,Wholesale Trade,456
+NE,31,Nebraska,2020-04-04,42,Wholesale Trade,562
+NE,31,Nebraska,2020-04-11,42,Wholesale Trade,353
+NE,31,Nebraska,2020-04-18,42,Wholesale Trade,296
 NV,32,Nevada,2020-03-21,11,"Agriculture, Forestry, Fishing, and Hunting",46
 NV,32,Nevada,2020-03-28,11,"Agriculture, Forestry, Fishing, and Hunting",69
 NV,32,Nevada,2020-04-04,11,"Agriculture, Forestry, Fishing, and Hunting",93
+NV,32,Nevada,2020-04-11,11,"Agriculture, Forestry, Fishing, and Hunting",126
+NV,32,Nevada,2020-04-18,11,"Agriculture, Forestry, Fishing, and Hunting",159
 NV,32,Nevada,2020-03-21,21,"Mining, Quarrying, and Oil and Gas Extraction",73
 NV,32,Nevada,2020-03-28,21,"Mining, Quarrying, and Oil and Gas Extraction",169
 NV,32,Nevada,2020-04-04,21,"Mining, Quarrying, and Oil and Gas Extraction",127
+NV,32,Nevada,2020-04-11,21,"Mining, Quarrying, and Oil and Gas Extraction",154
+NV,32,Nevada,2020-04-18,21,"Mining, Quarrying, and Oil and Gas Extraction",173
 NV,32,Nevada,2020-03-21,22,Utilities,30
 NV,32,Nevada,2020-03-28,22,Utilities,83
 NV,32,Nevada,2020-04-04,22,Utilities,79
+NV,32,Nevada,2020-04-11,22,Utilities,102
+NV,32,Nevada,2020-04-18,22,Utilities,116
 NV,32,Nevada,2020-03-21,23,Construction,2072
 NV,32,Nevada,2020-03-28,23,Construction,4203
 NV,32,Nevada,2020-04-04,23,Construction,4048
+NV,32,Nevada,2020-04-11,23,Construction,5161
+NV,32,Nevada,2020-04-18,23,Construction,5231
 NV,32,Nevada,2020-03-21,31-33,Manufacturing,598
 NV,32,Nevada,2020-03-28,31-33,Manufacturing,1733
 NV,32,Nevada,2020-04-04,31-33,Manufacturing,2260
+NV,32,Nevada,2020-04-11,31-33,Manufacturing,3223
+NV,32,Nevada,2020-04-18,31-33,Manufacturing,4932
 NV,32,Nevada,2020-03-21,42,Wholesale Trade,368
 NV,32,Nevada,2020-03-28,42,Wholesale Trade,845
 NV,32,Nevada,2020-04-04,42,Wholesale Trade,1243
+NV,32,Nevada,2020-04-11,42,Wholesale Trade,2018
+NV,32,Nevada,2020-04-18,42,Wholesale Trade,2550
 NV,32,Nevada,2020-03-21,44-45,Retail Trade,1052
 NV,32,Nevada,2020-03-28,44-45,Retail Trade,4545
 NV,32,Nevada,2020-04-04,44-45,Retail Trade,7317
+NV,32,Nevada,2020-04-11,44-45,Retail Trade,11522
+NV,32,Nevada,2020-04-18,44-45,Retail Trade,14935
 NV,32,Nevada,2020-03-21,48-49,Transportation and Warehousing,545
 NV,32,Nevada,2020-03-28,48-49,Transportation and Warehousing,2531
 NV,32,Nevada,2020-04-04,48-49,Transportation and Warehousing,4578
+NV,32,Nevada,2020-04-11,48-49,Transportation and Warehousing,6598
+NV,32,Nevada,2020-04-18,48-49,Transportation and Warehousing,8062
 NV,32,Nevada,2020-03-21,51,Information,150
 NV,32,Nevada,2020-03-28,51,Information,882
-NV,32,Nevada,2020-04-04,51,Information,485
+NV,32,Nevada,2020-04-04,51,Information,882
+NV,32,Nevada,2020-04-11,51,Information,1322
+NV,32,Nevada,2020-04-18,51,Information,1489
 NV,32,Nevada,2020-03-21,52,Finance and Insurance,312
 NV,32,Nevada,2020-03-28,52,Finance and Insurance,497
 NV,32,Nevada,2020-04-04,52,Finance and Insurance,674
+NV,32,Nevada,2020-04-11,52,Finance and Insurance,856
+NV,32,Nevada,2020-04-18,52,Finance and Insurance,964
 NV,32,Nevada,2020-03-21,53,Real Estate and Rental and Leasing,700
 NV,32,Nevada,2020-03-28,53,Real Estate and Rental and Leasing,1717
 NV,32,Nevada,2020-04-04,53,Real Estate and Rental and Leasing,2732
+NV,32,Nevada,2020-04-11,53,Real Estate and Rental and Leasing,3877
+NV,32,Nevada,2020-04-18,53,Real Estate and Rental and Leasing,4509
 NV,32,Nevada,2020-03-21,54,"Professional, Scientific, and Technical Services",1538
 NV,32,Nevada,2020-03-28,54,"Professional, Scientific, and Technical Services",4354
 NV,32,Nevada,2020-04-04,54,"Professional, Scientific, and Technical Services",5569
+NV,32,Nevada,2020-04-11,54,"Professional, Scientific, and Technical Services",7356
+NV,32,Nevada,2020-04-18,54,"Professional, Scientific, and Technical Services",8579
 NV,32,Nevada,2020-03-21,55,Management of Companies and Enterprises,190
 NV,32,Nevada,2020-03-28,55,Management of Companies and Enterprises,1172
 NV,32,Nevada,2020-04-04,55,Management of Companies and Enterprises,2113
+NV,32,Nevada,2020-04-11,55,Management of Companies and Enterprises,3045
+NV,32,Nevada,2020-04-18,55,Management of Companies and Enterprises,3990
 NV,32,Nevada,2020-03-21,56,"Admin. and Support, Waste Mgmt. and Remediation Services",2492
 NV,32,Nevada,2020-03-28,56,"Admin. and Support, Waste Mgmt. and Remediation Services",6152
 NV,32,Nevada,2020-04-04,56,"Admin. and Support, Waste Mgmt. and Remediation Services",8959
+NV,32,Nevada,2020-04-11,56,"Admin. and Support, Waste Mgmt. and Remediation Services",11643
+NV,32,Nevada,2020-04-18,56,"Admin. and Support, Waste Mgmt. and Remediation Services",13523
 NV,32,Nevada,2020-03-21,61,Educational Services,176
 NV,32,Nevada,2020-03-28,61,Educational Services,999
 NV,32,Nevada,2020-04-04,61,Educational Services,1359
+NV,32,Nevada,2020-04-11,61,Educational Services,1868
+NV,32,Nevada,2020-04-18,61,Educational Services,2232
 NV,32,Nevada,2020-03-21,62,Health Care and Social Assistance,660
 NV,32,Nevada,2020-03-28,62,Health Care and Social Assistance,2810
 NV,32,Nevada,2020-04-04,62,Health Care and Social Assistance,4585
+NV,32,Nevada,2020-04-11,62,Health Care and Social Assistance,6850
+NV,32,Nevada,2020-04-18,62,Health Care and Social Assistance,8140
 NV,32,Nevada,2020-03-21,71,"Arts, Entertainment, and Recreation",289
 NV,32,Nevada,2020-03-28,71,"Arts, Entertainment, and Recreation",3439
 NV,32,Nevada,2020-04-04,71,"Arts, Entertainment, and Recreation",4824
+NV,32,Nevada,2020-04-11,71,"Arts, Entertainment, and Recreation",6911
+NV,32,Nevada,2020-04-18,71,"Arts, Entertainment, and Recreation",8423
 NV,32,Nevada,2020-03-21,72,Accommodation and Food Services,3877
 NV,32,Nevada,2020-03-28,72,Accommodation and Food Services,29851
 NV,32,Nevada,2020-04-04,72,Accommodation and Food Services,47302
+NV,32,Nevada,2020-04-11,72,Accommodation and Food Services,68425
+NV,32,Nevada,2020-04-18,72,Accommodation and Food Services,84238
 NV,32,Nevada,2020-03-21,81,Other Services (except Public Administration),310
 NV,32,Nevada,2020-03-28,81,Other Services (except Public Administration),2517
 NV,32,Nevada,2020-04-04,81,Other Services (except Public Administration),3837
+NV,32,Nevada,2020-04-11,81,Other Services (except Public Administration),5140
+NV,32,Nevada,2020-04-18,81,Other Services (except Public Administration),5828
 NV,32,Nevada,2020-03-21,92,Public Administration,134
 NV,32,Nevada,2020-03-28,92,Public Administration,485
 NV,32,Nevada,2020-04-04,92,Public Administration,719
+NV,32,Nevada,2020-04-11,92,Public Administration,952
+NV,32,Nevada,2020-04-18,92,Public Administration,1126
 NV,32,Nevada,2020-03-21,99,Unclassified,5308
 NV,32,Nevada,2020-03-28,99,Unclassified,22785
 NV,32,Nevada,2020-04-04,99,Unclassified,36322
+NV,32,Nevada,2020-04-11,99,Unclassified,52041
+NV,32,Nevada,2020-04-18,99,Unclassified,61371
 NY,36,New York,2020-03-14,72,Accommodation and Food Services,1760
 NY,36,New York,2020-03-21,72,Accommodation and Food Services,3378
 NY,36,New York,2020-03-28,72,Accommodation and Food Services,95874
 NY,36,New York,2020-04-04,72,Accommodation and Food Services,58021
+NY,36,New York,2020-04-11,72,Accommodation and Food Services,59318
+NY,36,New York,2020-04-18,72,Accommodation and Food Services,32490
 NY,36,New York,2020-03-14,56,"Admin. and Support, Waste Mgmt. and Remediation Services",2050
 NY,36,New York,2020-03-21,56,"Admin. and Support, Waste Mgmt. and Remediation Services",6400
 NY,36,New York,2020-03-28,56,"Admin. and Support, Waste Mgmt. and Remediation Services",32130
 NY,36,New York,2020-04-04,56,"Admin. and Support, Waste Mgmt. and Remediation Services",29788
+NY,36,New York,2020-04-11,56,"Admin. and Support, Waste Mgmt. and Remediation Services",33780
+NY,36,New York,2020-04-18,56,"Admin. and Support, Waste Mgmt. and Remediation Services",17481
 NY,36,New York,2020-03-14,11,"Agriculture, Forestry, Fishing, and Hunting",39
 NY,36,New York,2020-03-21,11,"Agriculture, Forestry, Fishing, and Hunting",63
 NY,36,New York,2020-03-28,11,"Agriculture, Forestry, Fishing, and Hunting",281
 NY,36,New York,2020-04-04,11,"Agriculture, Forestry, Fishing, and Hunting",338
+NY,36,New York,2020-04-11,11,"Agriculture, Forestry, Fishing, and Hunting",370
+NY,36,New York,2020-04-18,11,"Agriculture, Forestry, Fishing, and Hunting",224
 NY,36,New York,2020-03-14,71,"Arts, Entertainment, and Recreation",464
 NY,36,New York,2020-03-21,71,"Arts, Entertainment, and Recreation",6399
 NY,36,New York,2020-03-28,71,"Arts, Entertainment, and Recreation",14487
 NY,36,New York,2020-04-04,71,"Arts, Entertainment, and Recreation",11651
+NY,36,New York,2020-04-11,71,"Arts, Entertainment, and Recreation",13543
+NY,36,New York,2020-04-18,71,"Arts, Entertainment, and Recreation",6242
 NY,36,New York,2020-03-14,22-23,**Construction & utilities,2605
 NY,36,New York,2020-03-21,22-23,**Construction & utilities,3602
 NY,36,New York,2020-03-28,22-23,**Construction & utilities,20384
 NY,36,New York,2020-04-04,22-23,**Construction & utilities,40988
+NY,36,New York,2020-04-11,22-23,**Construction & utilities,45311
+NY,36,New York,2020-04-18,22-23,**Construction & utilities,18307
 NY,36,New York,2020-03-14,61,Educational Services,242
 NY,36,New York,2020-03-21,61,Educational Services,2781
 NY,36,New York,2020-03-28,61,Educational Services,9477
 NY,36,New York,2020-04-04,61,Educational Services,7930
+NY,36,New York,2020-04-11,61,Educational Services,9091
+NY,36,New York,2020-04-18,61,Educational Services,4625
 NY,36,New York,2020-03-14,52,Finance and Insurance,457
 NY,36,New York,2020-03-21,52,Finance and Insurance,581
 NY,36,New York,2020-03-28,52,Finance and Insurance,2092
 NY,36,New York,2020-04-04,52,Finance and Insurance,2444
+NY,36,New York,2020-04-11,52,Finance and Insurance,3139
+NY,36,New York,2020-04-18,52,Finance and Insurance,1510
 NY,36,New York,2020-03-14,62,Health Care and Social Assistance,1096
 NY,36,New York,2020-03-21,62,Health Care and Social Assistance,6272
 NY,36,New York,2020-03-28,62,Health Care and Social Assistance,41598
 NY,36,New York,2020-04-04,62,Health Care and Social Assistance,38673
+NY,36,New York,2020-04-11,62,Health Care and Social Assistance,43564
+NY,36,New York,2020-04-18,62,Health Care and Social Assistance,24173
 NY,36,New York,2020-03-14,51,Information,751
 NY,36,New York,2020-03-21,51,Information,2788
 NY,36,New York,2020-03-28,51,Information,8077
 NY,36,New York,2020-04-04,51,Information,8695
+NY,36,New York,2020-04-11,51,Information,10597
+NY,36,New York,2020-04-18,51,Information,6825
 NY,36,New York,2020-03-14,55,Management of Companies and Enterprises,56
 NY,36,New York,2020-03-21,55,Management of Companies and Enterprises,209
 NY,36,New York,2020-03-28,55,Management of Companies and Enterprises,888
 NY,36,New York,2020-04-04,55,Management of Companies and Enterprises,1212
+NY,36,New York,2020-04-11,55,Management of Companies and Enterprises,2749
+NY,36,New York,2020-04-18,55,Management of Companies and Enterprises,1566
 NY,36,New York,2020-03-14,31-33,Manufacturing,709
 NY,36,New York,2020-03-21,31-33,Manufacturing,1934
 NY,36,New York,2020-03-28,31-33,Manufacturing,22916
 NY,36,New York,2020-04-04,31-33,Manufacturing,18851
+NY,36,New York,2020-04-11,31-33,Manufacturing,18986
+NY,36,New York,2020-04-18,31-33,Manufacturing,10254
 NY,36,New York,2020-03-14,21,"Mining, Quarrying, and Oil and Gas Extraction",32
 NY,36,New York,2020-03-21,21,"Mining, Quarrying, and Oil and Gas Extraction",19
 NY,36,New York,2020-03-28,21,"Mining, Quarrying, and Oil and Gas Extraction",217
 NY,36,New York,2020-04-04,21,"Mining, Quarrying, and Oil and Gas Extraction",278
+NY,36,New York,2020-04-11,21,"Mining, Quarrying, and Oil and Gas Extraction",264
+NY,36,New York,2020-04-18,21,"Mining, Quarrying, and Oil and Gas Extraction",179
 NY,36,New York,2020-03-14,81,Other Services (except Public Administration),282
 NY,36,New York,2020-03-21,81,Other Services (except Public Administration),3116
 NY,36,New York,2020-03-28,81,Other Services (except Public Administration),23039
 NY,36,New York,2020-04-04,81,Other Services (except Public Administration),20551
+NY,36,New York,2020-04-11,81,Other Services (except Public Administration),22995
+NY,36,New York,2020-04-18,81,Other Services (except Public Administration),11883
 NY,36,New York,2020-03-14,54,"Professional, Scientific, and Technical Services",777
 NY,36,New York,2020-03-21,54,"Professional, Scientific, and Technical Services",1771
 NY,36,New York,2020-03-28,54,"Professional, Scientific, and Technical Services",12085
 NY,36,New York,2020-04-04,54,"Professional, Scientific, and Technical Services",12553
+NY,36,New York,2020-04-11,54,"Professional, Scientific, and Technical Services",14739
+NY,36,New York,2020-04-18,54,"Professional, Scientific, and Technical Services",6673
 NY,36,New York,2020-03-14,92,Public Administration,230
 NY,36,New York,2020-03-21,92,Public Administration,391
 NY,36,New York,2020-03-28,92,Public Administration,1421
 NY,36,New York,2020-04-04,92,Public Administration,1255
+NY,36,New York,2020-04-11,92,Public Administration,2095
+NY,36,New York,2020-04-18,92,Public Administration,1238
 NY,36,New York,2020-03-14,53,Real Estate and Rental and Leasing,462
 NY,36,New York,2020-03-21,53,Real Estate and Rental and Leasing,1266
 NY,36,New York,2020-03-28,53,Real Estate and Rental and Leasing,5137
 NY,36,New York,2020-04-04,53,Real Estate and Rental and Leasing,5104
+NY,36,New York,2020-04-11,53,Real Estate and Rental and Leasing,6065
+NY,36,New York,2020-04-18,53,Real Estate and Rental and Leasing,2842
 NY,36,New York,2020-03-14,44-45,Retail Trade,1137
 NY,36,New York,2020-03-21,44-45,Retail Trade,4157
 NY,36,New York,2020-03-28,44-45,Retail Trade,44759
 NY,36,New York,2020-04-04,44-45,Retail Trade,49160
+NY,36,New York,2020-04-11,44-45,Retail Trade,63143
+NY,36,New York,2020-04-18,44-45,Retail Trade,29782
 NY,36,New York,2020-03-14,48-49,Transportation and Warehousing,575
 NY,36,New York,2020-03-21,48-49,Transportation and Warehousing,2865
 NY,36,New York,2020-03-28,48-49,Transportation and Warehousing,17346
 NY,36,New York,2020-04-04,48-49,Transportation and Warehousing,14376
+NY,36,New York,2020-04-11,48-49,Transportation and Warehousing,14292
+NY,36,New York,2020-04-18,48-49,Transportation and Warehousing,9431
 NY,36,New York,2020-03-14,99,Unclassified,342
 NY,36,New York,2020-03-21,99,Unclassified,1741
 NY,36,New York,2020-03-28,99,Unclassified,6627
 NY,36,New York,2020-04-04,99,Unclassified,13570
+NY,36,New York,2020-04-11,99,Unclassified,19093
+NY,36,New York,2020-04-18,99,Unclassified,13840
 NY,36,New York,2020-03-14,42,Wholesale Trade,480
 NY,36,New York,2020-03-21,42,Wholesale Trade,1020
 NY,36,New York,2020-03-28,42,Wholesale Trade,10190
 NY,36,New York,2020-04-04,42,Wholesale Trade,12135
+NY,36,New York,2020-04-11,42,Wholesale Trade,15881
+NY,36,New York,2020-04-18,42,Wholesale Trade,7607
 OR,41,Oregon,2020-03-07,72,Accommodation and Food Services,286
 OR,41,Oregon,2020-03-07,56,"Admin. and Support, Waste Mgmt. and Remediation Services",387
 OR,41,Oregon,2020-03-07,11,"Agriculture, Forestry, Fishing, and Hunting",140
@@ -795,167 +1289,411 @@ OR,41,Oregon,2020-04-04,71,"Arts, Entertainment, and Recreation",1815
 OR,41,Oregon,2020-04-04,11,"Agriculture, Forestry, Fishing, and Hunting",615
 OR,41,Oregon,2020-04-04,56,"Admin. and Support, Waste Mgmt. and Remediation Services",2965
 OR,41,Oregon,2020-04-04,72,Accommodation and Food Services,12600
+OR,41,Oregon,2020-04-11,72,Accommodation and Food Services,10848
+OR,41,Oregon,2020-04-11,56,"Admin. and Support, Waste Mgmt. and Remediation Services",2781
+OR,41,Oregon,2020-04-11,11,"Agriculture, Forestry, Fishing, and Hunting",580
+OR,41,Oregon,2020-04-11,71,"Arts, Entertainment, and Recreation",1470
+OR,41,Oregon,2020-04-11,23,Construction,3263
+OR,41,Oregon,2020-04-11,61,Educational Services,1118
+OR,41,Oregon,2020-04-11,52,Finance and Insurance,335
+OR,41,Oregon,2020-04-11,62,Health Care and Social Assistance,7275
+OR,41,Oregon,2020-04-11,51,Information,526
+OR,41,Oregon,2020-04-11,55,Management of Companies and Enterprises,204
+OR,41,Oregon,2020-04-11,31-33,Manufacturing,4733
+OR,41,Oregon,2020-04-11,21,"Mining, Quarrying, and Oil and Gas Extraction",42
+OR,41,Oregon,2020-04-11,81,Other Services (except Public Administration),2485
+OR,41,Oregon,2020-04-11,54,"Professional, Scientific, and Technical Services",1358
+OR,41,Oregon,2020-04-11,92,Public Administration,403
+OR,41,Oregon,2020-04-11,53,Real Estate and Rental and Leasing,795
+OR,41,Oregon,2020-04-11,44-45,Retail Trade,3708
+OR,41,Oregon,2020-04-11,48-49,Transportation and Warehousing,1241
+OR,41,Oregon,2020-04-11,22,Utilities,24
+OR,41,Oregon,2020-04-11,42,Wholesale Trade,1461
+OR,41,Oregon,2020-04-18,21,"Mining, Quarrying, and Oil and Gas Extraction",22
+OR,41,Oregon,2020-04-18,22,Utilities,17
+OR,41,Oregon,2020-04-18,23,Construction,1667
+OR,41,Oregon,2020-04-18,31-33,Manufacturing,3572
+OR,41,Oregon,2020-04-18,42,Wholesale Trade,915
+OR,41,Oregon,2020-04-18,44-45,Retail Trade,4593
+OR,41,Oregon,2020-04-18,48-49,Transportation and Warehousing,876
+OR,41,Oregon,2020-04-18,51,Information,366
+OR,41,Oregon,2020-04-18,52,Finance and Insurance,241
+OR,41,Oregon,2020-04-18,53,Real Estate and Rental and Leasing,475
+OR,41,Oregon,2020-04-18,54,"Professional, Scientific, and Technical Services",955
+OR,41,Oregon,2020-04-18,55,Management of Companies and Enterprises,179
+OR,41,Oregon,2020-04-18,56,"Admin. and Support, Waste Mgmt. and Remediation Services",1761
+OR,41,Oregon,2020-04-18,61,Educational Services,864
+OR,41,Oregon,2020-04-18,62,Health Care and Social Assistance,5057
+OR,41,Oregon,2020-04-18,71,"Arts, Entertainment, and Recreation",1066
+OR,41,Oregon,2020-04-18,72,Accommodation and Food Services,6856
+OR,41,Oregon,2020-04-18,92,Public Administration,314
+TX,48,Texas,2020-03-07,72,Accommodation and Food Services,1425
+TX,48,Texas,2020-03-14,72,Accommodation and Food Services,2556
+TX,48,Texas,2020-03-21,72,Accommodation and Food Services,64909
+TX,48,Texas,2020-03-28,72,Accommodation and Food Services,60621
+TX,48,Texas,2020-04-04,72,Accommodation and Food Services,44415
+TX,48,Texas,2020-04-11,72,Accommodation and Food Services,30556
+TX,48,Texas,2020-03-07,56,"Admin. and Support, Waste Mgmt. and Remediation Services",1987
+TX,48,Texas,2020-03-14,56,"Admin. and Support, Waste Mgmt. and Remediation Services",2044
+TX,48,Texas,2020-03-21,56,"Admin. and Support, Waste Mgmt. and Remediation Services",11065
+TX,48,Texas,2020-03-28,56,"Admin. and Support, Waste Mgmt. and Remediation Services",21976
+TX,48,Texas,2020-04-04,56,"Admin. and Support, Waste Mgmt. and Remediation Services",22934
+TX,48,Texas,2020-04-11,56,"Admin. and Support, Waste Mgmt. and Remediation Services",18354
+TX,48,Texas,2020-03-07,11,"Agriculture, Forestry, Fishing, and Hunting",66
+TX,48,Texas,2020-03-14,11,"Agriculture, Forestry, Fishing, and Hunting",44
+TX,48,Texas,2020-03-21,11,"Agriculture, Forestry, Fishing, and Hunting",74
+TX,48,Texas,2020-03-28,11,"Agriculture, Forestry, Fishing, and Hunting",138
+TX,48,Texas,2020-04-04,11,"Agriculture, Forestry, Fishing, and Hunting",196
+TX,48,Texas,2020-04-11,11,"Agriculture, Forestry, Fishing, and Hunting",218
+TX,48,Texas,2020-03-07,71,"Arts, Entertainment, and Recreation",79
+TX,48,Texas,2020-03-14,71,"Arts, Entertainment, and Recreation",214
+TX,48,Texas,2020-03-21,71,"Arts, Entertainment, and Recreation",6783
+TX,48,Texas,2020-03-28,71,"Arts, Entertainment, and Recreation",7838
+TX,48,Texas,2020-04-04,71,"Arts, Entertainment, and Recreation",6853
+TX,48,Texas,2020-04-11,71,"Arts, Entertainment, and Recreation",4825
+TX,48,Texas,2020-03-07,23,Construction,2757
+TX,48,Texas,2020-03-14,23,Construction,2619
+TX,48,Texas,2020-03-21,23,Construction,6909
+TX,48,Texas,2020-03-28,23,Construction,12956
+TX,48,Texas,2020-04-04,23,Construction,12707
+TX,48,Texas,2020-04-11,23,Construction,9971
+TX,48,Texas,2020-03-07,61,Educational Services,188
+TX,48,Texas,2020-03-14,61,Educational Services,259
+TX,48,Texas,2020-03-21,61,Educational Services,4073
+TX,48,Texas,2020-03-28,61,Educational Services,6404
+TX,48,Texas,2020-04-04,61,Educational Services,6591
+TX,48,Texas,2020-04-11,61,Educational Services,5536
+TX,48,Texas,2020-03-07,52,Finance and Insurance,500
+TX,48,Texas,2020-03-14,52,Finance and Insurance,402
+TX,48,Texas,2020-03-21,52,Finance and Insurance,1114
+TX,48,Texas,2020-03-28,52,Finance and Insurance,1824
+TX,48,Texas,2020-04-04,52,Finance and Insurance,2699
+TX,48,Texas,2020-04-11,52,Finance and Insurance,2069
+TX,48,Texas,2020-03-07,62,Health Care and Social Assistance,996
+TX,48,Texas,2020-03-14,62,Health Care and Social Assistance,905
+TX,48,Texas,2020-03-21,62,Health Care and Social Assistance,13939
+TX,48,Texas,2020-03-28,62,Health Care and Social Assistance,36901
+TX,48,Texas,2020-04-04,62,Health Care and Social Assistance,36581
+TX,48,Texas,2020-04-11,62,Health Care and Social Assistance,24546
+TX,48,Texas,2020-03-07,51,Information,233
+TX,48,Texas,2020-03-14,51,Information,296
+TX,48,Texas,2020-03-21,51,Information,3638
+TX,48,Texas,2020-03-28,51,Information,3507
+TX,48,Texas,2020-04-04,51,Information,3094
+TX,48,Texas,2020-04-11,51,Information,2352
+TX,48,Texas,2020-03-07,55,Management of Companies and Enterprises,108
+TX,48,Texas,2020-03-14,55,Management of Companies and Enterprises,138
+TX,48,Texas,2020-03-21,55,Management of Companies and Enterprises,708
+TX,48,Texas,2020-03-28,55,Management of Companies and Enterprises,1448
+TX,48,Texas,2020-04-04,55,Management of Companies and Enterprises,1364
+TX,48,Texas,2020-04-11,55,Management of Companies and Enterprises,1062
+TX,48,Texas,2020-03-07,31-33,Manufacturing,939
+TX,48,Texas,2020-03-14,31-33,Manufacturing,966
+TX,48,Texas,2020-03-21,31-33,Manufacturing,3822
+TX,48,Texas,2020-03-28,31-33,Manufacturing,16610
+TX,48,Texas,2020-04-04,31-33,Manufacturing,13742
+TX,48,Texas,2020-04-11,31-33,Manufacturing,11006
+TX,48,Texas,2020-03-07,21,"Mining, Quarrying, and Oil and Gas Extraction",609
+TX,48,Texas,2020-03-14,21,"Mining, Quarrying, and Oil and Gas Extraction",986
+TX,48,Texas,2020-03-21,21,"Mining, Quarrying, and Oil and Gas Extraction",2995
+TX,48,Texas,2020-03-28,21,"Mining, Quarrying, and Oil and Gas Extraction",4306
+TX,48,Texas,2020-04-04,21,"Mining, Quarrying, and Oil and Gas Extraction",5481
+TX,48,Texas,2020-04-11,21,"Mining, Quarrying, and Oil and Gas Extraction",5500
+TX,48,Texas,2020-03-07,81,Other Services (except Public Administration),438
+TX,48,Texas,2020-03-14,81,Other Services (except Public Administration),472
+TX,48,Texas,2020-03-21,81,Other Services (except Public Administration),8279
+TX,48,Texas,2020-03-28,81,Other Services (except Public Administration),18520
+TX,48,Texas,2020-04-04,81,Other Services (except Public Administration),17736
+TX,48,Texas,2020-04-11,81,Other Services (except Public Administration),11411
+TX,48,Texas,2020-03-07,54,"Professional, Scientific, and Technical Services",1100
+TX,48,Texas,2020-03-14,54,"Professional, Scientific, and Technical Services",1078
+TX,48,Texas,2020-03-21,54,"Professional, Scientific, and Technical Services",5059
+TX,48,Texas,2020-03-28,54,"Professional, Scientific, and Technical Services",9669
+TX,48,Texas,2020-04-04,54,"Professional, Scientific, and Technical Services",11545
+TX,48,Texas,2020-04-11,54,"Professional, Scientific, and Technical Services",9384
+TX,48,Texas,2020-03-07,92,Public Administration,126
+TX,48,Texas,2020-03-14,92,Public Administration,124
+TX,48,Texas,2020-03-21,92,Public Administration,437
+TX,48,Texas,2020-03-28,92,Public Administration,669
+TX,48,Texas,2020-04-04,92,Public Administration,836
+TX,48,Texas,2020-04-11,92,Public Administration,822
+TX,48,Texas,2020-03-07,53,Real Estate and Rental and Leasing,321
+TX,48,Texas,2020-03-14,53,Real Estate and Rental and Leasing,355
+TX,48,Texas,2020-03-21,53,Real Estate and Rental and Leasing,2405
+TX,48,Texas,2020-03-28,53,Real Estate and Rental and Leasing,4757
+TX,48,Texas,2020-04-04,53,Real Estate and Rental and Leasing,5122
+TX,48,Texas,2020-04-11,53,Real Estate and Rental and Leasing,4099
+TX,48,Texas,2020-03-07,44-45,Retail Trade,1023
+TX,48,Texas,2020-03-14,44-45,Retail Trade,909
+TX,48,Texas,2020-03-21,44-45,Retail Trade,8381
+TX,48,Texas,2020-03-28,44-45,Retail Trade,27087
+TX,48,Texas,2020-04-04,44-45,Retail Trade,49236
+TX,48,Texas,2020-04-11,44-45,Retail Trade,36820
+TX,48,Texas,2020-03-07,48-49,Transportation and Warehousing,1392
+TX,48,Texas,2020-03-14,48-49,Transportation and Warehousing,1986
+TX,48,Texas,2020-03-21,48-49,Transportation and Warehousing,3526
+TX,48,Texas,2020-03-28,48-49,Transportation and Warehousing,5560
+TX,48,Texas,2020-04-04,48-49,Transportation and Warehousing,7247
+TX,48,Texas,2020-04-11,48-49,Transportation and Warehousing,6729
+TX,48,Texas,2020-03-07,22,Utilities,51
+TX,48,Texas,2020-03-14,22,Utilities,41
+TX,48,Texas,2020-03-21,22,Utilities,64
+TX,48,Texas,2020-03-28,22,Utilities,109
+TX,48,Texas,2020-04-04,22,Utilities,129
+TX,48,Texas,2020-04-11,22,Utilities,113
+TX,48,Texas,2020-03-07,42,Wholesale Trade,577
+TX,48,Texas,2020-03-14,42,Wholesale Trade,604
+TX,48,Texas,2020-03-21,42,Wholesale Trade,2499
+TX,48,Texas,2020-03-28,42,Wholesale Trade,6852
+TX,48,Texas,2020-04-04,42,Wholesale Trade,10620
+TX,48,Texas,2020-04-11,42,Wholesale Trade,7540
+TX,48,Texas,2020-03-07,99,Unclassified,801
+TX,48,Texas,2020-03-14,99,Unclassified,775
+TX,48,Texas,2020-03-21,99,Unclassified,5032
+TX,48,Texas,2020-03-28,99,Unclassified,10855
+TX,48,Texas,2020-04-04,99,Unclassified,18586
+TX,48,Texas,2020-04-11,99,Unclassified,23748
 WA,53,Washington,2020-03-14,11,"Agriculture, Forestry, Fishing, and Hunting",356
 WA,53,Washington,2020-03-21,11,"Agriculture, Forestry, Fishing, and Hunting",865
 WA,53,Washington,2020-03-28,11,"Agriculture, Forestry, Fishing, and Hunting",1404
 WA,53,Washington,2020-04-04,11,"Agriculture, Forestry, Fishing, and Hunting",1516
+WA,53,Washington,2020-04-11,11,"Agriculture, Forestry, Fishing, and Hunting",1344
+WA,53,Washington,2020-04-18,11,"Agriculture, Forestry, Fishing, and Hunting",905
 WA,53,Washington,2020-03-14,21,"Mining, Quarrying, and Oil and Gas Extraction",12
 WA,53,Washington,2020-03-21,21,"Mining, Quarrying, and Oil and Gas Extraction",24
 WA,53,Washington,2020-03-28,21,"Mining, Quarrying, and Oil and Gas Extraction",178
 WA,53,Washington,2020-04-04,21,"Mining, Quarrying, and Oil and Gas Extraction",157
+WA,53,Washington,2020-04-11,21,"Mining, Quarrying, and Oil and Gas Extraction",127
+WA,53,Washington,2020-04-18,21,"Mining, Quarrying, and Oil and Gas Extraction",40
 WA,53,Washington,2020-03-14,22,Utilities,18
 WA,53,Washington,2020-03-21,22,Utilities,43
 WA,53,Washington,2020-03-28,22,Utilities,90
 WA,53,Washington,2020-04-04,22,Utilities,167
+WA,53,Washington,2020-04-11,22,Utilities,114
+WA,53,Washington,2020-04-18,22,Utilities,96
 WA,53,Washington,2020-03-14,23,Construction,1979
 WA,53,Washington,2020-03-21,23,Construction,5210
 WA,53,Washington,2020-03-28,23,Construction,28021
 WA,53,Washington,2020-04-04,23,Construction,24394
+WA,53,Washington,2020-04-11,23,Construction,17291
+WA,53,Washington,2020-04-18,23,Construction,6742
 WA,53,Washington,2020-03-14,31-33,Manufacturing,989
 WA,53,Washington,2020-03-21,31-33,Manufacturing,5276
 WA,53,Washington,2020-03-28,31-33,Manufacturing,13967
 WA,53,Washington,2020-04-04,31-33,Manufacturing,12973
+WA,53,Washington,2020-04-11,31-33,Manufacturing,33337
+WA,53,Washington,2020-04-18,31-33,Manufacturing,8335
 WA,53,Washington,2020-03-14,42,Wholesale Trade,347
 WA,53,Washington,2020-03-21,42,Wholesale Trade,1954
 WA,53,Washington,2020-03-28,42,Wholesale Trade,5207
 WA,53,Washington,2020-04-04,42,Wholesale Trade,6008
+WA,53,Washington,2020-04-11,42,Wholesale Trade,4605
+WA,53,Washington,2020-04-18,42,Wholesale Trade,2817
 WA,53,Washington,2020-03-14,44-45,Retail Trade,675
 WA,53,Washington,2020-03-21,44-45,Retail Trade,8700
 WA,53,Washington,2020-03-28,44-45,Retail Trade,22002
 WA,53,Washington,2020-04-04,44-45,Retail Trade,20508
+WA,53,Washington,2020-04-11,44-45,Retail Trade,15911
+WA,53,Washington,2020-04-18,44-45,Retail Trade,9485
 WA,53,Washington,2020-03-14,48-49,Transportation and Warehousing,569
 WA,53,Washington,2020-03-21,48-49,Transportation and Warehousing,1940
 WA,53,Washington,2020-03-28,48-49,Transportation and Warehousing,3631
 WA,53,Washington,2020-04-04,48-49,Transportation and Warehousing,4625
+WA,53,Washington,2020-04-11,48-49,Transportation and Warehousing,3875
+WA,53,Washington,2020-04-18,48-49,Transportation and Warehousing,2753
 WA,53,Washington,2020-03-14,51,Information,199
 WA,53,Washington,2020-03-21,51,Information,1346
 WA,53,Washington,2020-03-28,51,Information,1523
 WA,53,Washington,2020-04-04,51,Information,1693
+WA,53,Washington,2020-04-11,51,Information,1088
+WA,53,Washington,2020-04-18,51,Information,798
 WA,53,Washington,2020-03-14,52,Finance and Insurance,105
 WA,53,Washington,2020-03-21,52,Finance and Insurance,570
 WA,53,Washington,2020-03-28,52,Finance and Insurance,949
 WA,53,Washington,2020-04-04,52,Finance and Insurance,997
+WA,53,Washington,2020-04-11,52,Finance and Insurance,696
+WA,53,Washington,2020-04-18,52,Finance and Insurance,589
 WA,53,Washington,2020-03-14,53,Real Estate and Rental and Leasing,245
 WA,53,Washington,2020-03-21,53,Real Estate and Rental and Leasing,1444
 WA,53,Washington,2020-03-28,53,Real Estate and Rental and Leasing,2602
 WA,53,Washington,2020-04-04,53,Real Estate and Rental and Leasing,2309
+WA,53,Washington,2020-04-11,53,Real Estate and Rental and Leasing,1674
+WA,53,Washington,2020-04-18,53,Real Estate and Rental and Leasing,1188
 WA,53,Washington,2020-03-14,54,"Professional, Scientific, and Technical Services",409
 WA,53,Washington,2020-03-21,54,"Professional, Scientific, and Technical Services",2129
 WA,53,Washington,2020-03-28,54,"Professional, Scientific, and Technical Services",4313
 WA,53,Washington,2020-04-04,54,"Professional, Scientific, and Technical Services",4415
+WA,53,Washington,2020-04-11,54,"Professional, Scientific, and Technical Services",3916
+WA,53,Washington,2020-04-18,54,"Professional, Scientific, and Technical Services",2459
 WA,53,Washington,2020-03-14,55,Management of Companies and Enterprises,11
 WA,53,Washington,2020-03-21,55,Management of Companies and Enterprises,67
 WA,53,Washington,2020-03-28,55,Management of Companies and Enterprises,139
 WA,53,Washington,2020-04-04,55,Management of Companies and Enterprises,270
+WA,53,Washington,2020-04-11,55,Management of Companies and Enterprises,127
+WA,53,Washington,2020-04-18,55,Management of Companies and Enterprises,214
 WA,53,Washington,2020-03-14,56,"Admin. and Support, Waste Mgmt. and Remediation Services",864
 WA,53,Washington,2020-03-21,56,"Admin. and Support, Waste Mgmt. and Remediation Services",3568
 WA,53,Washington,2020-03-28,56,"Admin. and Support, Waste Mgmt. and Remediation Services",8580
 WA,53,Washington,2020-04-04,56,"Admin. and Support, Waste Mgmt. and Remediation Services",8508
+WA,53,Washington,2020-04-11,56,"Admin. and Support, Waste Mgmt. and Remediation Services",6522
+WA,53,Washington,2020-04-18,56,"Admin. and Support, Waste Mgmt. and Remediation Services",4277
 WA,53,Washington,2020-03-14,61,Educational Services,549
 WA,53,Washington,2020-03-21,61,Educational Services,4873
 WA,53,Washington,2020-03-28,61,Educational Services,4387
 WA,53,Washington,2020-04-04,61,Educational Services,3556
+WA,53,Washington,2020-04-11,61,Educational Services,2665
+WA,53,Washington,2020-04-18,61,Educational Services,2170
 WA,53,Washington,2020-03-14,62,Health Care and Social Assistance,858
 WA,53,Washington,2020-03-21,62,Health Care and Social Assistance,18902
 WA,53,Washington,2020-03-28,62,Health Care and Social Assistance,20268
 WA,53,Washington,2020-04-04,62,Health Care and Social Assistance,19462
+WA,53,Washington,2020-04-11,62,Health Care and Social Assistance,12783
+WA,53,Washington,2020-04-18,62,Health Care and Social Assistance,9134
 WA,53,Washington,2020-03-14,71,"Arts, Entertainment, and Recreation",306
 WA,53,Washington,2020-03-21,71,"Arts, Entertainment, and Recreation",7574
 WA,53,Washington,2020-03-28,71,"Arts, Entertainment, and Recreation",5422
 WA,53,Washington,2020-04-04,71,"Arts, Entertainment, and Recreation",6762
+WA,53,Washington,2020-04-11,71,"Arts, Entertainment, and Recreation",5782
+WA,53,Washington,2020-04-18,71,"Arts, Entertainment, and Recreation",3566
 WA,53,Washington,2020-03-14,72,Accommodation and Food Services,3647
 WA,53,Washington,2020-03-21,72,Accommodation and Food Services,41309
 WA,53,Washington,2020-03-28,72,Accommodation and Food Services,23360
 WA,53,Washington,2020-04-04,72,Accommodation and Food Services,18017
+WA,53,Washington,2020-04-11,72,Accommodation and Food Services,11233
+WA,53,Washington,2020-04-18,72,Accommodation and Food Services,7668
 WA,53,Washington,2020-03-14,81,Other Services (except Public Administration),324
 WA,53,Washington,2020-03-21,81,Other Services (except Public Administration),9626
 WA,53,Washington,2020-03-28,81,Other Services (except Public Administration),8879
 WA,53,Washington,2020-04-04,81,Other Services (except Public Administration),7399
+WA,53,Washington,2020-04-11,81,Other Services (except Public Administration),4553
+WA,53,Washington,2020-04-18,81,Other Services (except Public Administration),3043
 WA,53,Washington,2020-03-14,92,Public Administration,125
 WA,53,Washington,2020-03-21,92,Public Administration,676
 WA,53,Washington,2020-03-28,92,Public Administration,1001
 WA,53,Washington,2020-04-04,92,Public Administration,1089
+WA,53,Washington,2020-04-11,92,Public Administration,1840
+WA,53,Washington,2020-04-18,92,Public Administration,1411
 WA,53,Washington,2020-03-14,99,Unclassified,614
 WA,53,Washington,2020-03-21,99,Unclassified,5498
 WA,53,Washington,2020-03-28,99,Unclassified,13022
 WA,53,Washington,2020-04-04,99,Unclassified,23045
+WA,53,Washington,2020-04-11,99,Unclassified,14167
+WA,53,Washington,2020-04-18,99,Unclassified,14726
+WA,53,Washington,2020-03-14,NA,NA,13201
+WA,53,Washington,2020-03-21,NA,NA,121594
+WA,53,Washington,2020-03-28,NA,NA,168945
+WA,53,Washington,2020-04-04,NA,NA,167870
+WA,53,Washington,2020-04-11,NA,NA,143650
+WA,53,Washington,2020-04-18,NA,NA,82416
 WY,56,Wyoming,2020-03-07,1021,"**Trade, transportation, and utilities**",45
 WY,56,Wyoming,2020-03-14,1021,"**Trade, transportation, and utilities**",23
 WY,56,Wyoming,2020-03-21,1021,"**Trade, transportation, and utilities**",74
 WY,56,Wyoming,2020-03-28,1021,"**Trade, transportation, and utilities**",101
 WY,56,Wyoming,2020-04-04,1021,"**Trade, transportation, and utilities**",131
+WY,56,Wyoming,2020-04-11,1021,"**Trade, transportation, and utilities**",316
+WY,56,Wyoming,2020-04-18,1021,"**Trade, transportation, and utilities**",210
 WY,56,Wyoming,2020-03-07,1023,**Financial activities**,7
 WY,56,Wyoming,2020-03-14,1023,**Financial activities**,14
 WY,56,Wyoming,2020-03-21,1023,**Financial activities**,55
 WY,56,Wyoming,2020-03-28,1023,**Financial activities**,62
 WY,56,Wyoming,2020-04-04,1023,**Financial activities**,74
+WY,56,Wyoming,2020-04-11,1023,**Financial activities**,90
+WY,56,Wyoming,2020-04-18,1023,**Financial activities**,58
 WY,56,Wyoming,2020-03-07,1024,**Professional and business services**,27
 WY,56,Wyoming,2020-03-14,1024,**Professional and business services**,45
 WY,56,Wyoming,2020-03-21,1024,**Professional and business services**,120
 WY,56,Wyoming,2020-03-28,1024,**Professional and business services**,206
 WY,56,Wyoming,2020-04-04,1024,**Professional and business services**,241
+WY,56,Wyoming,2020-04-11,1024,**Professional and business services**,248
+WY,56,Wyoming,2020-04-18,1024,**Professional and business services**,166
 WY,56,Wyoming,2020-03-07,1026,**Leisure and hospitality**,91
 WY,56,Wyoming,2020-03-14,1026,**Leisure and hospitality**,83
 WY,56,Wyoming,2020-03-21,1026,**Leisure and hospitality**,1615
 WY,56,Wyoming,2020-03-28,1026,**Leisure and hospitality**,1671
 WY,56,Wyoming,2020-04-04,1026,**Leisure and hospitality**,1263
+WY,56,Wyoming,2020-04-11,1026,**Leisure and hospitality**,1204
+WY,56,Wyoming,2020-04-18,1026,**Leisure and hospitality**,758
 WY,56,Wyoming,2020-03-07,11,"Agriculture, Forestry, Fishing, and Hunting",5
 WY,56,Wyoming,2020-03-14,11,"Agriculture, Forestry, Fishing, and Hunting",NA
 WY,56,Wyoming,2020-03-21,11,"Agriculture, Forestry, Fishing, and Hunting",NA
 WY,56,Wyoming,2020-03-28,11,"Agriculture, Forestry, Fishing, and Hunting",NA
 WY,56,Wyoming,2020-04-04,11,"Agriculture, Forestry, Fishing, and Hunting",NA
+WY,56,Wyoming,2020-04-11,11,"Agriculture, Forestry, Fishing, and Hunting",NA
+WY,56,Wyoming,2020-04-18,11,"Agriculture, Forestry, Fishing, and Hunting",NA
 WY,56,Wyoming,2020-03-07,21,"Mining, Quarrying, and Oil and Gas Extraction",46
 WY,56,Wyoming,2020-03-14,21,"Mining, Quarrying, and Oil and Gas Extraction",70
 WY,56,Wyoming,2020-03-21,21,"Mining, Quarrying, and Oil and Gas Extraction",190
 WY,56,Wyoming,2020-03-28,21,"Mining, Quarrying, and Oil and Gas Extraction",297
 WY,56,Wyoming,2020-04-04,21,"Mining, Quarrying, and Oil and Gas Extraction",332
+WY,56,Wyoming,2020-04-11,21,"Mining, Quarrying, and Oil and Gas Extraction",466
+WY,56,Wyoming,2020-04-18,21,"Mining, Quarrying, and Oil and Gas Extraction",405
 WY,56,Wyoming,2020-03-07,23,Construction,134
 WY,56,Wyoming,2020-03-14,23,Construction,133
 WY,56,Wyoming,2020-03-21,23,Construction,278
 WY,56,Wyoming,2020-03-28,23,Construction,509
 WY,56,Wyoming,2020-04-04,23,Construction,469
+WY,56,Wyoming,2020-04-11,23,Construction,467
+WY,56,Wyoming,2020-04-18,23,Construction,329
 WY,56,Wyoming,2020-03-07,31-33,Manufacturing,24
 WY,56,Wyoming,2020-03-14,31-33,Manufacturing,17
 WY,56,Wyoming,2020-03-21,31-33,Manufacturing,98
 WY,56,Wyoming,2020-03-28,31-33,Manufacturing,137
 WY,56,Wyoming,2020-04-04,31-33,Manufacturing,179
+WY,56,Wyoming,2020-04-11,31-33,Manufacturing,140
+WY,56,Wyoming,2020-04-18,31-33,Manufacturing,64
 WY,56,Wyoming,2020-03-07,42,Wholesale Trade,14
 WY,56,Wyoming,2020-03-14,42,Wholesale Trade,14
 WY,56,Wyoming,2020-03-21,42,Wholesale Trade,26
 WY,56,Wyoming,2020-03-28,42,Wholesale Trade,69
 WY,56,Wyoming,2020-04-04,42,Wholesale Trade,84
+WY,56,Wyoming,2020-04-11,42,Wholesale Trade,86
+WY,56,Wyoming,2020-04-18,42,Wholesale Trade,75
 WY,56,Wyoming,2020-03-07,44-45,Retail Trade,21
 WY,56,Wyoming,2020-03-14,44-45,Retail Trade,15
 WY,56,Wyoming,2020-03-21,44-45,Retail Trade,147
 WY,56,Wyoming,2020-03-28,44-45,Retail Trade,306
 WY,56,Wyoming,2020-04-04,44-45,Retail Trade,394
+WY,56,Wyoming,2020-04-11,44-45,Retail Trade,411
+WY,56,Wyoming,2020-04-18,44-45,Retail Trade,245
 WY,56,Wyoming,2020-03-07,51,Information,NA
 WY,56,Wyoming,2020-03-14,51,Information,NA
 WY,56,Wyoming,2020-03-21,51,Information,31
 WY,56,Wyoming,2020-03-28,51,Information,27
 WY,56,Wyoming,2020-04-04,51,Information,54
+WY,56,Wyoming,2020-04-11,51,Information,36
+WY,56,Wyoming,2020-04-18,51,Information,34
 WY,56,Wyoming,2020-03-07,61,Educational Services,NA
 WY,56,Wyoming,2020-03-14,61,Educational Services,NA
 WY,56,Wyoming,2020-03-21,61,Educational Services,54
 WY,56,Wyoming,2020-03-28,61,Educational Services,110
 WY,56,Wyoming,2020-04-04,61,Educational Services,163
+WY,56,Wyoming,2020-04-11,61,Educational Services,178
+WY,56,Wyoming,2020-04-18,61,Educational Services,133
 WY,56,Wyoming,2020-03-07,62,Health Care and Social Assistance,14
 WY,56,Wyoming,2020-03-14,62,Health Care and Social Assistance,10
 WY,56,Wyoming,2020-03-21,62,Health Care and Social Assistance,342
 WY,56,Wyoming,2020-03-28,62,Health Care and Social Assistance,483
 WY,56,Wyoming,2020-04-04,62,Health Care and Social Assistance,565
+WY,56,Wyoming,2020-04-11,62,Health Care and Social Assistance,399
+WY,56,Wyoming,2020-04-18,62,Health Care and Social Assistance,257
 WY,56,Wyoming,2020-03-07,81,Other Services (except Public Administration),8
 WY,56,Wyoming,2020-03-14,81,Other Services (except Public Administration),NA
 WY,56,Wyoming,2020-03-21,81,Other Services (except Public Administration),118
 WY,56,Wyoming,2020-03-28,81,Other Services (except Public Administration),180
 WY,56,Wyoming,2020-04-04,81,Other Services (except Public Administration),187
+WY,56,Wyoming,2020-04-11,81,Other Services (except Public Administration),146
+WY,56,Wyoming,2020-04-18,81,Other Services (except Public Administration),113
 WY,56,Wyoming,2020-03-07,92,Public Administration,NA
 WY,56,Wyoming,2020-03-14,92,Public Administration,6
 WY,56,Wyoming,2020-03-21,92,Public Administration,20
 WY,56,Wyoming,2020-03-28,92,Public Administration,17
 WY,56,Wyoming,2020-04-04,92,Public Administration,28
+WY,56,Wyoming,2020-04-11,92,Public Administration,47
+WY,56,Wyoming,2020-04-18,92,Public Administration,37
 WY,56,Wyoming,2020-03-07,99,Unclassified,NA
 WY,56,Wyoming,2020-03-14,99,Unclassified,NA
 WY,56,Wyoming,2020-03-21,99,Unclassified,NA
 WY,56,Wyoming,2020-03-28,99,Unclassified,NA
 WY,56,Wyoming,2020-04-04,99,Unclassified,NA
+WY,56,Wyoming,2020-04-11,99,Unclassified,NA
+WY,56,Wyoming,2020-04-18,99,Unclassified,NA

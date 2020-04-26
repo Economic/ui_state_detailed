@@ -1,6 +1,6 @@
 ---
 title: "Weekly UI initial claims by industry"
-date: "Data updated April 15, 2020"
+date: "Data updated April 25, 2020"
 output:
   html_document:
     theme: flatly
@@ -66,7 +66,7 @@ datatable(
 ```
 
 ## Original data
-This is data as reported from the sources below, with minimal re-coding.
+This is data as reported from the sources below, with minimal re-coding. For various reasons, the total claims in these data will not necessarily match what the US DOL reports as the total for a given state.
 ```{r}
 datatable(
   state_ui_industry_original,
@@ -89,7 +89,9 @@ datatable(
 ```
 
 ## Adjusted data
-This data takes the above and removes unclassified sectors and then scales IC totals to match the totals that states report weekly to the US DOL.
+This data takes the above and removes unclassified sectors and then scales IC totals to match the totals that states report weekly to the US DOL. The scaling preserves the classified industry distribution of claims within a state-week.
+
+For example: if, after removing the unclassified sectors, the food services sector in a state-week equals 10% of the remaining total claims for that state-week, then the total claims for food services will be equal to 10% of the state-week claims that the state reports to the DOL.
 ```{r}
 datatable(
   state_ui_industry_recoded,
@@ -120,11 +122,11 @@ You can cite this data like
 
 > Economic Policy Institute. 2020. "Weekly UI initial claims by state and industry." Data collected from various sources. https://economic.github.io/ui_state_detailed/
 
-The data are actually from state employment offices for most states; Michigan's data is from the [W.E. Upjohn Institute](https://www.upjohn.org/research-highlights), which collected data from that state's employment office.
+For most states the data are from state employment offices. Michigan's data is from the [W.E. Upjohn Institute](https://www.upjohn.org/research-highlights), which collected data from that state's employment office.
 
 To do: provide detailed list of state data sources.
 
 See the Github [repo](https://github.com/Economic/ui_state_detailed) for the code.
 
 ## Contributors
-Jori Kandra, Andrew Van Dam, Ben Zipperer
+Jori Kandra, Andrew Van Dam, Ben Zipperer, Ezra Golberstein
