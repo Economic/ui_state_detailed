@@ -42,7 +42,7 @@ qcew_all <- read_csv("output/qcew_naics_2digit.csv") %>%
 
 # combine UI industry data from several states
 thestates <- c(
-  "al", "ia", "ks", "ma", "me", "mi", "nd", "ne", "nv", "ny", "or", "tx", "wa", "wy"
+  "al", "ga", "ia", "ks", "ma", "me", "mi", "nd", "ne", "nv", "ny", "or", "tx", "wa", "wy"
 )
 ui_data <- map_dfr(thestates, clean_industry_state) %>% 
   mutate(
@@ -113,6 +113,7 @@ ui_data_summary <- ui_data %>%
     maxweek = paste(sprintf("%02d", month(maxweek)), sprintf("%02d", day(maxweek)), sep = "-"),
     desc = case_when(
       stateabb == "AL" ~ "2-digit NAICS",
+      stateabb == "GA" ~ "2-digit NAICS",
       stateabb == "IA" ~ "2-digit NAICS",
       stateabb == "KS" ~ "2-digit NAICS; no utilities",
       stateabb == "MA" ~ "2-digit NAICS",

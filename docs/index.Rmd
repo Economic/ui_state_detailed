@@ -1,6 +1,6 @@
 ---
 title: "Weekly UI initial claims by industry"
-date: "Data updated April 25, 2020"
+date: "Data updated April 29, 2020"
 output:
   html_document:
     theme: flatly

@@ -27,6 +27,16 @@ clean_industry_al <- function() {
     mutate(endweek = str_sub(endweek, start = 5))
 }
 
+# Georgia
+clean_industry_ga <- function() {
+  read_sheet(basesheet, sheet = "ga_industry", col_types = "cciiiiiii") %>% 
+    mutate(stateabb = "GA") %>%
+    rename(sector = NAICS) %>% 
+    filter(!is.na(sector)) %>% 
+    select(stateabb, sector, matches("week")) %>% 
+    pivot_longer(matches("week"), names_to = "endweek", values_to = "ic") %>% 
+    mutate(endweek = str_sub(endweek, start = 5))
+}
 
 # Iowa
 clean_industry_ia <- function() {
@@ -460,8 +470,9 @@ clean_industry_or <- function() {
     filter(as.numeric(endweek) >= 307)
 }
 
+# Texas
 clean_industry_tx <- function() {
-  read_sheet(basesheet, sheet = "tx_industry", col_types = "cciiiiii") %>% 
+  read_sheet(basesheet, sheet = "tx_industry", col_types = "cciiiiiii") %>% 
     mutate(stateabb = "TX") %>%
     rename(sector = NAICS) %>% 
     filter(!is.na(sector)) %>% 

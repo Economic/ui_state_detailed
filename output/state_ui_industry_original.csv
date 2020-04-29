@@ -125,6 +125,153 @@ AL,1,Alabama,2020-03-28,99,Unclassified,19337
 AL,1,Alabama,2020-04-04,99,Unclassified,36662
 AL,1,Alabama,2020-04-11,99,Unclassified,26532
 AL,1,Alabama,2020-04-18,99,Unclassified,23925
+GA,13,Georgia,2020-03-07,11,"Agriculture, Forestry, Fishing, and Hunting",30
+GA,13,Georgia,2020-03-14,11,"Agriculture, Forestry, Fishing, and Hunting",21
+GA,13,Georgia,2020-03-21,11,"Agriculture, Forestry, Fishing, and Hunting",36
+GA,13,Georgia,2020-03-28,11,"Agriculture, Forestry, Fishing, and Hunting",116
+GA,13,Georgia,2020-04-04,11,"Agriculture, Forestry, Fishing, and Hunting",291
+GA,13,Georgia,2020-04-11,11,"Agriculture, Forestry, Fishing, and Hunting",193
+GA,13,Georgia,2020-04-18,11,"Agriculture, Forestry, Fishing, and Hunting",72
+GA,13,Georgia,2020-03-07,21,"Mining, Quarrying, and Oil and Gas Extraction",2
+GA,13,Georgia,2020-03-14,21,"Mining, Quarrying, and Oil and Gas Extraction",20
+GA,13,Georgia,2020-03-21,21,"Mining, Quarrying, and Oil and Gas Extraction",2
+GA,13,Georgia,2020-03-28,21,"Mining, Quarrying, and Oil and Gas Extraction",4
+GA,13,Georgia,2020-04-04,21,"Mining, Quarrying, and Oil and Gas Extraction",90
+GA,13,Georgia,2020-04-11,21,"Mining, Quarrying, and Oil and Gas Extraction",34
+GA,13,Georgia,2020-04-18,21,"Mining, Quarrying, and Oil and Gas Extraction",17
+GA,13,Georgia,2020-03-07,22,Utilities,3
+GA,13,Georgia,2020-03-14,22,Utilities,5
+GA,13,Georgia,2020-03-21,22,Utilities,2
+GA,13,Georgia,2020-03-28,22,Utilities,4
+GA,13,Georgia,2020-04-04,22,Utilities,26
+GA,13,Georgia,2020-04-11,22,Utilities,26
+GA,13,Georgia,2020-04-18,22,Utilities,0
+GA,13,Georgia,2020-03-07,23,Construction,581
+GA,13,Georgia,2020-03-14,23,Construction,1336
+GA,13,Georgia,2020-03-21,23,Construction,470
+GA,13,Georgia,2020-03-28,23,Construction,1815
+GA,13,Georgia,2020-04-04,23,Construction,7396
+GA,13,Georgia,2020-04-11,23,Construction,5989
+GA,13,Georgia,2020-04-18,23,Construction,3575
+GA,13,Georgia,2020-03-07,31-33,Manufacturing,872
+GA,13,Georgia,2020-03-14,31-33,Manufacturing,911
+GA,13,Georgia,2020-03-21,31-33,Manufacturing,744
+GA,13,Georgia,2020-03-28,31-33,Manufacturing,3347
+GA,13,Georgia,2020-04-04,31-33,Manufacturing,20333
+GA,13,Georgia,2020-04-11,31-33,Manufacturing,30500
+GA,13,Georgia,2020-04-18,31-33,Manufacturing,29019
+GA,13,Georgia,2020-03-07,42,Wholesale Trade,257
+GA,13,Georgia,2020-03-14,42,Wholesale Trade,211
+GA,13,Georgia,2020-03-21,42,Wholesale Trade,215
+GA,13,Georgia,2020-03-28,42,Wholesale Trade,2320
+GA,13,Georgia,2020-04-04,42,Wholesale Trade,9170
+GA,13,Georgia,2020-04-11,42,Wholesale Trade,9836
+GA,13,Georgia,2020-04-18,42,Wholesale Trade,6474
+GA,13,Georgia,2020-03-07,44-45,Retail Trade,390
+GA,13,Georgia,2020-03-14,44-45,Retail Trade,275
+GA,13,Georgia,2020-03-21,44-45,Retail Trade,557
+GA,13,Georgia,2020-03-28,44-45,Retail Trade,5888
+GA,13,Georgia,2020-04-04,44-45,Retail Trade,41830
+GA,13,Georgia,2020-04-11,44-45,Retail Trade,37475
+GA,13,Georgia,2020-04-18,44-45,Retail Trade,31125
+GA,13,Georgia,2020-03-07,48-49,Transportation and Warehousing,269
+GA,13,Georgia,2020-03-14,48-49,Transportation and Warehousing,248
+GA,13,Georgia,2020-03-21,48-49,Transportation and Warehousing,287
+GA,13,Georgia,2020-03-28,48-49,Transportation and Warehousing,1931
+GA,13,Georgia,2020-04-04,48-49,Transportation and Warehousing,9491
+GA,13,Georgia,2020-04-11,48-49,Transportation and Warehousing,15485
+GA,13,Georgia,2020-04-18,48-49,Transportation and Warehousing,6425
+GA,13,Georgia,2020-03-07,51,Information,133
+GA,13,Georgia,2020-03-14,51,Information,166
+GA,13,Georgia,2020-03-21,51,Information,706
+GA,13,Georgia,2020-03-28,51,Information,2152
+GA,13,Georgia,2020-04-04,51,Information,7932
+GA,13,Georgia,2020-04-11,51,Information,8675
+GA,13,Georgia,2020-04-18,51,Information,3767
+GA,13,Georgia,2020-03-07,52,Finance and Insurance,112
+GA,13,Georgia,2020-03-14,52,Finance and Insurance,96
+GA,13,Georgia,2020-03-21,52,Finance and Insurance,77
+GA,13,Georgia,2020-03-28,52,Finance and Insurance,300
+GA,13,Georgia,2020-04-04,52,Finance and Insurance,2301
+GA,13,Georgia,2020-04-11,52,Finance and Insurance,1889
+GA,13,Georgia,2020-04-18,52,Finance and Insurance,1288
+GA,13,Georgia,2020-03-07,53,Real Estate and Rental and Leasing,79
+GA,13,Georgia,2020-03-14,53,Real Estate and Rental and Leasing,59
+GA,13,Georgia,2020-03-21,53,Real Estate and Rental and Leasing,130
+GA,13,Georgia,2020-03-28,53,Real Estate and Rental and Leasing,947
+GA,13,Georgia,2020-04-04,53,Real Estate and Rental and Leasing,4984
+GA,13,Georgia,2020-04-11,53,Real Estate and Rental and Leasing,3133
+GA,13,Georgia,2020-04-18,53,Real Estate and Rental and Leasing,2516
+GA,13,Georgia,2020-03-07,54,"Professional, Scientific, and Technical Services",224
+GA,13,Georgia,2020-03-14,54,"Professional, Scientific, and Technical Services",293
+GA,13,Georgia,2020-03-21,54,"Professional, Scientific, and Technical Services",428
+GA,13,Georgia,2020-03-28,54,"Professional, Scientific, and Technical Services",2695
+GA,13,Georgia,2020-04-04,54,"Professional, Scientific, and Technical Services",8998
+GA,13,Georgia,2020-04-11,54,"Professional, Scientific, and Technical Services",6549
+GA,13,Georgia,2020-04-18,54,"Professional, Scientific, and Technical Services",4350
+GA,13,Georgia,2020-03-07,55,Management of Companies and Enterprises,32
+GA,13,Georgia,2020-03-14,55,Management of Companies and Enterprises,35
+GA,13,Georgia,2020-03-21,55,Management of Companies and Enterprises,168
+GA,13,Georgia,2020-03-28,55,Management of Companies and Enterprises,576
+GA,13,Georgia,2020-04-04,55,Management of Companies and Enterprises,1561
+GA,13,Georgia,2020-04-11,55,Management of Companies and Enterprises,1456
+GA,13,Georgia,2020-04-18,55,Management of Companies and Enterprises,1107
+GA,13,Georgia,2020-03-07,56,"Admin. and Support, Waste Mgmt. and Remediation Services",654
+GA,13,Georgia,2020-03-14,56,"Admin. and Support, Waste Mgmt. and Remediation Services",735
+GA,13,Georgia,2020-03-21,56,"Admin. and Support, Waste Mgmt. and Remediation Services",1189
+GA,13,Georgia,2020-03-28,56,"Admin. and Support, Waste Mgmt. and Remediation Services",8701
+GA,13,Georgia,2020-04-04,56,"Admin. and Support, Waste Mgmt. and Remediation Services",31737
+GA,13,Georgia,2020-04-11,56,"Admin. and Support, Waste Mgmt. and Remediation Services",27493
+GA,13,Georgia,2020-04-18,56,"Admin. and Support, Waste Mgmt. and Remediation Services",18408
+GA,13,Georgia,2020-03-07,61,Educational Services,50
+GA,13,Georgia,2020-03-14,61,Educational Services,74
+GA,13,Georgia,2020-03-21,61,Educational Services,278
+GA,13,Georgia,2020-03-28,61,Educational Services,1755
+GA,13,Georgia,2020-04-04,61,Educational Services,6798
+GA,13,Georgia,2020-04-11,61,Educational Services,5123
+GA,13,Georgia,2020-04-18,61,Educational Services,3237
+GA,13,Georgia,2020-03-07,62,Health Care and Social Assistance,299
+GA,13,Georgia,2020-03-14,62,Health Care and Social Assistance,269
+GA,13,Georgia,2020-03-21,62,Health Care and Social Assistance,1497
+GA,13,Georgia,2020-03-28,62,Health Care and Social Assistance,16950
+GA,13,Georgia,2020-04-04,62,Health Care and Social Assistance,42444
+GA,13,Georgia,2020-04-11,62,Health Care and Social Assistance,38479
+GA,13,Georgia,2020-04-18,62,Health Care and Social Assistance,31727
+GA,13,Georgia,2020-03-07,71,"Arts, Entertainment, and Recreation",26
+GA,13,Georgia,2020-03-14,71,"Arts, Entertainment, and Recreation",27
+GA,13,Georgia,2020-03-21,71,"Arts, Entertainment, and Recreation",436
+GA,13,Georgia,2020-03-28,71,"Arts, Entertainment, and Recreation",6495
+GA,13,Georgia,2020-04-04,71,"Arts, Entertainment, and Recreation",11520
+GA,13,Georgia,2020-04-11,71,"Arts, Entertainment, and Recreation",9302
+GA,13,Georgia,2020-04-18,71,"Arts, Entertainment, and Recreation",10766
+GA,13,Georgia,2020-03-07,72,Accommodation and Food Services,237
+GA,13,Georgia,2020-03-14,72,Accommodation and Food Services,322
+GA,13,Georgia,2020-03-21,72,Accommodation and Food Services,3847
+GA,13,Georgia,2020-03-28,72,Accommodation and Food Services,65496
+GA,13,Georgia,2020-04-04,72,Accommodation and Food Services,114712
+GA,13,Georgia,2020-04-11,72,Accommodation and Food Services,86677
+GA,13,Georgia,2020-04-18,72,Accommodation and Food Services,68774
+GA,13,Georgia,2020-03-07,81,Other Services (except Public Administration),71
+GA,13,Georgia,2020-03-14,81,Other Services (except Public Administration),72
+GA,13,Georgia,2020-03-21,81,Other Services (except Public Administration),358
+GA,13,Georgia,2020-03-28,81,Other Services (except Public Administration),6088
+GA,13,Georgia,2020-04-04,81,Other Services (except Public Administration),19675
+GA,13,Georgia,2020-04-11,81,Other Services (except Public Administration),13366
+GA,13,Georgia,2020-04-18,81,Other Services (except Public Administration),9500
+GA,13,Georgia,2020-03-07,92,Public Administration,49
+GA,13,Georgia,2020-03-14,92,Public Administration,53
+GA,13,Georgia,2020-03-21,92,Public Administration,94
+GA,13,Georgia,2020-03-28,92,Public Administration,531
+GA,13,Georgia,2020-04-04,92,Public Administration,2443
+GA,13,Georgia,2020-04-11,92,Public Administration,1510
+GA,13,Georgia,2020-04-18,92,Public Administration,1238
+GA,13,Georgia,2020-03-07,99,Unclassified,198
+GA,13,Georgia,2020-03-14,99,Unclassified,219
+GA,13,Georgia,2020-03-21,99,Unclassified,619
+GA,13,Georgia,2020-03-28,99,Unclassified,5708
+GA,13,Georgia,2020-04-04,99,Unclassified,46398
+GA,13,Georgia,2020-04-11,99,Unclassified,16391
+GA,13,Georgia,2020-04-18,99,Unclassified,13618
 IA,19,Iowa,2020-03-14,72,Accommodation and Food Services,229
 IA,19,Iowa,2020-03-21,72,Accommodation and Food Services,15980
 IA,19,Iowa,2020-03-28,72,Accommodation and Food Services,12519
@@ -1333,126 +1480,147 @@ TX,48,Texas,2020-03-21,72,Accommodation and Food Services,64909
 TX,48,Texas,2020-03-28,72,Accommodation and Food Services,60621
 TX,48,Texas,2020-04-04,72,Accommodation and Food Services,44415
 TX,48,Texas,2020-04-11,72,Accommodation and Food Services,30556
+TX,48,Texas,2020-04-18,72,Accommodation and Food Services,28860
 TX,48,Texas,2020-03-07,56,"Admin. and Support, Waste Mgmt. and Remediation Services",1987
 TX,48,Texas,2020-03-14,56,"Admin. and Support, Waste Mgmt. and Remediation Services",2044
 TX,48,Texas,2020-03-21,56,"Admin. and Support, Waste Mgmt. and Remediation Services",11065
 TX,48,Texas,2020-03-28,56,"Admin. and Support, Waste Mgmt. and Remediation Services",21976
 TX,48,Texas,2020-04-04,56,"Admin. and Support, Waste Mgmt. and Remediation Services",22934
 TX,48,Texas,2020-04-11,56,"Admin. and Support, Waste Mgmt. and Remediation Services",18354
+TX,48,Texas,2020-04-18,56,"Admin. and Support, Waste Mgmt. and Remediation Services",18177
 TX,48,Texas,2020-03-07,11,"Agriculture, Forestry, Fishing, and Hunting",66
 TX,48,Texas,2020-03-14,11,"Agriculture, Forestry, Fishing, and Hunting",44
 TX,48,Texas,2020-03-21,11,"Agriculture, Forestry, Fishing, and Hunting",74
 TX,48,Texas,2020-03-28,11,"Agriculture, Forestry, Fishing, and Hunting",138
 TX,48,Texas,2020-04-04,11,"Agriculture, Forestry, Fishing, and Hunting",196
 TX,48,Texas,2020-04-11,11,"Agriculture, Forestry, Fishing, and Hunting",218
+TX,48,Texas,2020-04-18,11,"Agriculture, Forestry, Fishing, and Hunting",302
 TX,48,Texas,2020-03-07,71,"Arts, Entertainment, and Recreation",79
 TX,48,Texas,2020-03-14,71,"Arts, Entertainment, and Recreation",214
 TX,48,Texas,2020-03-21,71,"Arts, Entertainment, and Recreation",6783
 TX,48,Texas,2020-03-28,71,"Arts, Entertainment, and Recreation",7838
 TX,48,Texas,2020-04-04,71,"Arts, Entertainment, and Recreation",6853
 TX,48,Texas,2020-04-11,71,"Arts, Entertainment, and Recreation",4825
+TX,48,Texas,2020-04-18,71,"Arts, Entertainment, and Recreation",4358
 TX,48,Texas,2020-03-07,23,Construction,2757
 TX,48,Texas,2020-03-14,23,Construction,2619
 TX,48,Texas,2020-03-21,23,Construction,6909
 TX,48,Texas,2020-03-28,23,Construction,12956
 TX,48,Texas,2020-04-04,23,Construction,12707
 TX,48,Texas,2020-04-11,23,Construction,9971
+TX,48,Texas,2020-04-18,23,Construction,9881
 TX,48,Texas,2020-03-07,61,Educational Services,188
 TX,48,Texas,2020-03-14,61,Educational Services,259
 TX,48,Texas,2020-03-21,61,Educational Services,4073
 TX,48,Texas,2020-03-28,61,Educational Services,6404
 TX,48,Texas,2020-04-04,61,Educational Services,6591
 TX,48,Texas,2020-04-11,61,Educational Services,5536
+TX,48,Texas,2020-04-18,61,Educational Services,5701
 TX,48,Texas,2020-03-07,52,Finance and Insurance,500
 TX,48,Texas,2020-03-14,52,Finance and Insurance,402
 TX,48,Texas,2020-03-21,52,Finance and Insurance,1114
 TX,48,Texas,2020-03-28,52,Finance and Insurance,1824
 TX,48,Texas,2020-04-04,52,Finance and Insurance,2699
 TX,48,Texas,2020-04-11,52,Finance and Insurance,2069
+TX,48,Texas,2020-04-18,52,Finance and Insurance,2177
 TX,48,Texas,2020-03-07,62,Health Care and Social Assistance,996
 TX,48,Texas,2020-03-14,62,Health Care and Social Assistance,905
 TX,48,Texas,2020-03-21,62,Health Care and Social Assistance,13939
 TX,48,Texas,2020-03-28,62,Health Care and Social Assistance,36901
 TX,48,Texas,2020-04-04,62,Health Care and Social Assistance,36581
 TX,48,Texas,2020-04-11,62,Health Care and Social Assistance,24546
+TX,48,Texas,2020-04-18,62,Health Care and Social Assistance,21327
 TX,48,Texas,2020-03-07,51,Information,233
 TX,48,Texas,2020-03-14,51,Information,296
 TX,48,Texas,2020-03-21,51,Information,3638
 TX,48,Texas,2020-03-28,51,Information,3507
 TX,48,Texas,2020-04-04,51,Information,3094
 TX,48,Texas,2020-04-11,51,Information,2352
+TX,48,Texas,2020-04-18,51,Information,2051
 TX,48,Texas,2020-03-07,55,Management of Companies and Enterprises,108
 TX,48,Texas,2020-03-14,55,Management of Companies and Enterprises,138
 TX,48,Texas,2020-03-21,55,Management of Companies and Enterprises,708
 TX,48,Texas,2020-03-28,55,Management of Companies and Enterprises,1448
 TX,48,Texas,2020-04-04,55,Management of Companies and Enterprises,1364
 TX,48,Texas,2020-04-11,55,Management of Companies and Enterprises,1062
+TX,48,Texas,2020-04-18,55,Management of Companies and Enterprises,920
 TX,48,Texas,2020-03-07,31-33,Manufacturing,939
 TX,48,Texas,2020-03-14,31-33,Manufacturing,966
 TX,48,Texas,2020-03-21,31-33,Manufacturing,3822
 TX,48,Texas,2020-03-28,31-33,Manufacturing,16610
 TX,48,Texas,2020-04-04,31-33,Manufacturing,13742
 TX,48,Texas,2020-04-11,31-33,Manufacturing,11006
+TX,48,Texas,2020-04-18,31-33,Manufacturing,11707
 TX,48,Texas,2020-03-07,21,"Mining, Quarrying, and Oil and Gas Extraction",609
 TX,48,Texas,2020-03-14,21,"Mining, Quarrying, and Oil and Gas Extraction",986
 TX,48,Texas,2020-03-21,21,"Mining, Quarrying, and Oil and Gas Extraction",2995
 TX,48,Texas,2020-03-28,21,"Mining, Quarrying, and Oil and Gas Extraction",4306
 TX,48,Texas,2020-04-04,21,"Mining, Quarrying, and Oil and Gas Extraction",5481
 TX,48,Texas,2020-04-11,21,"Mining, Quarrying, and Oil and Gas Extraction",5500
+TX,48,Texas,2020-04-18,21,"Mining, Quarrying, and Oil and Gas Extraction",6720
 TX,48,Texas,2020-03-07,81,Other Services (except Public Administration),438
 TX,48,Texas,2020-03-14,81,Other Services (except Public Administration),472
 TX,48,Texas,2020-03-21,81,Other Services (except Public Administration),8279
 TX,48,Texas,2020-03-28,81,Other Services (except Public Administration),18520
 TX,48,Texas,2020-04-04,81,Other Services (except Public Administration),17736
 TX,48,Texas,2020-04-11,81,Other Services (except Public Administration),11411
+TX,48,Texas,2020-04-18,81,Other Services (except Public Administration),9390
 TX,48,Texas,2020-03-07,54,"Professional, Scientific, and Technical Services",1100
 TX,48,Texas,2020-03-14,54,"Professional, Scientific, and Technical Services",1078
 TX,48,Texas,2020-03-21,54,"Professional, Scientific, and Technical Services",5059
 TX,48,Texas,2020-03-28,54,"Professional, Scientific, and Technical Services",9669
 TX,48,Texas,2020-04-04,54,"Professional, Scientific, and Technical Services",11545
 TX,48,Texas,2020-04-11,54,"Professional, Scientific, and Technical Services",9384
+TX,48,Texas,2020-04-18,54,"Professional, Scientific, and Technical Services",8496
 TX,48,Texas,2020-03-07,92,Public Administration,126
 TX,48,Texas,2020-03-14,92,Public Administration,124
 TX,48,Texas,2020-03-21,92,Public Administration,437
 TX,48,Texas,2020-03-28,92,Public Administration,669
 TX,48,Texas,2020-04-04,92,Public Administration,836
 TX,48,Texas,2020-04-11,92,Public Administration,822
+TX,48,Texas,2020-04-18,92,Public Administration,833
 TX,48,Texas,2020-03-07,53,Real Estate and Rental and Leasing,321
 TX,48,Texas,2020-03-14,53,Real Estate and Rental and Leasing,355
 TX,48,Texas,2020-03-21,53,Real Estate and Rental and Leasing,2405
 TX,48,Texas,2020-03-28,53,Real Estate and Rental and Leasing,4757
 TX,48,Texas,2020-04-04,53,Real Estate and Rental and Leasing,5122
 TX,48,Texas,2020-04-11,53,Real Estate and Rental and Leasing,4099
+TX,48,Texas,2020-04-18,53,Real Estate and Rental and Leasing,3958
 TX,48,Texas,2020-03-07,44-45,Retail Trade,1023
 TX,48,Texas,2020-03-14,44-45,Retail Trade,909
 TX,48,Texas,2020-03-21,44-45,Retail Trade,8381
 TX,48,Texas,2020-03-28,44-45,Retail Trade,27087
 TX,48,Texas,2020-04-04,44-45,Retail Trade,49236
 TX,48,Texas,2020-04-11,44-45,Retail Trade,36820
+TX,48,Texas,2020-04-18,44-45,Retail Trade,29981
 TX,48,Texas,2020-03-07,48-49,Transportation and Warehousing,1392
 TX,48,Texas,2020-03-14,48-49,Transportation and Warehousing,1986
 TX,48,Texas,2020-03-21,48-49,Transportation and Warehousing,3526
 TX,48,Texas,2020-03-28,48-49,Transportation and Warehousing,5560
 TX,48,Texas,2020-04-04,48-49,Transportation and Warehousing,7247
 TX,48,Texas,2020-04-11,48-49,Transportation and Warehousing,6729
+TX,48,Texas,2020-04-18,48-49,Transportation and Warehousing,7584
 TX,48,Texas,2020-03-07,22,Utilities,51
 TX,48,Texas,2020-03-14,22,Utilities,41
 TX,48,Texas,2020-03-21,22,Utilities,64
 TX,48,Texas,2020-03-28,22,Utilities,109
 TX,48,Texas,2020-04-04,22,Utilities,129
 TX,48,Texas,2020-04-11,22,Utilities,113
+TX,48,Texas,2020-04-18,22,Utilities,125
 TX,48,Texas,2020-03-07,42,Wholesale Trade,577
 TX,48,Texas,2020-03-14,42,Wholesale Trade,604
 TX,48,Texas,2020-03-21,42,Wholesale Trade,2499
 TX,48,Texas,2020-03-28,42,Wholesale Trade,6852
 TX,48,Texas,2020-04-04,42,Wholesale Trade,10620
 TX,48,Texas,2020-04-11,42,Wholesale Trade,7540
+TX,48,Texas,2020-04-18,42,Wholesale Trade,7214
 TX,48,Texas,2020-03-07,99,Unclassified,801
 TX,48,Texas,2020-03-14,99,Unclassified,775
 TX,48,Texas,2020-03-21,99,Unclassified,5032
 TX,48,Texas,2020-03-28,99,Unclassified,10855
 TX,48,Texas,2020-04-04,99,Unclassified,18586
 TX,48,Texas,2020-04-11,99,Unclassified,23748
+TX,48,Texas,2020-04-18,99,Unclassified,20217
 WA,53,Washington,2020-03-14,11,"Agriculture, Forestry, Fishing, and Hunting",356
 WA,53,Washington,2020-03-21,11,"Agriculture, Forestry, Fishing, and Hunting",865
 WA,53,Washington,2020-03-28,11,"Agriculture, Forestry, Fishing, and Hunting",1404

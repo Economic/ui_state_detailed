@@ -1,5 +1,6 @@
 stateabb,minweek,maxweek,desc
 AL,03-14,04-18,2-digit NAICS
+GA,03-07,04-18,2-digit NAICS
 IA,03-14,04-18,2-digit NAICS
 KS,03-14,04-18,2-digit NAICS; no utilities
 MA,03-14,04-18,2-digit NAICS
@@ -10,6 +11,6 @@ NE,03-21,04-18,2-digit NAICS
 NV,03-21,04-18,2-digit NAICS
 NY,03-14,04-18,2-digit NAICS; combined constructions & utilities
 OR,03-07,04-18,2-digit NAICS
-TX,03-07,04-11,2-digit NAICS
+TX,03-07,04-18,2-digit NAICS
 WA,03-14,04-18,2-digit NAICS
 WY,03-07,04-18,mixture of high-level and 2-digit NAICS
