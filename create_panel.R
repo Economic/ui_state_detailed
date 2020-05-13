@@ -42,7 +42,7 @@ qcew_all <- read_csv("output/qcew_naics_2digit.csv") %>%
 
 # combine UI industry data from several states
 thestates <- c(
-  "al", "ga", "ia", "ks", "ma", "me", "mi", "nd", "ne", "nv", "ny", "or", "tx", "wa", "wy"
+  "al", "ca", "co", "ga", "ia", "ks", "ma", "me", "mi", "nd", "ne", "nm", "nv", "ny", "or", "ri", "tx", "wa", "wy"
 )
 ui_data <- map_dfr(thestates, clean_industry_state) %>% 
   mutate(
@@ -61,6 +61,7 @@ ui_data <- map_dfr(thestates, clean_industry_state) %>%
     sector == "42" ~ "Wholesale Trade",
     sector == "44-45" ~ "Retail Trade",
     sector == "48-49" ~ "Transportation and Warehousing",
+    sector == "48-49, 22" ~ "**Transportation and Warehousing and Utilities**",
     sector == "51" ~ "Information",
     sector == "52" ~ "Finance and Insurance",
     sector == "53" ~ "Real Estate and Rental and Leasing",
@@ -113,6 +114,8 @@ ui_data_summary <- ui_data %>%
     maxweek = paste(sprintf("%02d", month(maxweek)), sprintf("%02d", day(maxweek)), sep = "-"),
     desc = case_when(
       stateabb == "AL" ~ "2-digit NAICS",
+      stateabb == "CA" ~ "2-digit NAICS; combined utilities & transportation",
+      stateabb == "CO" ~ "2-digit NAICS",
       stateabb == "GA" ~ "2-digit NAICS",
       stateabb == "IA" ~ "2-digit NAICS",
       stateabb == "KS" ~ "2-digit NAICS; no utilities",
@@ -121,9 +124,11 @@ ui_data_summary <- ui_data %>%
       stateabb == "MI" ~ "2-digit NAICS",
       stateabb == "ND" ~ "2-digit NAICS",
       stateabb == "NE" ~ "2-digit NAICS",
+      stateabb == "NM" ~ "2-digit NAICS",
       stateabb == "NV" ~ "2-digit NAICS",
-      stateabb == "NY" ~ "2-digit NAICS; combined constructions & utilities",
+      stateabb == "NY" ~ "2-digit NAICS; combined construction & utilities",
       stateabb == "OR" ~ "2-digit NAICS",
+      stateabb == "RI" ~ "2-digit NAICS",
       stateabb == "TX" ~ "2-digit NAICS",
       stateabb == "WA" ~ "2-digit NAICS",
       stateabb == "WY" ~ "mixture of high-level and 2-digit NAICS"

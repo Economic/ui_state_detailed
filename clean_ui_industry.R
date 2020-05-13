@@ -8,28 +8,87 @@ clean_industry_state <- function(stateabb) {
 }
 
 # Alabama
-# seems to be missing some industries in 3/14, 3/28, 
-# but 3/21 and 4/4 has all of them
-# sheet assumes these are zeros.
 clean_industry_al <- function() {
-  read_sheet(basesheet, sheet = "al_industry", col_types = "cciiiiiii") %>% 
-    transmute(
-      stateabb = "AL",
-      sector = ifelse(`NAICS Title` == "INA", 99, Naics),
-      week0314 = `Week ending 3/14`,
-      week0321 = `Week ending 3/21`,
-      week0328 = `Week ending 3/28`,
-      week0404 = `Week ending 4/4`,
-      week0411 = `Week ending 4/11`,
-      week0418 = `Week ending 4/18`
+  read_sheet(basesheet, sheet = "al_industry", col_types = "cciiiiiiii") %>% 
+    mutate(stateabb = "AL") %>%
+    mutate(sector = ifelse(`NAICS Title` == "INA", 99, Naics)) %>% 
+    filter(!is.na(sector)) %>% 
+    select(stateabb, sector, matches("week")) %>% 
+    pivot_longer(matches("week"), names_to = "endweek", values_to = "ic") %>% 
+    mutate(endweek = str_sub(endweek, start = 5))
+}
+
+# California
+# No Public Admin, includes Utilities in Trans & Warehousing
+clean_industry_ca <- function() {
+  read_sheet(basesheet, sheet = "ca_industry") %>% 
+    rename(industry = Industry) %>% 
+    mutate(
+      stateabb = "CA",
+      sector = case_when(
+        industry == "Agriculture Forestry Fishing" ~ "11",
+        industry == "Mining Oil Gas" ~ "21",
+        industry == "Construction" ~ "23",
+        industry == "Manufacturing" ~ "31-33",
+        industry == "Wholesale Trade" ~ "42",
+        industry == "Retail Trade" ~ "44-45",
+        industry == "Transportation Warehousing Utilities" ~ "48-49, 22",
+        industry == "Information" ~ "51",
+        industry == "Finance and Insurance" ~ "52",
+        industry == "Real Estate and Leasing" ~ "53",
+        industry == "Prof. Scientific Techn. Services" ~ "54",
+        industry == "Management" ~ "55",
+        industry == "Admin. Support Waste Mgmt" ~ "56",
+        industry == "Education Services" ~ "61",
+        industry == "Health Care and Social Assistance" ~ "62",
+        industry == "Arts Entertainment Recreation" ~ "71",
+        industry == "Accommodation and Food Services" ~ "72",
+        industry == "Other Services" ~ "81",
+      )
     ) %>% 
+    select(-weeks_0321_0411) %>% 
+    select(stateabb, sector, matches("week")) %>% 
+    pivot_longer(matches("week"), names_to = "endweek", values_to = "ic") %>% 
+    mutate(endweek = str_sub(endweek, start = 5))
+}
+
+# Colorado
+clean_industry_co <- function() {
+  read_sheet(basesheet, sheet = "co_industry") %>% 
+    rename(industry = Industry) %>% 
+    mutate(
+      stateabb = "CO",
+      sector = case_when(
+        industry == "Agriculture, Forestry, Fishing and Hunting" ~ "11",
+        industry == "Mining" ~ "21",
+        industry == "Utilities" ~ "22",
+        industry == "Construction" ~ "23",
+        industry == "Manufacturing" ~ "31-33",
+        industry == "Wholesale Trade" ~ "42",
+        industry == "Retail Trade" ~ "44-45",
+        industry == "Transportation and Warehousing" ~ "48-49",
+        industry == "Information" ~ "51",
+        industry == "Finance and Insurance" ~ "52",
+        industry == "Real Estate, Rental, and Leasing" ~ "53",
+        industry == "Professional and Technical Services" ~ "54",
+        industry == "Management of Companies and Enterprises" ~ "55",
+        industry == "Administrative and Waste Services" ~ "56",
+        industry == "Education Services" ~ "61",
+        industry == "Health Care and Social Assistance" ~ "62",
+        industry == "Arts, Entertainment, and Recreation" ~ "71",
+        industry == "Accommodation and Food Services" ~ "72",
+        industry == "Other Services" ~ "81",
+        industry == "Public Administration" ~ "92"
+      )
+    ) %>% 
+    select(stateabb, sector, matches("week")) %>% 
     pivot_longer(matches("week"), names_to = "endweek", values_to = "ic") %>% 
     mutate(endweek = str_sub(endweek, start = 5))
 }
 
 # Georgia
 clean_industry_ga <- function() {
-  read_sheet(basesheet, sheet = "ga_industry", col_types = "cciiiiiii") %>% 
+  read_sheet(basesheet, sheet = "ga_industry", col_types = "cciiiiiiiii") %>% 
     mutate(stateabb = "GA") %>%
     rename(sector = NAICS) %>% 
     filter(!is.na(sector)) %>% 
@@ -43,6 +102,7 @@ clean_industry_ia <- function() {
   read_sheet(basesheet, sheet = "ia_industry") %>% 
     rename(industry = Industry) %>% 
     mutate(
+      stateabb = "IA",
       sector = case_when(
         industry == "Agriculture, Forestry, Fishing & Hunting" ~ "11",
         industry == "Mining" ~ "21",
@@ -68,16 +128,7 @@ clean_industry_ia <- function() {
       )
     ) %>% 
     filter(!is.na(sector)) %>% 
-    transmute(
-      stateabb = "IA",
-      sector = sector,
-      week0314 = `Week ending March 14`,
-      week0321 = `Week ending March 21`,
-      week0328 = `Week ending March 28`,
-      week0404 = `Week ending April 4`,
-      week0411 = `Week ending April 11`,
-      week0418 = `Week ending April 18`
-    ) %>% 
+    select(stateabb, sector, matches("week")) %>% 
     pivot_longer(matches("week"), names_to = "endweek", values_to = "ic") %>% 
     mutate(endweek = str_sub(endweek, start = 5))
 }
@@ -88,6 +139,7 @@ clean_industry_ks <- function() {
   read_sheet(basesheet, sheet = "ks_industry") %>% 
     rename(industry = Industry) %>% 
     mutate(
+      stateabb = "KS",
       sector = case_when(
         industry == "Agriculture" ~ "11",
         industry == "Mining" ~ "21",
@@ -111,69 +163,19 @@ clean_industry_ks <- function() {
       )
     ) %>% 
     filter(!is.na(sector)) %>% 
-    transmute(
-      stateabb = "KS",
-      sector = sector,
-      week0314 = `Week ending March 14`,
-      week0321 = `Week ending March 21`,
-      week0328 = `Week ending March 28`,
-      week0404 = `Week ending April 4`,
-      week0411 = `Week ending April 11`,
-      week0418 = `Week ending April 18`
-    ) %>% 
+    select(stateabb, sector, matches("week")) %>% 
     pivot_longer(matches("week"), names_to = "endweek", values_to = "ic") %>% 
     mutate(endweek = str_sub(endweek, start = 5))
 }
 
-# Maine
-# missing utilities & mining
-clean_industry_me <- function() {
-  read_sheet(basesheet, sheet = "me_industry") %>% 
-    rename(industry = Industry) %>% 
-    mutate(
-      sector = case_when(
-        industry == "Agriculture, Forestry, Fishing & Hunting" ~ "11",
-        industry == "Construction" ~ "23",
-        industry == "Manufacturing" ~ "31-33",
-        industry == "Wholesale Trade" ~ "42",
-        industry == "Retail" ~ "44-45",
-        industry == "Transportation & Warehousing" ~ "48-49",
-        industry == "Information" ~ "51",
-        industry == "Finance & Insurance" ~ "52",
-        industry == "Real Estate & Rental & Leasing" ~ "53",
-        industry == "Professional, Scientific, & Technical Services" ~ "54",
-        industry == "Management of Companies and Enterprises; Finance and Insurance" ~ "55",
-        industry == "Administrative & Support & Waste Management & Remediation Services" ~ "56",
-        industry == "Educational Services" ~ "61",
-        industry == "Health Care & Social Assistance" ~ "62",
-        industry == "Entertainment & Recreation" ~ "71",
-        industry == "Food Services & Lodging" ~ "72",
-        industry == "Other Services (except Public Administration)" ~ "81",
-        industry == "Public Administration" ~ "92",
-        industry == "Industry Not Identified (<5 Claims)" ~ "99"
-      )
-    ) %>% 
-    filter(!is.na(sector)) %>% 
-    transmute(
-      stateabb = "ME",
-      sector = sector,
-      week0321 = `Week ending March 21`,
-      week0328 = `Week ending March 28`,
-      week0404 = `Week ending April 4`,
-      week0411 = `Week ending April 11`,
-      week0418 = `Week ending April 18`
-      
-    ) %>% 
-    pivot_longer(matches("week"), names_to = "endweek", values_to = "ic") %>% 
-    mutate(endweek = str_sub(endweek, start = 5))
-}
+
 
 # Massachusetts
-# complete
 clean_industry_ma <- function() {
   read_sheet(basesheet, sheet = "ma_industry") %>% 
     rename(industry = Industry) %>% 
     mutate(
+      stateabb = "MA",
       sector = case_when(
         industry == "Agriculture, Forestry, Fishing, and Hunting" ~ "11",
         industry == "Mining" ~ "21",
@@ -198,29 +200,57 @@ clean_industry_ma <- function() {
         industry == "Information Not Available" ~ "99"
       )
     ) %>% 
-    transmute(
-      stateabb = "MA",
-      sector = sector,
-      week0314 = `Week Ending 3/14`,
-      week0321 = `Week Ending 3/21`,
-      week0328 = `Week Ending 3/28`,
-      week0404 = `Week Ending 4/4`,
-      week0411 = `Week Ending 4/11`,
-      week0418 = `Week Ending 4/18`
+    filter(!is.na(sector)) %>% 
+    select(stateabb, sector, matches("week")) %>% 
+    pivot_longer(matches("week"), names_to = "endweek", values_to = "ic") %>% 
+    mutate(endweek = str_sub(endweek, start = 5))
+}
+
+# Maine
+# missing utilities & mining
+clean_industry_me <- function() {
+  read_sheet(basesheet, sheet = "me_industry") %>% 
+    rename(industry = Industry) %>% 
+    mutate(
+      stateabb = "ME",
+      sector = case_when(
+        industry == "Agriculture, Forestry, Fishing & Hunting" ~ "11",
+        industry == "Construction" ~ "23",
+        industry == "Manufacturing" ~ "31-33",
+        industry == "Wholesale Trade" ~ "42",
+        industry == "Retail" ~ "44-45",
+        industry == "Transportation & Warehousing" ~ "48-49",
+        industry == "Information" ~ "51",
+        industry == "Finance & Insurance" ~ "52",
+        industry == "Real Estate & Rental & Leasing" ~ "53",
+        industry == "Professional, Scientific, & Technical Services" ~ "54",
+        industry == "Management of Companies and Enterprises; Finance and Insurance" ~ "55",
+        industry == "Administrative & Support & Waste Management & Remediation Services" ~ "56",
+        industry == "Educational Services" ~ "61",
+        industry == "Health Care & Social Assistance" ~ "62",
+        industry == "Entertainment & Recreation" ~ "71",
+        industry == "Food Services & Lodging" ~ "72",
+        industry == "Other Services (except Public Administration)" ~ "81",
+        industry == "Public Administration" ~ "92",
+        industry == "Industry Not Identified (<5 Claims)" ~ "99"
+      )
     ) %>% 
+    filter(!is.na(sector)) %>% 
+    select(stateabb, sector, matches("week")) %>% 
     pivot_longer(matches("week"), names_to = "endweek", values_to = "ic") %>% 
     mutate(endweek = str_sub(endweek, start = 5))
 }
 
 # Michigan
-# complete
 clean_industry_mi <- function() {
   read_sheet(basesheet, sheet = "mi_industry") %>% 
     rename(industry = Industry) %>% 
     mutate(
       sector = case_when(
         industry == "Agriculture, Forestry, Fishing, and Hunting" ~ "11",
+        industry == "Agriculture Forestry Fishing and Hunting" ~ "11",
         industry == "Mining, Quarrying, and Oil and Gas Extraction" ~ "21",
+        industry == "Mining Quarrying and Oil and Gas Extraction" ~ "21",
         industry == "Utilities" ~ "22",
         industry == "Construction" ~ "23",
         industry == "Manufacturing" ~ "31-33",
@@ -231,11 +261,15 @@ clean_industry_mi <- function() {
         industry == "Finance and Insurance" ~ "52",
         industry == "Real Estate and Rental and Leasing" ~ "53",
         industry == "Professional, Scientific, and Technical Services" ~ "54",
+        industry == "Professional, Scientific and Technical Services" ~ "54",
+        industry == "Professional Scientific and Technical Services" ~ "54",
         industry == "Management of Companies and Enterprises" ~ "55",
         industry == "Admin. and Support, Waste Mgmt. and Remediation Services" ~ "56",
+        industry == "Admin. and Support Waste Mgmt. and Remediation Services" ~ "56",
         industry == "Educational Services" ~ "61",
         industry == "Health Care and Social Assistance" ~ "62",
         industry == "Arts, Entertainment, and Recreation" ~ "71",
+        industry == "Arts Entertainment and Recreation" ~ "71",
         industry == "Accommodation and Food Services" ~ "72",
         industry == "Other Services (except Public Administration)" ~ "81",
         industry == "Public Administration" ~ "92",
@@ -257,6 +291,7 @@ clean_industry_ne <- function() {
   read_sheet(basesheet, sheet = "ne_industry") %>% 
     rename(industry = Industry) %>% 
     mutate(
+      stateabb = "NE",
       sector = case_when(
         industry == "Agriculture, Forestry, Fishing & Hunting" ~ "11",
         industry == "Mining" ~ "21",
@@ -281,15 +316,8 @@ clean_industry_ne <- function() {
         industry == "Unknown" ~ "99"
       )
     ) %>% 
-    transmute(
-      stateabb = "NE",
-      sector = sector,
-      week0321 = `Week ending March 21`,
-      week0328 = `Week ending March 28`,
-      week0404 = `Week ending April 4`,
-      week0411 = `Week ending April 11`,
-      week0418 = `Week ending April 18`
-    ) %>% 
+    filter(!is.na(sector)) %>% 
+    select(stateabb, sector, matches("week")) %>% 
     pivot_longer(matches("week"), names_to = "endweek", values_to = "ic") %>% 
     mutate(endweek = str_sub(endweek, start = 5))
 }
@@ -300,6 +328,7 @@ clean_industry_nv <- function() {
   read_sheet(basesheet, sheet = "nv_industry") %>% 
     rename(industry = Industry) %>% 
     mutate(
+      stateabb = "NV",
       sector = case_when(
         industry == "Agriculture Forestry Fishing and Hunting" ~ "11",
         industry == "Mining" ~ "21",
@@ -328,21 +357,45 @@ clean_industry_nv <- function() {
       )
     ) %>% 
     filter(!is.na(sector)) %>% 
-    transmute(
-      stateabb = "NV",
-      sector = sector,
-      week0321 = `Week ending March 21`,
-      week0328 = `Week ending March 28`,
-      week0404 = `Week ending April 4`,
-      week0411 = `Week ending April 11`,
-      week0418 = `Week ending April 18`
-    ) %>% 
+    select(stateabb, sector, matches("week")) %>% 
     pivot_longer(matches("week"), names_to = "endweek", values_to = "ic") %>% 
-    mutate(endweek = str_sub(endweek, start = 5)) %>% 
-    # NV includes both "unknown" and "unclassified" industries.
-    # going to sum them:
-    group_by(stateabb, sector, endweek) %>% 
-    summarize(ic = sum(ic))
+    mutate(endweek = str_sub(endweek, start = 5))
+}
+
+# New Mexico
+clean_industry_nm <- function() {
+  read_sheet(basesheet, sheet = "nm_industry") %>% 
+    rename(industry = Industry) %>% 
+    mutate(
+      stateabb = "NM",
+      sector = case_when(
+        industry == "Agriculture Forestry Fishing and Hunting" ~ "11",
+        industry == "Mining" ~ "21",
+        industry == "Utilities" ~ "22",
+        industry == "Construction" ~ "23",
+        industry == "Manufacturing" ~ "31-33",
+        industry == "Wholesale Trade" ~ "42",
+        industry == "Retail Trade" ~ "44-45",
+        industry == "Transportation and Warehousing" ~ "48-49",
+        industry == "Information" ~ "51",
+        industry == "Finance and Insurance" ~ "52",
+        industry == "Real Estate and Rental and Leasing" ~ "53",
+        industry == "Professional Scientific and Technical Services" ~ "54",
+        industry == "Management of Companies and Enterprises" ~ "55",
+        industry == "Administrative and Support Waste Management" ~ "56",
+        industry == "Educational Services" ~ "61",
+        industry == "Health Care and Social Assistance" ~ "62",
+        industry == "Arts Entertainment and Recreation" ~ "71",
+        industry == "Accomodations and Food Services" ~ "72",
+        industry == "Other Services (except Public Administration)" ~ "81",
+        industry == "Public Administration" ~ "92",
+        industry == "INA" ~ "99"
+      )
+    ) %>% 
+    filter(!is.na(sector)) %>% 
+    select(stateabb, sector, matches("week")) %>% 
+    pivot_longer(matches("week"), names_to = "endweek", values_to = "ic") %>% 
+    mutate(endweek = str_sub(endweek, start = 5))
 }
 
 # New York
@@ -351,6 +404,7 @@ clean_industry_ny <- function() {
   read_sheet(basesheet, sheet = "ny_industry") %>% 
     rename(industry = Industry) %>% 
     mutate(
+      stateabb = "NY",
       sector = case_when(
         industry == "Agriculture, forestry, fishing, and hunting" ~ "11",
         industry == "Mining" ~ "21",
@@ -375,16 +429,7 @@ clean_industry_ny <- function() {
       )
     ) %>% 
     filter(!is.na(sector)) %>% 
-    transmute(
-      stateabb = "NY",
-      sector = sector,
-      week0314 = `Week ending 3/14`,
-      week0321 = `Week ending 3/21`,
-      week0328 = `Week ending 3/28`,
-      week0404 = `Week ending 4/4`,
-      week0411 = `Week ending 4/11`,
-      week0418 = `Week ending 4/18`
-    ) %>% 
+    select(stateabb, sector, matches("week")) %>% 
     pivot_longer(matches("week"), names_to = "endweek", values_to = "ic") %>% 
     mutate(endweek = str_sub(endweek, start = 5))
 }
@@ -438,7 +483,9 @@ clean_industry_or <- function() {
     mutate(
       sector = case_when(
         industry == "Agriculture, forestry, fishing, and hunting" ~ "11",
+        industry == "Agriculture, Forestry, Fishing and Hunting" ~ "11",
         industry == "Mining" ~ "21",
+        industry == "Mining, Quarrying, and Oil and Gas Extraction" ~ "21",
         industry == "Utilities" ~ "22",
         industry == "Construction" ~ "23",
         industry == "Manufacturing" ~ "31-33",
@@ -449,13 +496,17 @@ clean_industry_or <- function() {
         industry == "Finance and Insurance" ~ "52",
         industry == "Real Estate and Rental and Leasing" ~ "53",
         industry == "Professional and Technical Services" ~ "54",
+        industry == "Professional, Scientific, and Technical Services" ~ "54",
         industry == "Management of Companies and Enterprises" ~ "55",
         industry == "Administrative and Waste Services" ~ "56",
+        industry == "Administrative and Support and Waste Management and Remediation Services" ~ "56",
         industry == "Educational Services" ~ "61",
         industry == "Health Care and Social Assistance" ~ "62",
         industry == "Arts, Entertainment, and Recreation" ~ "71",
         industry == "Accommodation and Food Services" ~ "72",
         industry == "Other Services" ~ "81",
+        industry == "Other Services (except Public Administration)" ~ "81",
+        industry == "Other Services excluding Public Administration" ~ "81",
         industry == "Public Administration" ~ "92",
       )
     ) %>% 
@@ -470,9 +521,20 @@ clean_industry_or <- function() {
     filter(as.numeric(endweek) >= 307)
 }
 
+# Rhode Island
+clean_industry_ri <- function() {
+  read_sheet(basesheet, sheet = "ri_industry", col_types = "cciiiiiiiii") %>% 
+    mutate(stateabb = "RI") %>%
+    rename(sector = NAICS) %>% 
+    filter(!is.na(sector)) %>% 
+    select(stateabb, sector, matches("week")) %>% 
+    pivot_longer(matches("week"), names_to = "endweek", values_to = "ic") %>% 
+    mutate(endweek = str_sub(endweek, start = 5))
+}
+
 # Texas
 clean_industry_tx <- function() {
-  read_sheet(basesheet, sheet = "tx_industry", col_types = "cciiiiiii") %>% 
+  read_sheet(basesheet, sheet = "tx_industry", col_types = "cciiiiiiiii") %>% 
     mutate(stateabb = "TX") %>%
     rename(sector = NAICS) %>% 
     filter(!is.na(sector)) %>% 
@@ -484,7 +546,7 @@ clean_industry_tx <- function() {
 # Washington
 # complete
 clean_industry_wa <- function() {
-  read_sheet(basesheet, sheet = "wa_industry_naics2", col_types = "ciiiiii") %>% 
+  read_sheet(basesheet, sheet = "wa_industry_naics2", col_types = "ciiiiiiii") %>% 
     # use combined manufacturing
     filter(!industry %in% c("31", "32", "33")) %>% 
     # use combined retail
@@ -508,6 +570,7 @@ clean_industry_wa <- function() {
 
 # Wyoming
 # uses supersectors for trans/w/u , fin, pro/bus, lei/hosp, 
+# missing data in several places, going to assume zero
 clean_industry_wy <- function() {
   read_sheet(basesheet, sheet = "wy_industry") %>% 
     rename(industry = Industry) %>% 
@@ -541,6 +604,7 @@ clean_industry_wy <- function() {
       ic = `Initial Claims`,
       endweek = str_sub(`Week Ending`, start = 5)
     ) %>% 
+    mutate(ic = ifelse(is.na(ic), 0, ic)) %>% 
     # WY includes both "unknown" and "unclassified" industries.
     # going to sum them:
     group_by(stateabb, sector, endweek) %>% 
