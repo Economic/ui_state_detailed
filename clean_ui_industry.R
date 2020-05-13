@@ -130,7 +130,8 @@ clean_industry_ia <- function() {
     filter(!is.na(sector)) %>% 
     select(stateabb, sector, matches("week")) %>% 
     pivot_longer(matches("week"), names_to = "endweek", values_to = "ic") %>% 
-    mutate(endweek = str_sub(endweek, start = 5))
+    mutate(endweek = str_sub(endweek, start = 5)) %>% 
+    filter(as.numeric(endweek) >= 307)
 }
 
 # Kansas

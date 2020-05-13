@@ -624,7 +624,6 @@ GA,13,Georgia,2020-04-11,99,Unclassified,16391
 GA,13,Georgia,2020-04-18,99,Unclassified,13618
 GA,13,Georgia,2020-04-25,99,Unclassified,33083
 GA,13,Georgia,2020-05-02,99,Unclassified,22322
-IA,19,Iowa,2020-02-28,72,Accommodation and Food Services,84
 IA,19,Iowa,2020-03-07,72,Accommodation and Food Services,124
 IA,19,Iowa,2020-03-14,72,Accommodation and Food Services,229
 IA,19,Iowa,2020-03-21,72,Accommodation and Food Services,15980
@@ -634,7 +633,6 @@ IA,19,Iowa,2020-04-11,72,Accommodation and Food Services,4292
 IA,19,Iowa,2020-04-18,72,Accommodation and Food Services,2606
 IA,19,Iowa,2020-04-25,72,Accommodation and Food Services,2130
 IA,19,Iowa,2020-05-02,72,Accommodation and Food Services,2200
-IA,19,Iowa,2020-02-28,56,"Admin. and Support, Waste Mgmt. and Remediation Services",149
 IA,19,Iowa,2020-03-07,56,"Admin. and Support, Waste Mgmt. and Remediation Services",183
 IA,19,Iowa,2020-03-14,56,"Admin. and Support, Waste Mgmt. and Remediation Services",148
 IA,19,Iowa,2020-03-21,56,"Admin. and Support, Waste Mgmt. and Remediation Services",1216
@@ -644,7 +642,6 @@ IA,19,Iowa,2020-04-11,56,"Admin. and Support, Waste Mgmt. and Remediation Servic
 IA,19,Iowa,2020-04-18,56,"Admin. and Support, Waste Mgmt. and Remediation Services",1135
 IA,19,Iowa,2020-04-25,56,"Admin. and Support, Waste Mgmt. and Remediation Services",1175
 IA,19,Iowa,2020-05-02,56,"Admin. and Support, Waste Mgmt. and Remediation Services",1107
-IA,19,Iowa,2020-02-28,11,"Agriculture, Forestry, Fishing, and Hunting",8
 IA,19,Iowa,2020-03-07,11,"Agriculture, Forestry, Fishing, and Hunting",12
 IA,19,Iowa,2020-03-14,11,"Agriculture, Forestry, Fishing, and Hunting",12
 IA,19,Iowa,2020-03-21,11,"Agriculture, Forestry, Fishing, and Hunting",57
@@ -654,7 +651,6 @@ IA,19,Iowa,2020-04-11,11,"Agriculture, Forestry, Fishing, and Hunting",105
 IA,19,Iowa,2020-04-18,11,"Agriculture, Forestry, Fishing, and Hunting",63
 IA,19,Iowa,2020-04-25,11,"Agriculture, Forestry, Fishing, and Hunting",60
 IA,19,Iowa,2020-05-02,11,"Agriculture, Forestry, Fishing, and Hunting",46
-IA,19,Iowa,2020-02-28,71,"Arts, Entertainment, and Recreation",25
 IA,19,Iowa,2020-03-07,71,"Arts, Entertainment, and Recreation",19
 IA,19,Iowa,2020-03-14,71,"Arts, Entertainment, and Recreation",15
 IA,19,Iowa,2020-03-21,71,"Arts, Entertainment, and Recreation",1359
@@ -664,7 +660,6 @@ IA,19,Iowa,2020-04-11,71,"Arts, Entertainment, and Recreation",947
 IA,19,Iowa,2020-04-18,71,"Arts, Entertainment, and Recreation",898
 IA,19,Iowa,2020-04-25,71,"Arts, Entertainment, and Recreation",424
 IA,19,Iowa,2020-05-02,71,"Arts, Entertainment, and Recreation",708
-IA,19,Iowa,2020-02-28,23,Construction,508
 IA,19,Iowa,2020-03-07,23,Construction,480
 IA,19,Iowa,2020-03-14,23,Construction,477
 IA,19,Iowa,2020-03-21,23,Construction,1894
@@ -674,7 +669,6 @@ IA,19,Iowa,2020-04-11,23,Construction,1784
 IA,19,Iowa,2020-04-18,23,Construction,977
 IA,19,Iowa,2020-04-25,23,Construction,838
 IA,19,Iowa,2020-05-02,23,Construction,664
-IA,19,Iowa,2020-02-28,61,Educational Services,19
 IA,19,Iowa,2020-03-07,61,Educational Services,24
 IA,19,Iowa,2020-03-14,61,Educational Services,31
 IA,19,Iowa,2020-03-21,61,Educational Services,3221
@@ -684,7 +678,6 @@ IA,19,Iowa,2020-04-11,61,Educational Services,1407
 IA,19,Iowa,2020-04-18,61,Educational Services,933
 IA,19,Iowa,2020-04-25,61,Educational Services,945
 IA,19,Iowa,2020-05-02,61,Educational Services,704
-IA,19,Iowa,2020-02-28,52,Finance and Insurance,23
 IA,19,Iowa,2020-03-07,52,Finance and Insurance,45
 IA,19,Iowa,2020-03-14,52,Finance and Insurance,39
 IA,19,Iowa,2020-03-21,52,Finance and Insurance,155
@@ -694,7 +687,6 @@ IA,19,Iowa,2020-04-11,52,Finance and Insurance,280
 IA,19,Iowa,2020-04-18,52,Finance and Insurance,145
 IA,19,Iowa,2020-04-25,52,Finance and Insurance,152
 IA,19,Iowa,2020-05-02,52,Finance and Insurance,131
-IA,19,Iowa,2020-02-28,62,Health Care and Social Assistance,127
 IA,19,Iowa,2020-03-07,62,Health Care and Social Assistance,126
 IA,19,Iowa,2020-03-14,62,Health Care and Social Assistance,103
 IA,19,Iowa,2020-03-21,62,Health Care and Social Assistance,5672
@@ -704,7 +696,6 @@ IA,19,Iowa,2020-04-11,62,Health Care and Social Assistance,6789
 IA,19,Iowa,2020-04-18,62,Health Care and Social Assistance,3985
 IA,19,Iowa,2020-04-25,62,Health Care and Social Assistance,4190
 IA,19,Iowa,2020-05-02,62,Health Care and Social Assistance,2988
-IA,19,Iowa,2020-02-28,51,Information,23
 IA,19,Iowa,2020-03-07,51,Information,31
 IA,19,Iowa,2020-03-14,51,Information,43
 IA,19,Iowa,2020-03-21,51,Information,452
@@ -714,7 +705,6 @@ IA,19,Iowa,2020-04-11,51,Information,445
 IA,19,Iowa,2020-04-18,51,Information,328
 IA,19,Iowa,2020-04-25,51,Information,268
 IA,19,Iowa,2020-05-02,51,Information,4010
-IA,19,Iowa,2020-02-28,99,Unclassified,99
 IA,19,Iowa,2020-03-07,99,Unclassified,104
 IA,19,Iowa,2020-03-14,99,Unclassified,80
 IA,19,Iowa,2020-03-21,99,Unclassified,1279
@@ -724,7 +714,6 @@ IA,19,Iowa,2020-04-11,99,Unclassified,9604
 IA,19,Iowa,2020-04-18,99,Unclassified,3817
 IA,19,Iowa,2020-04-25,99,Unclassified,4182
 IA,19,Iowa,2020-05-02,99,Unclassified,261
-IA,19,Iowa,2020-02-28,55,Management of Companies and Enterprises,11
 IA,19,Iowa,2020-03-07,55,Management of Companies and Enterprises,15
 IA,19,Iowa,2020-03-14,55,Management of Companies and Enterprises,21
 IA,19,Iowa,2020-03-21,55,Management of Companies and Enterprises,123
@@ -734,7 +723,6 @@ IA,19,Iowa,2020-04-11,55,Management of Companies and Enterprises,157
 IA,19,Iowa,2020-04-18,55,Management of Companies and Enterprises,96
 IA,19,Iowa,2020-04-25,55,Management of Companies and Enterprises,151
 IA,19,Iowa,2020-05-02,55,Management of Companies and Enterprises,158
-IA,19,Iowa,2020-02-28,31-33,Manufacturing,760
 IA,19,Iowa,2020-03-07,31-33,Manufacturing,626
 IA,19,Iowa,2020-03-14,31-33,Manufacturing,515
 IA,19,Iowa,2020-03-21,31-33,Manufacturing,2436
@@ -744,7 +732,6 @@ IA,19,Iowa,2020-04-11,31-33,Manufacturing,6002
 IA,19,Iowa,2020-04-18,31-33,Manufacturing,5143
 IA,19,Iowa,2020-04-25,31-33,Manufacturing,7402
 IA,19,Iowa,2020-05-02,31-33,Manufacturing,6053
-IA,19,Iowa,2020-02-28,21,"Mining, Quarrying, and Oil and Gas Extraction",8
 IA,19,Iowa,2020-03-07,21,"Mining, Quarrying, and Oil and Gas Extraction",7
 IA,19,Iowa,2020-03-14,21,"Mining, Quarrying, and Oil and Gas Extraction",15
 IA,19,Iowa,2020-03-21,21,"Mining, Quarrying, and Oil and Gas Extraction",65
@@ -754,7 +741,6 @@ IA,19,Iowa,2020-04-11,21,"Mining, Quarrying, and Oil and Gas Extraction",48
 IA,19,Iowa,2020-04-18,21,"Mining, Quarrying, and Oil and Gas Extraction",19
 IA,19,Iowa,2020-04-25,21,"Mining, Quarrying, and Oil and Gas Extraction",14
 IA,19,Iowa,2020-05-02,21,"Mining, Quarrying, and Oil and Gas Extraction",4
-IA,19,Iowa,2020-02-28,81,Other Services (except Public Administration),64
 IA,19,Iowa,2020-03-07,81,Other Services (except Public Administration),68
 IA,19,Iowa,2020-03-14,81,Other Services (except Public Administration),61
 IA,19,Iowa,2020-03-21,81,Other Services (except Public Administration),2375
@@ -764,7 +750,6 @@ IA,19,Iowa,2020-04-11,81,Other Services (except Public Administration),1167
 IA,19,Iowa,2020-04-18,81,Other Services (except Public Administration),614
 IA,19,Iowa,2020-04-25,81,Other Services (except Public Administration),556
 IA,19,Iowa,2020-05-02,81,Other Services (except Public Administration),372
-IA,19,Iowa,2020-02-28,54,"Professional, Scientific, and Technical Services",32
 IA,19,Iowa,2020-03-07,54,"Professional, Scientific, and Technical Services",64
 IA,19,Iowa,2020-03-14,54,"Professional, Scientific, and Technical Services",46
 IA,19,Iowa,2020-03-21,54,"Professional, Scientific, and Technical Services",636
@@ -774,7 +759,6 @@ IA,19,Iowa,2020-04-11,54,"Professional, Scientific, and Technical Services",913
 IA,19,Iowa,2020-04-18,54,"Professional, Scientific, and Technical Services",497
 IA,19,Iowa,2020-04-25,54,"Professional, Scientific, and Technical Services",474
 IA,19,Iowa,2020-05-02,54,"Professional, Scientific, and Technical Services",376
-IA,19,Iowa,2020-02-28,92,Public Administration,19
 IA,19,Iowa,2020-03-07,92,Public Administration,16
 IA,19,Iowa,2020-03-14,92,Public Administration,9
 IA,19,Iowa,2020-03-21,92,Public Administration,192
@@ -784,7 +768,6 @@ IA,19,Iowa,2020-04-11,92,Public Administration,251
 IA,19,Iowa,2020-04-18,92,Public Administration,245
 IA,19,Iowa,2020-04-25,92,Public Administration,227
 IA,19,Iowa,2020-05-02,92,Public Administration,147
-IA,19,Iowa,2020-02-28,53,Real Estate and Rental and Leasing,16
 IA,19,Iowa,2020-03-07,53,Real Estate and Rental and Leasing,20
 IA,19,Iowa,2020-03-14,53,Real Estate and Rental and Leasing,17
 IA,19,Iowa,2020-03-21,53,Real Estate and Rental and Leasing,260
@@ -794,7 +777,6 @@ IA,19,Iowa,2020-04-11,53,Real Estate and Rental and Leasing,393
 IA,19,Iowa,2020-04-18,53,Real Estate and Rental and Leasing,219
 IA,19,Iowa,2020-04-25,53,Real Estate and Rental and Leasing,161
 IA,19,Iowa,2020-05-02,53,Real Estate and Rental and Leasing,138
-IA,19,Iowa,2020-02-28,44-45,Retail Trade,142
 IA,19,Iowa,2020-03-07,44-45,Retail Trade,128
 IA,19,Iowa,2020-03-14,44-45,Retail Trade,105
 IA,19,Iowa,2020-03-21,44-45,Retail Trade,2171
@@ -804,7 +786,6 @@ IA,19,Iowa,2020-04-11,44-45,Retail Trade,5813
 IA,19,Iowa,2020-04-18,44-45,Retail Trade,3307
 IA,19,Iowa,2020-04-25,44-45,Retail Trade,2472
 IA,19,Iowa,2020-05-02,44-45,Retail Trade,1768
-IA,19,Iowa,2020-02-28,48-49,Transportation and Warehousing,64
 IA,19,Iowa,2020-03-07,48-49,Transportation and Warehousing,71
 IA,19,Iowa,2020-03-14,48-49,Transportation and Warehousing,200
 IA,19,Iowa,2020-03-21,48-49,Transportation and Warehousing,1085
@@ -814,7 +795,6 @@ IA,19,Iowa,2020-04-11,48-49,Transportation and Warehousing,690
 IA,19,Iowa,2020-04-18,48-49,Transportation and Warehousing,520
 IA,19,Iowa,2020-04-25,48-49,Transportation and Warehousing,471
 IA,19,Iowa,2020-05-02,48-49,Transportation and Warehousing,489
-IA,19,Iowa,2020-02-28,22,Utilities,2
 IA,19,Iowa,2020-03-07,22,Utilities,2
 IA,19,Iowa,2020-03-14,22,Utilities,5
 IA,19,Iowa,2020-03-21,22,Utilities,18
@@ -824,7 +804,6 @@ IA,19,Iowa,2020-04-11,22,Utilities,9
 IA,19,Iowa,2020-04-18,22,Utilities,8
 IA,19,Iowa,2020-04-25,22,Utilities,9
 IA,19,Iowa,2020-05-02,22,Utilities,10
-IA,19,Iowa,2020-02-28,42,Wholesale Trade,58
 IA,19,Iowa,2020-03-07,42,Wholesale Trade,55
 IA,19,Iowa,2020-03-14,42,Wholesale Trade,58
 IA,19,Iowa,2020-03-21,42,Wholesale Trade,321
