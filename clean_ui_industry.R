@@ -9,7 +9,7 @@ clean_industry_state <- function(stateabb) {
 
 # Alabama
 clean_industry_al <- function() {
-  read_sheet(basesheet, sheet = "al_industry", col_types = "cciiiiiiii") %>% 
+  read_sheet(basesheet, sheet = "al_industry", col_types = "cciiiiiiiii") %>% 
     mutate(stateabb = "AL") %>%
     mutate(sector = ifelse(`NAICS Title` == "INA", 99, Naics)) %>% 
     filter(!is.na(sector)) %>% 
@@ -88,7 +88,7 @@ clean_industry_co <- function() {
 
 # Georgia
 clean_industry_ga <- function() {
-  read_sheet(basesheet, sheet = "ga_industry", col_types = "cciiiiiiiii") %>% 
+  read_sheet(basesheet, sheet = "ga_industry", col_types = "cciiiiiiiiii") %>% 
     mutate(stateabb = "GA") %>%
     rename(sector = NAICS) %>% 
     filter(!is.na(sector)) %>% 
@@ -524,7 +524,7 @@ clean_industry_or <- function() {
 
 # Rhode Island
 clean_industry_ri <- function() {
-  read_sheet(basesheet, sheet = "ri_industry", col_types = "cciiiiiiiii") %>% 
+  read_sheet(basesheet, sheet = "ri_industry", col_types = "cciiiiiiiiii") %>% 
     mutate(stateabb = "RI") %>%
     rename(sector = NAICS) %>% 
     filter(!is.na(sector)) %>% 
